@@ -1,0 +1,16 @@
+﻿<Application x:Class="CentroDeportivo.View.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CentroDeportivo.View"
+             StartupUri="MenuWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+
+                <!-- IMPORTACIÓN GLOBAL DE ESTILOS -->
+                <ResourceDictionary Source="Styles.xaml"/>
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

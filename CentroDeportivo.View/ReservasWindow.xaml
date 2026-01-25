@@ -1,0 +1,213 @@
+﻿<Window x:Class="CentroDeportivo.View.ReservasWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gestión de reservas"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="White"
+        Height="715"
+        Width="1124"
+        WindowStartupLocation="CenterScreen">
+
+    <!-- Color específico de la cabecera de ESTA ventana -->
+    <Window.Resources>
+        <SolidColorBrush x:Key="HeaderBackgroundBrush" Color="#6D28D9"/>
+    </Window.Resources>
+
+    <Border BorderBrush="Gray" BorderThickness="1">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <!-- Cabecera -->
+                <RowDefinition Height="Auto"/>
+                <!-- Formulario -->
+                <RowDefinition Height="Auto"/>
+                <!-- Botones -->
+                <RowDefinition Height="*"/>
+                <!-- DataGrid -->
+            </Grid.RowDefinitions>
+
+            <!-- ========================= -->
+            <!-- CABECERA -->
+            <!-- ========================= -->
+            <DockPanel Grid.Row="0"
+                       Style="{StaticResource WindowHeaderStyle}"
+                       MouseLeftButtonDown="Window_DragMove">
+
+                <Button Content="✕"
+                        DockPanel.Dock="Right"
+                        Style="{StaticResource WindowHeaderCloseButton}"
+                        Click="Cerrar_Click"/>
+
+                <TextBlock Text="Gestión de reservas"
+                           Style="{StaticResource WindowHeaderTitle}"/>
+            </DockPanel>
+
+            <!-- ========================= -->
+            <!-- CONTENEDOR PRINCIPAL -->
+            <!-- ========================= -->
+            <Border Grid.Row="1"
+                    Background="White"
+                    CornerRadius="16"
+                    Padding="20"
+                    BorderBrush="#E5E7EB"
+                    BorderThickness="0">
+
+                <StackPanel>
+
+                    <TextBlock Text="Datos reserva"
+                               FontSize="18"
+                               FontWeight="SemiBold"
+                               Foreground="#111827"
+                               Margin="0,0,0,20"/>
+
+                    <!-- Tarjeta de formulario -->
+                    <Border IsEnabled="{Binding FormularioHabilitado}"
+                    Background="#F9FAFB"
+                    CornerRadius="14"
+                    Padding="16"
+                    BorderBrush="#E5E7EB"
+                    BorderThickness="1">    
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <!-- Socio -->
+                            <StackPanel Grid.Column="0" Margin="0,0,12,0">
+                                <TextBlock Text="Socio"
+                                   FontSize="13"
+                                   Foreground="#374151"
+                                   Margin="0,0,0,6"/>
+
+                                <Border CornerRadius="10"
+                                BorderBrush="#D1D5DB"
+                                BorderThickness="1"
+                                Background="White"
+                                Height="40">
+
+                                    <ComboBox
+                                    ItemsSource="{Binding ListaSocios}"
+                                    SelectedValuePath="Id"
+                                    DisplayMemberPath="Nombre"
+                                    SelectedValue="{Binding SocioSeleccionadoId, Mode=TwoWay}"
+                                    BorderThickness="0"
+                                    Padding="8"
+                                    VerticalContentAlignment="Center"/>
+                                </Border>
+                            </StackPanel>
+
+                            <!-- Actividad -->
+                            <StackPanel Grid.Column="1" Margin="0,0,12,0">
+                                <TextBlock Text="Actividad"
+                                   FontSize="13"
+                                   Foreground="#374151"
+                                   Margin="0,0,0,6"/>
+
+                                <Border CornerRadius="10"
+                                BorderBrush="#D1D5DB"
+                                BorderThickness="1"
+                                Background="White"
+                                Height="40">
+
+                                    <ComboBox
+                                    ItemsSource="{Binding ListaActividades}"
+                                    SelectedValuePath="Id"
+                                    DisplayMemberPath="Nombre"
+                                    SelectedValue="{Binding ActividadSeleccionadaId, Mode=TwoWay}"
+                                    BorderThickness="0"
+                                    Padding="8"
+                                    VerticalContentAlignment="Center"/>
+                                </Border>
+                            </StackPanel>
+
+                            <!-- Fecha -->
+                            <StackPanel Grid.Column="2" Margin="0,0,12,0">
+                                <TextBlock Text="Fecha"
+                               FontSize="13"
+                               Foreground="#374151"
+                               Margin="0,0,0,6"/>
+
+                                <Border CornerRadius="10"
+                                BorderBrush="#D1D5DB"
+                                BorderThickness="1"
+                                Background="White"
+                                Height="40">
+
+                                    <DatePicker
+                                    SelectedDate="{Binding NuevaReserva.Fecha}"
+                                    BorderThickness="0"
+                                    Padding="8"
+                                    VerticalContentAlignment="Center"/>     
+                                </Border>
+                            </StackPanel>
+
+                            <!-- Guardar -->
+                            <Button Grid.Column="3"
+                            Content="Guardar"
+                            Style="{StaticResource BotonPrimario}"
+                            Command="{Binding GuardarCommand}"
+                            VerticalAlignment="Bottom"/>
+                        </Grid>
+
+                    </Border>
+
+
+                </StackPanel>
+
+            </Border>
+
+            <!-- ========================= -->
+            <!-- BOTONES -->
+            <!-- ========================= -->
+            <StackPanel Grid.Row="2"
+                        Orientation="Horizontal"
+                        Margin="20,0,20,10">
+
+                <Button Content="Nuevo"
+                        Style="{StaticResource BotonListar}"
+                        Command="{Binding NuevoCommand}"
+                        Margin="0,0,10,0"/>
+
+                <Button Content="Eliminar"
+                        Style="{StaticResource BotonBorrar}"
+                        Command="{Binding EliminarCommand}"/>
+
+                <Button Content="Informe Historial Reservas"
+                Style="{StaticResource BotonEditar}"
+                Click="InformeHistorialReservas_Click"
+                Margin="10,0,0,0"/>
+            </StackPanel>
+
+            <!-- ========================= -->
+            <!-- DATAGRID -->
+            <!-- ========================= -->
+            <DataGrid Grid.Row="3"
+                      ItemsSource="{Binding ListaReservas}"
+                      SelectedItem="{Binding ReservaSeleccionada}"
+                      Style="{StaticResource ModernDataGrid}"
+                      AutoGenerateColumns="False"
+                      IsReadOnly="True">
+
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Socio"
+                                        Binding="{Binding Socios.Nombre}"/>
+
+                    <DataGridTextColumn Header="Actividad"
+                                        Binding="{Binding Actividades.Nombre}"/>
+
+                    <DataGridTextColumn Header="Fecha"
+                                        Binding="{Binding Fecha,
+                                                  StringFormat={}{0:dd/MM/yyyy}}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+        </Grid>
+
+    </Border>
+</Window>
