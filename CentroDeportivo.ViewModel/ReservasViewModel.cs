@@ -110,7 +110,7 @@ namespace CentroDeportivo.ViewModel
 
             // Primero crear los comandos
             NuevoCommand = new RelayCommand(Nueva);
-            GuardarCommand = new RelayCommand(Guardar, PuedeGuardar);
+            GuardarCommand = new RelayCommand(GuardarCommand_Execute, PuedeGuardar);
             EliminarCommand = new RelayCommand(Eliminar, PuedeEliminar);
 
             // Luego cargar datos y crear la reserva inicial
@@ -124,7 +124,7 @@ namespace CentroDeportivo.ViewModel
             _reservasRepository = new ReservasRepository();
 
             NuevoCommand = new RelayCommand(Nueva);
-            GuardarCommand = new RelayCommand(Guardar, PuedeGuardar);
+            GuardarCommand = new RelayCommand(GuardarCommand_Execute, PuedeGuardar);
             EliminarCommand = new RelayCommand(Eliminar, PuedeEliminar);
 
             CargarDatos();
@@ -175,9 +175,17 @@ namespace CentroDeportivo.ViewModel
 
 
         /// <summary>
+        /// Wrapper para el comando Guardar que no devuelve valor
+        /// </summary>
+        private void GuardarCommand_Execute()
+        {
+            Guardar();
+        }
+
+        /// <summary>
         /// Añade una reserva despues de validar todo lo necesario
         /// </summary>
-        private void Guardar()
+        public bool Guardar()
         {
             try
             {
@@ -222,11 +230,11 @@ namespace CentroDeportivo.ViewModel
                 // Validación: fecha no anterior a hoy
                 if (ok && NuevaReserva.Fecha.Date < DateTime.Today)
                 {
-                    MessageBox.Show(
-                        "La fecha no puede ser anterior a hoy.",
-                        "Error de validación",
-                        MessageBoxButton.OK,
-                        MessageBoxImage.Error);
+                    //MessageBox.Show(
+                    //    "La fecha no puede ser anterior a hoy.",
+                    //    "Error de validación",
+                    //    MessageBoxButton.OK,
+                    //    MessageBoxImage.Error);
 
                     ok = false; ;
                 }
@@ -234,11 +242,11 @@ namespace CentroDeportivo.ViewModel
                 // Validación de aforo por actividad y día
                 if (ok && ActividadSinAforo())
                 {
-                    MessageBox.Show(
-                        "No hay plazas disponibles para esta actividad en la fecha seleccionada.",
-                        "Aforo completo",
-                        MessageBoxButton.OK,
-                        MessageBoxImage.Error);
+                    //MessageBox.Show(
+                    //    "No hay plazas disponibles para esta actividad en la fecha seleccionada.",
+                    //    "Aforo completo",
+                    //    MessageBoxButton.OK,
+                    //    MessageBoxImage.Error);
 
                     ok = false;
                 }
@@ -259,9 +267,12 @@ namespace CentroDeportivo.ViewModel
                     NuevaReserva = null;
 
                 }
+
+                return ok;
             }catch(Exception ex)
             {
                 MessageBox.Show(ex.Message, "Error guardar reserva", MessageBoxButton.OK, MessageBoxImage.Error);
+                return false;
             }
         }
 

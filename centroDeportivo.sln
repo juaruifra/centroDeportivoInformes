@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentroDeportivo.ReportsView
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentroDeportivo.Reports", "CentroDeportivo.Reports\CentroDeportivo.Reports.csproj", "{D2139F84-8E52-4F9D-9A40-962D60A3E0C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentroDeportivo.test", "CentroDeportivo.test\CentroDeportivo.test.csproj", "{59F78BC9-F14A-4398-81AA-960BEBD71C52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D2139F84-8E52-4F9D-9A40-962D60A3E0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2139F84-8E52-4F9D-9A40-962D60A3E0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2139F84-8E52-4F9D-9A40-962D60A3E0C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F78BC9-F14A-4398-81AA-960BEBD71C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F78BC9-F14A-4398-81AA-960BEBD71C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F78BC9-F14A-4398-81AA-960BEBD71C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F78BC9-F14A-4398-81AA-960BEBD71C52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

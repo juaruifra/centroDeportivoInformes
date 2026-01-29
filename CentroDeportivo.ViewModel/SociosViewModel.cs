@@ -300,7 +300,7 @@ namespace CentroDeportivo.ViewModel
         /// <summary>
         /// Comprueba si el email tiene un formato válido.
         /// </summary>
-        private bool EmailValido(string email)
+        public bool EmailValido(string email)
         {
             // Expresión básica para validar un email
             string patron = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
