@@ -185,7 +185,7 @@ namespace CentroDeportivo.ViewModel
         /// <summary>
         /// Añade una reserva despues de validar todo lo necesario
         /// </summary>
-        public bool Guardar()
+        public bool Guardar(bool test = false)
         {
             try
             {
@@ -230,11 +230,14 @@ namespace CentroDeportivo.ViewModel
                 // Validación: fecha no anterior a hoy
                 if (ok && NuevaReserva.Fecha.Date < DateTime.Today)
                 {
-                    //MessageBox.Show(
-                    //    "La fecha no puede ser anterior a hoy.",
-                    //    "Error de validación",
-                    //    MessageBoxButton.OK,
-                    //    MessageBoxImage.Error);
+                    if (!test)
+                    {
+                        MessageBox.Show(
+                            "La fecha no puede ser anterior a hoy.",
+                            "Error de validación",
+                            MessageBoxButton.OK,
+                            MessageBoxImage.Error);
+                    }
 
                     ok = false; ;
                 }
@@ -242,11 +245,14 @@ namespace CentroDeportivo.ViewModel
                 // Validación de aforo por actividad y día
                 if (ok && ActividadSinAforo())
                 {
-                    //MessageBox.Show(
-                    //    "No hay plazas disponibles para esta actividad en la fecha seleccionada.",
-                    //    "Aforo completo",
-                    //    MessageBoxButton.OK,
-                    //    MessageBoxImage.Error);
+                    if (!test)
+                    {
+                        MessageBox.Show(
+                            "No hay plazas disponibles para esta actividad en la fecha seleccionada.",
+                            "Aforo completo",
+                            MessageBoxButton.OK,
+                            MessageBoxImage.Error);
+                    }
 
                     ok = false;
                 }

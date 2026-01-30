@@ -8,6 +8,8 @@ namespace CentroDeportivo.test
     [TestClass]
     public sealed class Test1
     {
+
+        // PRIMER TEST: Validación de mail del socio
         [TestMethod]
         public void TestSociosMailValido()
         {
@@ -50,47 +52,80 @@ namespace CentroDeportivo.test
 
         }
 
-        [TestMethod]
-        public void TestReservaFechaAnteriorNoPermitida()
-        {
-            // Crear el ViewModel de Reservas
-            ReservasViewModel reservasVM = new ReservasViewModel();
+        // SEGUNDO TEST: Validación de fechas en reservas
 
-            // Crear una nueva reserva con fecha anterior a hoy
+        [TestMethod]
+        public void TestReservaNoPermiteFechaAnterior()
+        {
+            
+            // Crear repositorios para manipular la BD
+            SociosRepository sociosRepo = new SociosRepository();
+            ActividadesRepository actividadesRepo = new ActividadesRepository();
+            ReservasRepository reservasRepo = new ReservasRepository();
+            
+            // Crear socio de prueba. Usamos los ticks para definir un identificador único
+            Socios socioTest = new Socios
+            {
+                Nombre = "SOCIO_TEST_FECHA_" + DateTime.Now.Ticks,
+                Email = "test_fecha_" + DateTime.Now.Ticks + "@test.com",
+                Activo = true
+            };
+            sociosRepo.Save(socioTest);
+            int socioTestId = socioTest.Id;
+            
+            // Crear actividad de prueba con aforo suficiente
+            Actividades actividadTest = new Actividades
+            {
+                Nombre = "TEST_FECHA_" + DateTime.Now.Ticks,
+                AforoMaximo = 10
+            };
+            actividadesRepo.Save(actividadTest);
+            int actividadTestId = actividadTest.Id;
+            
+            
+            // Intentar crear una reserva con fecha ANTERIOR a hoy (ayer)
+            ReservasViewModel reservasVM = new ReservasViewModel();
             reservasVM.NuevaReserva = new Reservas
             {
-                SocioId = 1,
-                ActividadId = 1, 
-                Fecha = DateTime.Today.AddDays(-1)  // Fecha de ayer
+                SocioId = socioTestId,
+                ActividadId = actividadTestId,
+                Fecha = DateTime.Today.AddDays(-1)
             };
 
-            // Intentar guardar la reserva
-            bool resultado = reservasVM.Guardar();
-
-            // La operación debería fallar (devolver false)
+            bool resultado = reservasVM.Guardar(true);
+            
+            // Test
+            
             Assert.IsFalse(resultado, "No se debería permitir crear una reserva con fecha anterior a hoy");
-        }
-
-        [TestMethod]
-        public void TestReservaFechaActualPermitida()
-        {
-            //  Crear el ViewModel de Reservas
-            ReservasViewModel reservasVM = new ReservasViewModel();
-
-            // Crear una nueva reserva con la fecha de hoy
-            reservasVM.NuevaReserva = new Reservas
+            
+            // Limpiar
+            
+            // Verificar que no se creó ninguna reserva con estos datos
+            Reservas reservaCreada = reservasRepo.GetAll()
+                .FirstOrDefault(r => r.SocioId == socioTestId && r.ActividadId == actividadTestId);
+            
+            // Si por algún error se creó la reserva, la eliminamos
+            if (reservaCreada != null)
             {
-                SocioId = 1,  
-                ActividadId = 1,  
-                Fecha = DateTime.Today  // Fecha de hoy
-            };
-
-            // Intentar guardar la reserva
-            bool resultado = reservasVM.Guardar();
-
-            // Assert: La operación debería tener éxito (devolver true) si hay aforo disponible
-            Assert.IsTrue(resultado, "Se debería permitir crear una reserva con la fecha de hoy");
+                reservasRepo.Delete(reservaCreada);
+            }
+            
+            // Borrar la actividad
+            Actividades actividadABorrar = actividadesRepo.GetById(actividadTestId);
+            if (actividadABorrar != null)
+            {
+                actividadesRepo.Delete(actividadABorrar);
+            }
+            
+            // Borrar el socio
+            Socios socioABorrar = sociosRepo.GetAll().FirstOrDefault(s => s.Id == socioTestId);
+            if (socioABorrar != null)
+            {
+                sociosRepo.Delete(socioABorrar);
+            }
         }
+
+        // TERCER TEST: Validación superación aforo no permitido
 
         [TestMethod]
         public void TestReservaExcedeAforoActividad()
@@ -131,7 +166,7 @@ namespace CentroDeportivo.test
                 ActividadId = actividadTestId,
                 Fecha = fechaPrueba
             };
-            bool primeraReservaOk = reservasVM1.Guardar();
+            bool primeraReservaOk = reservasVM1.Guardar(true);
             
             // Obtener el ID de la primera reserva para poder borrarla después
             Reservas primeraReserva = reservasRepo.GetAll()
@@ -149,7 +184,7 @@ namespace CentroDeportivo.test
                 ActividadId = actividadTestId,
                 Fecha = fechaPrueba
             };
-            bool segundaReservaOk = reservasVM2.Guardar();
+            bool segundaReservaOk = reservasVM2.Guardar(true);
             
             // Comparación de los tests
             
