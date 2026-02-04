@@ -39,7 +39,7 @@ public class ActividadesRepository : RepositoryBase
     /// <summary>
     /// Crear o editar actividad
     /// </summary>
-    /// <param name="ac"></param>
+    /// <param name="ac">Objeto actividad a guardar</param>
     /// <exception cref="Exception"></exception>
     public void Save(Actividades ac)
     {
@@ -68,7 +68,7 @@ public class ActividadesRepository : RepositoryBase
     /// <summary>
     /// Borrar actividad
     /// </summary>
-    /// <param name="ac"></param>
+    /// <param name="ac">Objeto actividad a borrar</param>
     /// <exception cref="Exception"></exception>
     public void Delete(Actividades ac)
     {

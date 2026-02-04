@@ -9,7 +9,7 @@ public class ReservasRepository : RepositoryBase
     /// <summary>
     /// Obtener reservas enlanzandolas con los socios y las actividades para mostrar los nombres
     /// </summary>
-    /// <returns></returns>
+    /// <returns>Todas las reservas enlazadas con los socios y las actividades</returns>
     public List<Reservas> GetAll()
     {
         return Context.Reservas
@@ -31,9 +31,9 @@ public class ReservasRepository : RepositoryBase
     /// a una fecha
     /// pudiendo excluir una reserva concreta para las ediciones
     /// </summary>
-    /// <param name="actividadId"></param>
-    /// <param name="fecha"></param>
-    /// <param name="reservaIdExcluir"></param>
+    /// <param name="actividadId">Actividad de la quq queremos contar las reservas</param>
+    /// <param name="fecha">Dia de las reservas</param>
+    /// <param name="reservaIdExcluir">Para poder excluir la propia reserva al actualizar</param>
     /// <returns></returns>
     public int GetReservasCount(int actividadId, DateTime fecha, int? reservaIdExcluir)
     {
@@ -59,7 +59,7 @@ public class ReservasRepository : RepositoryBase
     /// <summary>
     /// Añadir o editar una reserva
     /// </summary>
-    /// <param name="re"></param>
+    /// <param name="re">Objeto reserva a guardar</param>
     /// <exception cref="Exception"></exception>
     public void Save(Reservas re)
     {
@@ -100,7 +100,7 @@ public class ReservasRepository : RepositoryBase
     /// <summary>
     /// Eliminar una reserva
     /// </summary>
-    /// <param name="reserva"></param>
+    /// <param name="reserva">Objeto reserva a eliminar</param>
     /// <exception cref="Exception"></exception>
     public void Delete(Reservas reserva)
     {
@@ -126,7 +126,7 @@ public class ReservasRepository : RepositoryBase
     /// <summary>
     /// Comprobar si existen reservas con un socio concreto
     /// </summary>
-    /// <param name="socioId"></param>
+    /// <param name="socioId"> Id del socio</param>
     /// <returns></returns>
     public bool ExisteReservaConSocio(int socioId)
     {
@@ -136,7 +136,7 @@ public class ReservasRepository : RepositoryBase
     /// <summary>
     /// Comprobar si existen reserevas con un actividad concreta
     /// </summary>
-    /// <param name="actividadId"></param>
+    /// <param name="actividadId"> Id de la actividad</param>
     /// <returns></returns>
     public bool ExisteReservaConActividad(int actividadId)
     {

@@ -18,41 +18,57 @@ using CentroDeportivo.ReportsView;
 namespace CentroDeportivo.View
 {
     /// <summary>
-    /// Lógica de interacción para SociosWindow.xaml
+    /// Ventana para gestionar socios del centro deportivo.
+    /// Permite crear, editar y eliminar socios, además de acceder a sus reservas.
     /// </summary>
     public partial class SociosWindow : Window
     {
+        /// <summary>
+        /// Inicializa la ventana y conecta con su ViewModel
+        /// </summary>
         public SociosWindow()
         {
             InitializeComponent();
             DataContext = new SociosViewModel();
         }
 
+        /// <summary>
+        /// Cierra la ventana cuando se pulsa el botón cerrar
+        /// </summary>
         private void Cerrar_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
 
+        /// <summary>
+        /// Permite mover la ventana arrastrándola con el ratón.
+        /// Útil en ventanas sin barra de título estándar.
+        /// </summary>
         private void Window_DragMove(object sender, MouseButtonEventArgs e)
         {
-            // Comprueba que el botón izquierdo está pulsado
+            // Solo movemos si el botón izquierdo está presionado
             if (e.ButtonState == MouseButtonState.Pressed)
             {
-                // Permite arrastrar la ventana
                 this.DragMove();
             }
         }
 
+        /// <summary>
+        /// Abre la ventana de reservas con el socio actual preseleccionado.
+        /// Permite crear rápidamente una reserva para el socio que estamos viendo.
+        /// </summary>
         private void AbrirReservas_Click(object sender, RoutedEventArgs e)
         {
             var vm = DataContext as SociosViewModel;
 
-            // Seguridad básica
+            // Nos aseguramos de que hay un socio seleccionado
             if (vm == null || vm.SocioSeleccionado == null)
                 return;
 
+            // Creamos el ViewModel de reservas pasándole el ID del socio actual
             var reservasVm = new ReservasViewModel(socioId: vm.SocioSeleccionado.Id);
 
+            // Abrimos la ventana de reservas
             var ventana = new ReservasWindow
             {
                 DataContext = reservasVm
@@ -62,21 +78,15 @@ namespace CentroDeportivo.View
         }
 
         /// <summary>
-        /// Evento Click del botón "Informe de socios".
         /// Abre la ventana de informes mostrando el informe maestro de socios.
         /// </summary>
         private void InformeSocios_Click(object sender, RoutedEventArgs e)
         {
-            // Creamos la ventana del visor de informes,
-            // indicando que queremos mostrar el informe de socios.
+            // Creamos la ventana del visor indicando que queremos el informe de socios
             var visor = new Window1(ReportType.Socios);
 
-            // Mostramos la ventana como diálogo modal.
+            // Mostramos la ventana como modal (bloquea la ventana actual hasta cerrarla)
             visor.ShowDialog();
         }
-
-
-
-
     }
 }

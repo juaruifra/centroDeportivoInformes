@@ -63,7 +63,7 @@ namespace CentroDeportivo.Reports
             // Crear el informe
             var report = new InformeReservasPorActividad();
 
-            // 6. Asignar DataSet
+            // Asignar DataSet
             report.SetDataSource(ds);
 
             return report;

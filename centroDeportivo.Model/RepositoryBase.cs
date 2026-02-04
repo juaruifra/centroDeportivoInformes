@@ -2,6 +2,10 @@
 using System;
 using System.Data.Entity;
 
+/// <summary>
+/// Clase base para los repositorios. Todos dependeran de estas
+/// Donde se define el contexto que da acceso a la BBDD
+/// </summary>
 public abstract class RepositoryBase : IDisposable
 {
     protected CentroDeportivoEntities Context;

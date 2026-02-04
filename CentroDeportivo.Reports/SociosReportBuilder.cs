@@ -8,10 +8,10 @@ namespace CentroDeportivo.Reports
     /// <summary>
     /// Clase responsable de construir el informe maestro de socios.
     /// Se encarga de:
-    /// 1) Obtener los socios desde el repositorio (EF).
-    /// 2) Rellenar el DataSet tipado SociosReportDataSet.
-    /// 3) Crear el informe Crystal (InformeMaestroSocios).
-    /// 4) Devolver un ReportDocument listo para visualizar.
+    /// Obtener los socios desde el repositorio (EF).
+    /// Rellenar el DataSet tipado SociosReportDataSet.
+    /// Crear el informe Crystal (InformeMaestroSocios).
+    /// Devolver un ReportDocument listo para visualizar.
     /// </summary>
     public class SociosReportBuilder : IDisposable
     {
@@ -36,17 +36,17 @@ namespace CentroDeportivo.Reports
         /// <returns>ReportDocument listo para asignarlo al visor WPF.</returns>
         public ReportDocument CrearInformeMaestroSocios()
         {
-            // 1) Crear una instancia del DataSet tipado
+            // Crear una instancia del DataSet tipado
             var ds = new SociosReportDataSet();
 
-            // 2) Obtener la tabla Socios del DataSet
+            // Obtener la tabla Socios del DataSet
             var tablaSocios = ds.Socios;
 
-            // 3) Obtener los socios desde la base de datos a través de EF
+            // Obtener los socios desde la base de datos a través de EF
             //    Suponemos que tienes un método GetAll() en SociosRepository.
             List<Socios> socios = _socioRepo.GetAll();
 
-            // 4) Volcar los datos de EF al DataSet tipado
+            // Volcar los datos de EF al DataSet tipado
             foreach (var socio in socios)
             {
                 // Creamos una nueva fila del DataTable Socios
@@ -62,13 +62,13 @@ namespace CentroDeportivo.Reports
                 tablaSocios.AddSociosRow(fila);
             }
 
-            // 5) Crear el informe Crystal correspondiente
+            // Crear el informe Crystal correspondiente
             var report = new InformeMaestroSocios();
 
-            // 6) Asignar el DataSet como origen de datos del informe
+            // Asignar el DataSet como origen de datos del informe
             report.SetDataSource(ds);
 
-            // 7) Devolver el ReportDocument listo para mostrar
+            // Devolver el ReportDocument listo para mostrar
             return report;
         }
 

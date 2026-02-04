@@ -10,7 +10,7 @@ namespace CentroDeportivo.ViewModel
     /// ViewModel para la gestión de socios.
     /// Contiene la lógica que usará la ventana de socios.
     /// </summary>
-    public class SociosViewModel : BaseValidableViewModel // Hereda de la base validable
+    public class SociosViewModel : BaseViewModel//BaseValidableViewModel // Hereda de la base validable
     {
         // Repositorio que se encarga del acceso a datos
         private readonly SociosRepository _sociosRepository;
@@ -49,7 +49,7 @@ namespace CentroDeportivo.ViewModel
                 // Esto hace que la vista actualice el bloqueo del formulario
                 OnPropertyChanged(nameof(FormularioHabilitado));
 
-                ValidarSocio();
+                //ValidarSocio();
 
                 // Actualizamos el estado de los botones
                 GuardarCommand.RaiseCanExecuteChanged();
@@ -310,44 +310,44 @@ namespace CentroDeportivo.ViewModel
         /// <summary>
         /// Valida los datos del socio seleccionado.
         /// </summary>
-        private void ValidarSocio()
-        {
-            LimpiarErrores();
+        //private void ValidarSocio()
+        //{
+        //    LimpiarErrores();
 
-            if (SocioSeleccionado == null)
-                return;
+        //    if (SocioSeleccionado == null)
+        //        return;
 
-            // Nombre obligatorio
-            if (string.IsNullOrWhiteSpace(SocioSeleccionado.Nombre))
-            {
-                //SetError(nameof(SocioSeleccionado.Nombre),"El nombre es obligatorio.");
-                SetError(ERROR_NOMBRE, "El nombre es obligatorio.");
-            }
-            else
-            {
-                //ClearError(nameof(SocioSeleccionado.Nombre));
-                ClearError(ERROR_NOMBRE);
-            }
+        //    // Nombre obligatorio
+        //    if (string.IsNullOrWhiteSpace(SocioSeleccionado.Nombre))
+        //    {
+        //        //SetError(nameof(SocioSeleccionado.Nombre),"El nombre es obligatorio.");
+        //        SetError(ERROR_NOMBRE, "El nombre es obligatorio.");
+        //    }
+        //    else
+        //    {
+        //        //ClearError(nameof(SocioSeleccionado.Nombre));
+        //        ClearError(ERROR_NOMBRE);
+        //    }
 
-            // Email obligatorio
-            if (string.IsNullOrWhiteSpace(SocioSeleccionado.Email))
-            {
-                //SetError(nameof(SocioSeleccionado.Email),"El email es obligatorio.");
-                SetError(ERROR_EMAIL, "El email es obligatorio.");
-            }
-            else if (!EmailValido(SocioSeleccionado.Email))
-            {
-                //SetError(nameof(SocioSeleccionado.Email),"El formato del email no es correcto.");
-                SetError(ERROR_EMAIL, "El formato del email no es correcto.");
-            }
-            else
-            {
-                //ClearError(nameof(SocioSeleccionado.Email));
-                ClearError(ERROR_EMAIL);
-            }
+        //    // Email obligatorio
+        //    if (string.IsNullOrWhiteSpace(SocioSeleccionado.Email))
+        //    {
+        //        //SetError(nameof(SocioSeleccionado.Email),"El email es obligatorio.");
+        //        SetError(ERROR_EMAIL, "El email es obligatorio.");
+        //    }
+        //    else if (!EmailValido(SocioSeleccionado.Email))
+        //    {
+        //        //SetError(nameof(SocioSeleccionado.Email),"El formato del email no es correcto.");
+        //        SetError(ERROR_EMAIL, "El formato del email no es correcto.");
+        //    }
+        //    else
+        //    {
+        //        //ClearError(nameof(SocioSeleccionado.Email));
+        //        ClearError(ERROR_EMAIL);
+        //    }
 
-            GuardarCommand.RaiseCanExecuteChanged();
-        }
+        //    GuardarCommand.RaiseCanExecuteChanged();
+        //}
 
 
     }

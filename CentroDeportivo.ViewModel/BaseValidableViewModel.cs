@@ -7,6 +7,7 @@ namespace CentroDeportivo.ViewModel
     /// <summary>
     /// Clase base para ViewModels con validación.
     /// Implementa IDataErrorInfo de forma reutilizable.
+    /// IMPORTANTE!!!! DE MOMENTO NO SE UTILIZA
     /// </summary>
     public abstract class BaseValidableViewModel : BaseViewModel, IDataErrorInfo
     {

@@ -18,11 +18,20 @@ namespace CentroDeportivo.ViewModel
             _canExecute = canExecute;
         }
 
+        /// <summary>
+        /// Determina si el comando puede ejecutarse en su estado actual.
+        /// </summary>
+        /// <param name="parameter">Parámetro del comando (no utilizado).</param>
+        /// <returns>true si el comando puede ejecutarse; de lo contrario, false.</returns>
         public bool CanExecute(object parameter)
         {
             return _canExecute == null || _canExecute();
         }
 
+        /// <summary>
+        /// Ejecuta el comando
+        /// </summary>
+        /// <param name="parameter">Comando a ejecutar</param>
         public void Execute(object parameter)
         {
             _execute();

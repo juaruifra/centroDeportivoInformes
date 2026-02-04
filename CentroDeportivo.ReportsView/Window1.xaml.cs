@@ -5,7 +5,7 @@ using CentroDeportivo.Reports;
 namespace CentroDeportivo.ReportsView
 {
     /// <summary>
-    /// Ventana genérica de visualización de informes Crystal.
+    /// Ventana genérica de visualización de informes Crystal Reports.
     /// </summary>
     public partial class Window1 : Window
     {
@@ -71,6 +71,7 @@ namespace CentroDeportivo.ReportsView
         /// <summary>
         /// Crea y devuelve el informe maestro de socios.
         /// </summary>
+        /// <returns>Report</returns>
         private ReportDocument CargarInformeSocios()
         {
             using (var builder = new SociosReportBuilder())
@@ -83,7 +84,7 @@ namespace CentroDeportivo.ReportsView
         /// Crea y devuelve el informe de reservas por actividad
         /// </summary>
         /// <param name="actividadId">Id de la actividad a mostrar</param>
-        /// <returns></returns>
+        /// <returns>Report</returns>
         private ReportDocument CargarInformeReservasPorActividad(int actividadId)
         {
             using (var builder = new ReservasPorActividadReportBuilder())
@@ -92,6 +93,10 @@ namespace CentroDeportivo.ReportsView
             }
         }
 
+        /// <summary>
+        /// Crear y devuelve el informe de historiald e reservas
+        /// </summary>
+        /// <returns>Report</returns>
         private ReportDocument CargarInformeHistorialReservas()
         {
             using (var builder = new HistorialReservasPorSocioReportBuilder())

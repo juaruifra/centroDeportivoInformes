@@ -9,7 +9,7 @@ public class SociosRepository : RepositoryBase
     /// <summary>
     /// Obtener todos los socios
     /// </summary>
-    /// <returns></returns>
+    /// <returns>Todos los socios</returns>
     public List<Socios> GetAll()
     {
         return Context.Socios.ToList();
@@ -19,7 +19,7 @@ public class SociosRepository : RepositoryBase
     /// Guardar socio ya sea editando o añadiendo
     /// Depende de si existe o no el id
     /// </summary>
-    /// <param name="so"></param>
+    /// <param name="so"> Objeto socio a guardar</param>
     /// <exception cref="Exception"></exception>
     public void Save(Socios so)
     {
@@ -52,7 +52,7 @@ public class SociosRepository : RepositoryBase
     /// <summary>
     /// Eliminar socio
     /// </summary>
-    /// <param name="socio"></param>
+    /// <param name="socio">Objeto socio a eliminar</param>
     /// <exception cref="Exception"></exception>
     public void Delete(Socios socio)
     {
