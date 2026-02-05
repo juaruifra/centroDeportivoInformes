@@ -1,4 +1,5 @@
 ﻿using centroDeportivo.Model;
+using centroDeportivo.Model.Repositories;
 using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics.Eventing.Reader;

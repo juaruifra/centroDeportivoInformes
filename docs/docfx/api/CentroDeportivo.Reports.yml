@@ -1,0 +1,418 @@
+### YamlMime:ManagedReference
+items:
+- uid: CentroDeportivo.Reports
+  commentId: N:CentroDeportivo.Reports
+  id: CentroDeportivo.Reports
+  children:
+  - CentroDeportivo.Reports.CachedInformeHistorialReservasPorSocio
+  - CentroDeportivo.Reports.CachedInformeMaestroSocios
+  - CentroDeportivo.Reports.CachedInformeReservasPorActividad
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRow
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler
+  - CentroDeportivo.Reports.HistorialReservasPorSocioReportBuilder
+  - CentroDeportivo.Reports.InformeHistorialReservasPorSocio
+  - CentroDeportivo.Reports.InformeMaestroSocios
+  - CentroDeportivo.Reports.InformeReservasPorActividad
+  - CentroDeportivo.Reports.ReportType
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadDataTable
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler
+  - CentroDeportivo.Reports.ReservasPorActividadReportBuilder
+  - CentroDeportivo.Reports.SociosReportBuilder
+  - CentroDeportivo.Reports.SociosReportDataSet
+  - CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable
+  - CentroDeportivo.Reports.SociosReportDataSet.SociosRow
+  - CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent
+  - CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler
+  langs:
+  - csharp
+  - vb
+  name: CentroDeportivo.Reports
+  nameWithType: CentroDeportivo.Reports
+  fullName: CentroDeportivo.Reports
+  type: Namespace
+  assemblies:
+  - CentroDeportivo.Reports
+references:
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  commentId: T:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  name: HistorialReservasPorSocioDataSet
+  nameWithType: HistorialReservasPorSocioDataSet
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler
+  commentId: T:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  name: HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler
+  nameWithType: HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler
+  spec.csharp:
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+    name: HistorialReservasPorSocioDataSet
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler
+    name: HistorialReservasRowChangeEventHandler
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler.html
+  spec.vb:
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+    name: HistorialReservasPorSocioDataSet
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler
+    name: HistorialReservasRowChangeEventHandler
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler.html
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+  commentId: T:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  name: HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+  nameWithType: HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+  spec.csharp:
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+    name: HistorialReservasPorSocioDataSet
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+    name: HistorialReservasDataTable
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable.html
+  spec.vb:
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+    name: HistorialReservasPorSocioDataSet
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+    name: HistorialReservasDataTable
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable.html
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRow
+  commentId: T:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRow
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  name: HistorialReservasPorSocioDataSet.HistorialReservasRow
+  nameWithType: HistorialReservasPorSocioDataSet.HistorialReservasRow
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRow
+  spec.csharp:
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+    name: HistorialReservasPorSocioDataSet
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRow
+    name: HistorialReservasRow
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRow.html
+  spec.vb:
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+    name: HistorialReservasPorSocioDataSet
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRow
+    name: HistorialReservasRow
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRow.html
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+  commentId: T:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  name: HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+  nameWithType: HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+  spec.csharp:
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+    name: HistorialReservasPorSocioDataSet
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+    name: HistorialReservasRowChangeEvent
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent.html
+  spec.vb:
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+    name: HistorialReservasPorSocioDataSet
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+    name: HistorialReservasRowChangeEvent
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent.html
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioReportBuilder
+  commentId: T:CentroDeportivo.Reports.HistorialReservasPorSocioReportBuilder
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioReportBuilder.html
+  name: HistorialReservasPorSocioReportBuilder
+  nameWithType: HistorialReservasPorSocioReportBuilder
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioReportBuilder
+- uid: CentroDeportivo.Reports.InformeHistorialReservasPorSocio
+  commentId: T:CentroDeportivo.Reports.InformeHistorialReservasPorSocio
+  href: CentroDeportivo.Reports.InformeHistorialReservasPorSocio.html
+  name: InformeHistorialReservasPorSocio
+  nameWithType: InformeHistorialReservasPorSocio
+  fullName: CentroDeportivo.Reports.InformeHistorialReservasPorSocio
+- uid: CentroDeportivo.Reports.CachedInformeHistorialReservasPorSocio
+  commentId: T:CentroDeportivo.Reports.CachedInformeHistorialReservasPorSocio
+  href: CentroDeportivo.Reports.CachedInformeHistorialReservasPorSocio.html
+  name: CachedInformeHistorialReservasPorSocio
+  nameWithType: CachedInformeHistorialReservasPorSocio
+  fullName: CentroDeportivo.Reports.CachedInformeHistorialReservasPorSocio
+- uid: CentroDeportivo.Reports.InformeMaestroSocios
+  commentId: T:CentroDeportivo.Reports.InformeMaestroSocios
+  href: CentroDeportivo.Reports.InformeMaestroSocios.html
+  name: InformeMaestroSocios
+  nameWithType: InformeMaestroSocios
+  fullName: CentroDeportivo.Reports.InformeMaestroSocios
+- uid: CentroDeportivo.Reports.CachedInformeMaestroSocios
+  commentId: T:CentroDeportivo.Reports.CachedInformeMaestroSocios
+  href: CentroDeportivo.Reports.CachedInformeMaestroSocios.html
+  name: CachedInformeMaestroSocios
+  nameWithType: CachedInformeMaestroSocios
+  fullName: CentroDeportivo.Reports.CachedInformeMaestroSocios
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad
+  commentId: T:CentroDeportivo.Reports.InformeReservasPorActividad
+  href: CentroDeportivo.Reports.InformeReservasPorActividad.html
+  name: InformeReservasPorActividad
+  nameWithType: InformeReservasPorActividad
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad
+- uid: CentroDeportivo.Reports.CachedInformeReservasPorActividad
+  commentId: T:CentroDeportivo.Reports.CachedInformeReservasPorActividad
+  href: CentroDeportivo.Reports.CachedInformeReservasPorActividad.html
+  name: CachedInformeReservasPorActividad
+  nameWithType: CachedInformeReservasPorActividad
+  fullName: CentroDeportivo.Reports.CachedInformeReservasPorActividad
+- uid: CentroDeportivo.Reports.ReportType
+  commentId: T:CentroDeportivo.Reports.ReportType
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.ReportType.html
+  name: ReportType
+  nameWithType: ReportType
+  fullName: CentroDeportivo.Reports.ReportType
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet
+  commentId: T:CentroDeportivo.Reports.ReservasPorActividadDataSet
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.html
+  name: ReservasPorActividadDataSet
+  nameWithType: ReservasPorActividadDataSet
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler
+  commentId: T:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.html
+  name: ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler
+  spec.csharp:
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet
+    name: ReservasPorActividadDataSet
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler
+    name: ReservasPorActividadRowChangeEventHandler
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler.html
+  spec.vb:
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet
+    name: ReservasPorActividadDataSet
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler
+    name: ReservasPorActividadRowChangeEventHandler
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler.html
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadDataTable
+  commentId: T:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadDataTable
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.html
+  name: ReservasPorActividadDataSet.ReservasPorActividadDataTable
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadDataTable
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadDataTable
+  spec.csharp:
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet
+    name: ReservasPorActividadDataSet
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadDataTable
+    name: ReservasPorActividadDataTable
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadDataTable.html
+  spec.vb:
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet
+    name: ReservasPorActividadDataSet
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadDataTable
+    name: ReservasPorActividadDataTable
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadDataTable.html
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  commentId: T:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.html
+  name: ReservasPorActividadDataSet.ReservasPorActividadRow
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  spec.csharp:
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet
+    name: ReservasPorActividadDataSet
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+    name: ReservasPorActividadRow
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.html
+  spec.vb:
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet
+    name: ReservasPorActividadDataSet
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+    name: ReservasPorActividadRow
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.html
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+  commentId: T:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.html
+  name: ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+  spec.csharp:
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet
+    name: ReservasPorActividadDataSet
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+    name: ReservasPorActividadRowChangeEvent
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent.html
+  spec.vb:
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet
+    name: ReservasPorActividadDataSet
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+    name: ReservasPorActividadRowChangeEvent
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent.html
+- uid: CentroDeportivo.Reports.ReservasPorActividadReportBuilder
+  commentId: T:CentroDeportivo.Reports.ReservasPorActividadReportBuilder
+  href: CentroDeportivo.Reports.ReservasPorActividadReportBuilder.html
+  name: ReservasPorActividadReportBuilder
+  nameWithType: ReservasPorActividadReportBuilder
+  fullName: CentroDeportivo.Reports.ReservasPorActividadReportBuilder
+- uid: CentroDeportivo.Reports.SociosReportBuilder
+  commentId: T:CentroDeportivo.Reports.SociosReportBuilder
+  href: CentroDeportivo.Reports.SociosReportBuilder.html
+  name: SociosReportBuilder
+  nameWithType: SociosReportBuilder
+  fullName: CentroDeportivo.Reports.SociosReportBuilder
+- uid: CentroDeportivo.Reports.SociosReportDataSet
+  commentId: T:CentroDeportivo.Reports.SociosReportDataSet
+  href: CentroDeportivo.Reports.SociosReportDataSet.html
+  name: SociosReportDataSet
+  nameWithType: SociosReportDataSet
+  fullName: CentroDeportivo.Reports.SociosReportDataSet
+- uid: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler
+  commentId: T:CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.SociosReportDataSet.html
+  name: SociosReportDataSet.SociosRowChangeEventHandler
+  nameWithType: SociosReportDataSet.SociosRowChangeEventHandler
+  fullName: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler
+  spec.csharp:
+  - uid: CentroDeportivo.Reports.SociosReportDataSet
+    name: SociosReportDataSet
+    href: CentroDeportivo.Reports.SociosReportDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler
+    name: SociosRowChangeEventHandler
+    href: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler.html
+  spec.vb:
+  - uid: CentroDeportivo.Reports.SociosReportDataSet
+    name: SociosReportDataSet
+    href: CentroDeportivo.Reports.SociosReportDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler
+    name: SociosRowChangeEventHandler
+    href: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler.html
+- uid: CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable
+  commentId: T:CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.SociosReportDataSet.html
+  name: SociosReportDataSet.SociosDataTable
+  nameWithType: SociosReportDataSet.SociosDataTable
+  fullName: CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable
+  spec.csharp:
+  - uid: CentroDeportivo.Reports.SociosReportDataSet
+    name: SociosReportDataSet
+    href: CentroDeportivo.Reports.SociosReportDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable
+    name: SociosDataTable
+    href: CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.html
+  spec.vb:
+  - uid: CentroDeportivo.Reports.SociosReportDataSet
+    name: SociosReportDataSet
+    href: CentroDeportivo.Reports.SociosReportDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable
+    name: SociosDataTable
+    href: CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.html
+- uid: CentroDeportivo.Reports.SociosReportDataSet.SociosRow
+  commentId: T:CentroDeportivo.Reports.SociosReportDataSet.SociosRow
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.SociosReportDataSet.html
+  name: SociosReportDataSet.SociosRow
+  nameWithType: SociosReportDataSet.SociosRow
+  fullName: CentroDeportivo.Reports.SociosReportDataSet.SociosRow
+  spec.csharp:
+  - uid: CentroDeportivo.Reports.SociosReportDataSet
+    name: SociosReportDataSet
+    href: CentroDeportivo.Reports.SociosReportDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.SociosReportDataSet.SociosRow
+    name: SociosRow
+    href: CentroDeportivo.Reports.SociosReportDataSet.SociosRow.html
+  spec.vb:
+  - uid: CentroDeportivo.Reports.SociosReportDataSet
+    name: SociosReportDataSet
+    href: CentroDeportivo.Reports.SociosReportDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.SociosReportDataSet.SociosRow
+    name: SociosRow
+    href: CentroDeportivo.Reports.SociosReportDataSet.SociosRow.html
+- uid: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent
+  commentId: T:CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.SociosReportDataSet.html
+  name: SociosReportDataSet.SociosRowChangeEvent
+  nameWithType: SociosReportDataSet.SociosRowChangeEvent
+  fullName: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent
+  spec.csharp:
+  - uid: CentroDeportivo.Reports.SociosReportDataSet
+    name: SociosReportDataSet
+    href: CentroDeportivo.Reports.SociosReportDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent
+    name: SociosRowChangeEvent
+    href: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent.html
+  spec.vb:
+  - uid: CentroDeportivo.Reports.SociosReportDataSet
+    name: SociosReportDataSet
+    href: CentroDeportivo.Reports.SociosReportDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent
+    name: SociosRowChangeEvent
+    href: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent.html
+- uid: CentroDeportivo.Reports
+  commentId: N:CentroDeportivo.Reports
+  href: CentroDeportivo.html
+  name: CentroDeportivo.Reports
+  nameWithType: CentroDeportivo.Reports
+  fullName: CentroDeportivo.Reports
+  spec.csharp:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.Reports
+    name: Reports
+    href: CentroDeportivo.Reports.html
+  spec.vb:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.Reports
+    name: Reports
+    href: CentroDeportivo.Reports.html

@@ -1,0 +1,844 @@
+{
+  "source_base_path": "C:/DAM/Diseño de interficies/proyectos/WPF/centroDeportivoInformes/docs/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.CachedInformeHistorialReservasPorSocio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.CachedInformeHistorialReservasPorSocio.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.CachedInformeHistorialReservasPorSocio",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.CachedInformeMaestroSocios.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.CachedInformeMaestroSocios.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.CachedInformeMaestroSocios",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.CachedInformeReservasPorActividad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.CachedInformeReservasPorActividad.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.CachedInformeReservasPorActividad",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable.yml\" sourcestartlinenumber=\"1\">Represents the strongly named DataTable class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRow",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRow.yml\" sourcestartlinenumber=\"1\">Represents strongly named DataRow class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent.yml\" sourcestartlinenumber=\"1\">Row event argument class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.HistorialReservasPorSocioDataSet",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.yml\" sourcestartlinenumber=\"1\">Represents a strongly typed in-memory cache of data.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.HistorialReservasPorSocioReportBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.HistorialReservasPorSocioReportBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.HistorialReservasPorSocioReportBuilder",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.Reports.HistorialReservasPorSocioReportBuilder.yml\" sourcestartlinenumber=\"1\">Construye el informe de historial de reservas agrupado por socio.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.InformeHistorialReservasPorSocio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.InformeHistorialReservasPorSocio.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.InformeHistorialReservasPorSocio",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.InformeMaestroSocios.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.InformeMaestroSocios.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.InformeMaestroSocios",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.InformeReservasPorActividad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.InformeReservasPorActividad.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.InformeReservasPorActividad",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.ReportType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.ReportType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.ReportType",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.Reports.ReportType.yml\" sourcestartlinenumber=\"1\">Enumeración con los tipos de informes disponibles\nen el sistema.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadDataTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadDataTable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadDataTable",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadDataTable.yml\" sourcestartlinenumber=\"1\">Represents the strongly named DataTable class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.yml\" sourcestartlinenumber=\"1\">Represents strongly named DataRow class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent.yml\" sourcestartlinenumber=\"1\">Row event argument class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.ReservasPorActividadDataSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.ReservasPorActividadDataSet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.ReservasPorActividadDataSet",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.Reports.ReservasPorActividadDataSet.yml\" sourcestartlinenumber=\"1\">Represents a strongly typed in-memory cache of data.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.ReservasPorActividadReportBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.ReservasPorActividadReportBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.ReservasPorActividadReportBuilder",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.Reports.ReservasPorActividadReportBuilder.yml\" sourcestartlinenumber=\"1\">Construye el informe de reservas filtrado por actividad.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.SociosReportBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.SociosReportBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.SociosReportBuilder",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.Reports.SociosReportBuilder.yml\" sourcestartlinenumber=\"1\">Clase responsable de construir el informe maestro de socios.\nSe encarga de:\nObtener los socios desde el repositorio (EF).\nRellenar el DataSet tipado SociosReportDataSet.\nCrear el informe Crystal (InformeMaestroSocios).\nDevolver un ReportDocument listo para visualizar.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.yml\" sourcestartlinenumber=\"1\">Represents the strongly named DataTable class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.SociosReportDataSet.SociosRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.SociosReportDataSet.SociosRow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.SociosReportDataSet.SociosRow",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.Reports.SociosReportDataSet.SociosRow.yml\" sourcestartlinenumber=\"1\">Represents strongly named DataRow class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent.yml\" sourcestartlinenumber=\"1\">Row event argument class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.SociosReportDataSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.SociosReportDataSet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports.SociosReportDataSet",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.Reports.SociosReportDataSet.yml\" sourcestartlinenumber=\"1\">Represents a strongly typed in-memory cache of data.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.Reports.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.Reports.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.Reports",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.ReportsView.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.ReportsView.App.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.ReportsView.App",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.ReportsView.App.yml\" sourcestartlinenumber=\"1\">Interaction logic for App.xaml</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.ReportsView.Window1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.ReportsView.Window1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.ReportsView.Window1",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.ReportsView.Window1.yml\" sourcestartlinenumber=\"1\">Ventana genérica de visualización de informes Crystal Reports.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.ReportsView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.ReportsView.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.ReportsView",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.View.ActividadesWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.View.ActividadesWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.View.ActividadesWindow",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.View.ActividadesWindow.yml\" sourcestartlinenumber=\"1\">Ventana para gestionar las actividades del centro deportivo.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.View.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.View.App.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.View.App",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.View.App.yml\" sourcestartlinenumber=\"1\">Lógica de interacción para App.xaml</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.View.MenuWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.View.MenuWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.View.MenuWindow",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.View.MenuWindow.yml\" sourcestartlinenumber=\"1\">Ventana principal de la aplicación.\nMuestra las estadísticas del centro y permite acceder a las demás ventanas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.View.ReservasWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.View.ReservasWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.View.ReservasWindow",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.View.ReservasWindow.yml\" sourcestartlinenumber=\"1\">Ventana para gestionar las reservas del centro deportivo.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.View.SociosWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.View.SociosWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.View.SociosWindow",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.View.SociosWindow.yml\" sourcestartlinenumber=\"1\">Ventana para gestionar socios del centro deportivo.\nPermite crear, editar y eliminar socios, además de acceder a sus reservas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.View.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.View.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.View",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.ViewModel.ActividadesViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.ViewModel.ActividadesViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.ViewModel.ActividadesViewModel",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.ViewModel.ActividadesViewModel.yml\" sourcestartlinenumber=\"1\">ViewModel para la gestión de actividades.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.ViewModel.BaseValidableViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.ViewModel.BaseValidableViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.ViewModel.BaseValidableViewModel",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.ViewModel.BaseValidableViewModel.yml\" sourcestartlinenumber=\"1\">Clase base para ViewModels con validación.\nImplementa IDataErrorInfo de forma reutilizable.\nIMPORTANTE!!!! DE MOMENTO NO SE UTILIZA</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.ViewModel.BaseViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.ViewModel.BaseViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.ViewModel.BaseViewModel",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.ViewModel.BaseViewModel.yml\" sourcestartlinenumber=\"1\">Clase base para todos los ViewModels.\nImplementa INotifyPropertyChanged para que WPF\nse entere cuando cambian las propiedades.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.ViewModel.MenuPrincipalViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.ViewModel.MenuPrincipalViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.ViewModel.MenuPrincipalViewModel",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.ViewModel.MenuPrincipalViewModel.yml\" sourcestartlinenumber=\"1\">ViewModel del menú principal. Muestra las estadísticas generales del centro deportivo.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.ViewModel.RelayCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.ViewModel.RelayCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.ViewModel.RelayCommand",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.ViewModel.RelayCommand.yml\" sourcestartlinenumber=\"1\">Implementación sencilla de ICommand.\nPermite enlazar botones a métodos del ViewModel.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.ViewModel.ReservasViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.ViewModel.ReservasViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.ViewModel.ReservasViewModel",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.ViewModel.ReservasViewModel.yml\" sourcestartlinenumber=\"1\">ViewModel para gestionar las reservas del centro deportivo.\nControla la creación, edición y eliminación de reservas, validando aforos y fechas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.ViewModel.SociosViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.ViewModel.SociosViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.ViewModel.SociosViewModel",
+      "Summary": "<p sourcefile=\"api/CentroDeportivo.ViewModel.SociosViewModel.yml\" sourcestartlinenumber=\"1\">ViewModel para la gestión de socios.\nContiene la lógica que usará la ventana de socios.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.ViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.ViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.ViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.test.Test1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.test.Test1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.test.Test1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CentroDeportivo.test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CentroDeportivo.test.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CentroDeportivo.test",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/centroDeportivo.Model.Actividades.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/centroDeportivo.Model.Actividades.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "centroDeportivo.Model.Actividades",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/centroDeportivo.Model.CentroDeportivoEntities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/centroDeportivo.Model.CentroDeportivoEntities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "centroDeportivo.Model.CentroDeportivoEntities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/centroDeportivo.Model.Repositories.ActividadesRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/centroDeportivo.Model.Repositories.ActividadesRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "centroDeportivo.Model.Repositories.ActividadesRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/centroDeportivo.Model.Repositories.ReservasRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/centroDeportivo.Model.Repositories.ReservasRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "centroDeportivo.Model.Repositories.ReservasRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/centroDeportivo.Model.Repositories.SociosRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/centroDeportivo.Model.Repositories.SociosRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "centroDeportivo.Model.Repositories.SociosRepository",
+      "Summary": "<p sourcefile=\"api/centroDeportivo.Model.Repositories.SociosRepository.yml\" sourcestartlinenumber=\"1\">Repositorio para gestionar las operaciones de acceso a datos de Socios.\nPermite consultar, crear, actualizar y eliminar socios en la base de datos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/centroDeportivo.Model.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/centroDeportivo.Model.Repositories.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "centroDeportivo.Model.Repositories",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/centroDeportivo.Model.Reservas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/centroDeportivo.Model.Reservas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "centroDeportivo.Model.Reservas",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/centroDeportivo.Model.Socios.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/centroDeportivo.Model.Socios.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "centroDeportivo.Model.Socios",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/centroDeportivo.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/centroDeportivo.Model.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "centroDeportivo.Model",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

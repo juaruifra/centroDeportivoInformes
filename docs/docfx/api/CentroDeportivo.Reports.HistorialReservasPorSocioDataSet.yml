@@ -1,0 +1,4219 @@
+### YamlMime:ManagedReference
+items:
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  commentId: T:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  id: HistorialReservasPorSocioDataSet
+  parent: CentroDeportivo.Reports
+  children:
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.#ctor
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Clone
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.GetSchemaSerializable
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.GetTypedDataSetSchema(System.Xml.Schema.XmlSchemaSet)
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservas
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.InitializeDerivedDataSet
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ReadXmlSerializable(System.Xml.XmlReader)
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Relations
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.SchemaSerializationMode
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ShouldSerializeRelations
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ShouldSerializeTables
+  - CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Tables
+  langs:
+  - csharp
+  - vb
+  name: HistorialReservasPorSocioDataSet
+  nameWithType: HistorialReservasPorSocioDataSet
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  type: Class
+  source:
+    remote:
+      path: CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: HistorialReservasPorSocioDataSet
+    path: ../../CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+    startLine: 18
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  summary: Represents a strongly typed in-memory cache of data.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class HistorialReservasPorSocioDataSet : DataSet, IComponent, IDisposable, IServiceProvider, IListSource, IXmlSerializable, ISupportInitializeNotification, ISupportInitialize, ISerializable
+    content.vb: >-
+      <Serializable>
+
+      Public Class HistorialReservasPorSocioDataSet Inherits DataSet Implements IComponent, IDisposable, IServiceProvider, IListSource, IXmlSerializable, ISupportInitializeNotification, ISupportInitialize, ISerializable
+  inheritance:
+  - System.Object
+  - System.ComponentModel.MarshalByValueComponent
+  - System.Data.DataSet
+  implements:
+  - System.ComponentModel.IComponent
+  - System.IDisposable
+  - System.IServiceProvider
+  - System.ComponentModel.IListSource
+  - System.Xml.Serialization.IXmlSerializable
+  - System.ComponentModel.ISupportInitializeNotification
+  - System.ComponentModel.ISupportInitialize
+  - System.Runtime.Serialization.ISerializable
+  inheritedMembers:
+  - System.Data.DataSet.IsBinarySerialized(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Data.DataSet.DetermineSchemaSerializationMode(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Data.DataSet.DetermineSchemaSerializationMode(System.Xml.XmlReader)
+  - System.Data.DataSet.GetSerializationData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Data.DataSet.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Data.DataSet.AcceptChanges
+  - System.Data.DataSet.BeginInit
+  - System.Data.DataSet.EndInit
+  - System.Data.DataSet.Clear
+  - System.Data.DataSet.Copy
+  - System.Data.DataSet.GetChanges
+  - System.Data.DataSet.GetChanges(System.Data.DataRowState)
+  - System.Data.DataSet.GetXml
+  - System.Data.DataSet.GetXmlSchema
+  - System.Data.DataSet.HasChanges
+  - System.Data.DataSet.HasChanges(System.Data.DataRowState)
+  - System.Data.DataSet.InferXmlSchema(System.Xml.XmlReader,System.String[])
+  - System.Data.DataSet.InferXmlSchema(System.IO.Stream,System.String[])
+  - System.Data.DataSet.InferXmlSchema(System.IO.TextReader,System.String[])
+  - System.Data.DataSet.InferXmlSchema(System.String,System.String[])
+  - System.Data.DataSet.ReadXmlSchema(System.Xml.XmlReader)
+  - System.Data.DataSet.ReadXmlSchema(System.IO.Stream)
+  - System.Data.DataSet.ReadXmlSchema(System.IO.TextReader)
+  - System.Data.DataSet.ReadXmlSchema(System.String)
+  - System.Data.DataSet.WriteXmlSchema(System.IO.Stream)
+  - System.Data.DataSet.WriteXmlSchema(System.IO.Stream,System.Converter{System.Type,System.String})
+  - System.Data.DataSet.WriteXmlSchema(System.String)
+  - System.Data.DataSet.WriteXmlSchema(System.String,System.Converter{System.Type,System.String})
+  - System.Data.DataSet.WriteXmlSchema(System.IO.TextWriter)
+  - System.Data.DataSet.WriteXmlSchema(System.IO.TextWriter,System.Converter{System.Type,System.String})
+  - System.Data.DataSet.WriteXmlSchema(System.Xml.XmlWriter)
+  - System.Data.DataSet.WriteXmlSchema(System.Xml.XmlWriter,System.Converter{System.Type,System.String})
+  - System.Data.DataSet.ReadXml(System.Xml.XmlReader)
+  - System.Data.DataSet.ReadXml(System.IO.Stream)
+  - System.Data.DataSet.ReadXml(System.IO.TextReader)
+  - System.Data.DataSet.ReadXml(System.String)
+  - System.Data.DataSet.ReadXml(System.Xml.XmlReader,System.Data.XmlReadMode)
+  - System.Data.DataSet.ReadXml(System.IO.Stream,System.Data.XmlReadMode)
+  - System.Data.DataSet.ReadXml(System.IO.TextReader,System.Data.XmlReadMode)
+  - System.Data.DataSet.ReadXml(System.String,System.Data.XmlReadMode)
+  - System.Data.DataSet.WriteXml(System.IO.Stream)
+  - System.Data.DataSet.WriteXml(System.IO.TextWriter)
+  - System.Data.DataSet.WriteXml(System.Xml.XmlWriter)
+  - System.Data.DataSet.WriteXml(System.String)
+  - System.Data.DataSet.WriteXml(System.IO.Stream,System.Data.XmlWriteMode)
+  - System.Data.DataSet.WriteXml(System.IO.TextWriter,System.Data.XmlWriteMode)
+  - System.Data.DataSet.WriteXml(System.Xml.XmlWriter,System.Data.XmlWriteMode)
+  - System.Data.DataSet.WriteXml(System.String,System.Data.XmlWriteMode)
+  - System.Data.DataSet.Merge(System.Data.DataSet)
+  - System.Data.DataSet.Merge(System.Data.DataSet,System.Boolean)
+  - System.Data.DataSet.Merge(System.Data.DataSet,System.Boolean,System.Data.MissingSchemaAction)
+  - System.Data.DataSet.Merge(System.Data.DataTable)
+  - System.Data.DataSet.Merge(System.Data.DataTable,System.Boolean,System.Data.MissingSchemaAction)
+  - System.Data.DataSet.Merge(System.Data.DataRow[])
+  - System.Data.DataSet.Merge(System.Data.DataRow[],System.Boolean,System.Data.MissingSchemaAction)
+  - System.Data.DataSet.OnPropertyChanging(System.ComponentModel.PropertyChangedEventArgs)
+  - System.Data.DataSet.OnRemoveTable(System.Data.DataTable)
+  - System.Data.DataSet.OnRemoveRelation(System.Data.DataRelation)
+  - System.Data.DataSet.RaisePropertyChanging(System.String)
+  - System.Data.DataSet.RejectChanges
+  - System.Data.DataSet.Reset
+  - System.Data.DataSet.GetDataSetSchema(System.Xml.Schema.XmlSchemaSet)
+  - System.Data.DataSet.Load(System.Data.IDataReader,System.Data.LoadOption,System.Data.FillErrorEventHandler,System.Data.DataTable[])
+  - System.Data.DataSet.Load(System.Data.IDataReader,System.Data.LoadOption,System.Data.DataTable[])
+  - System.Data.DataSet.Load(System.Data.IDataReader,System.Data.LoadOption,System.String[])
+  - System.Data.DataSet.CreateDataReader
+  - System.Data.DataSet.CreateDataReader(System.Data.DataTable[])
+  - System.Data.DataSet.RemotingFormat
+  - System.Data.DataSet.CaseSensitive
+  - System.Data.DataSet.DefaultViewManager
+  - System.Data.DataSet.EnforceConstraints
+  - System.Data.DataSet.DataSetName
+  - System.Data.DataSet.Namespace
+  - System.Data.DataSet.Prefix
+  - System.Data.DataSet.ExtendedProperties
+  - System.Data.DataSet.HasErrors
+  - System.Data.DataSet.IsInitialized
+  - System.Data.DataSet.Locale
+  - System.Data.DataSet.Site
+  - System.Data.DataSet.MergeFailed
+  - System.Data.DataSet.Initialized
+  - System.ComponentModel.MarshalByValueComponent.Dispose
+  - System.ComponentModel.MarshalByValueComponent.Dispose(System.Boolean)
+  - System.ComponentModel.MarshalByValueComponent.GetService(System.Type)
+  - System.ComponentModel.MarshalByValueComponent.ToString
+  - System.ComponentModel.MarshalByValueComponent.Events
+  - System.ComponentModel.MarshalByValueComponent.Container
+  - System.ComponentModel.MarshalByValueComponent.DesignMode
+  - System.ComponentModel.MarshalByValueComponent.Disposed
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.#ctor
+  commentId: M:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.#ctor
+  id: '#ctor'
+  parent: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  langs:
+  - csharp
+  - vb
+  name: HistorialReservasPorSocioDataSet()
+  nameWithType: HistorialReservasPorSocioDataSet.HistorialReservasPorSocioDataSet()
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasPorSocioDataSet()
+  type: Constructor
+  source:
+    remote:
+      path: CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: .ctor
+    path: ../../CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+    startLine: 30
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public HistorialReservasPorSocioDataSet()
+    content.vb: Public Sub New()
+  overload: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.#ctor*
+  nameWithType.vb: HistorialReservasPorSocioDataSet.New()
+  fullName.vb: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.New()
+  name.vb: New()
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  langs:
+  - csharp
+  - vb
+  name: HistorialReservasPorSocioDataSet(SerializationInfo, StreamingContext)
+  nameWithType: HistorialReservasPorSocioDataSet.HistorialReservasPorSocioDataSet(SerializationInfo, StreamingContext)
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasPorSocioDataSet(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  type: Constructor
+  source:
+    remote:
+      path: CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: .ctor
+    path: ../../CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+    startLine: 41
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: protected HistorialReservasPorSocioDataSet(SerializationInfo info, StreamingContext context)
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+    content.vb: Protected Sub New(info As SerializationInfo, context As StreamingContext)
+  overload: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.#ctor*
+  nameWithType.vb: HistorialReservasPorSocioDataSet.New(SerializationInfo, StreamingContext)
+  fullName.vb: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  name.vb: New(SerializationInfo, StreamingContext)
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservas
+  commentId: P:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservas
+  id: HistorialReservas
+  parent: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  langs:
+  - csharp
+  - vb
+  name: HistorialReservas
+  nameWithType: HistorialReservasPorSocioDataSet.HistorialReservas
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservas
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: HistorialReservas
+    path: ../../CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+    startLine: 77
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: >-
+      [Browsable(false)]
+
+      public HistorialReservasPorSocioDataSet.HistorialReservasDataTable HistorialReservas { get; }
+    parameters: []
+    return:
+      type: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+    content.vb: >-
+      <Browsable(False)>
+
+      Public ReadOnly Property HistorialReservas As HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+  overload: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservas*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.SchemaSerializationMode
+  commentId: P:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.SchemaSerializationMode
+  id: SchemaSerializationMode
+  parent: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  langs:
+  - csharp
+  - vb
+  name: SchemaSerializationMode
+  nameWithType: HistorialReservasPorSocioDataSet.SchemaSerializationMode
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.SchemaSerializationMode
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: SchemaSerializationMode
+    path: ../../CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+    startLine: 87
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  example: []
+  syntax:
+    content: >-
+      [Browsable(true)]
+
+      public override SchemaSerializationMode SchemaSerializationMode { get; set; }
+    parameters: []
+    return:
+      type: System.Data.SchemaSerializationMode
+    content.vb: >-
+      <Browsable(True)>
+
+      Public Overrides Property SchemaSerializationMode As SchemaSerializationMode
+  overridden: System.Data.DataSet.SchemaSerializationMode
+  overload: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.SchemaSerializationMode*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Tables
+  commentId: P:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Tables
+  id: Tables
+  parent: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  langs:
+  - csharp
+  - vb
+  name: Tables
+  nameWithType: HistorialReservasPorSocioDataSet.Tables
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Tables
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Tables
+    path: ../../CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+    startLine: 100
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public DataTableCollection Tables { get; }
+    parameters: []
+    return:
+      type: System.Data.DataTableCollection
+    content.vb: Public ReadOnly Property Tables As DataTableCollection
+  overload: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Tables*
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Relations
+  commentId: P:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Relations
+  id: Relations
+  parent: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  langs:
+  - csharp
+  - vb
+  name: Relations
+  nameWithType: HistorialReservasPorSocioDataSet.Relations
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Relations
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Relations
+    path: ../../CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+    startLine: 109
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public DataRelationCollection Relations { get; }
+    parameters: []
+    return:
+      type: System.Data.DataRelationCollection
+    content.vb: Public ReadOnly Property Relations As DataRelationCollection
+  overload: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Relations*
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.InitializeDerivedDataSet
+  commentId: M:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.InitializeDerivedDataSet
+  id: InitializeDerivedDataSet
+  parent: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  langs:
+  - csharp
+  - vb
+  name: InitializeDerivedDataSet()
+  nameWithType: HistorialReservasPorSocioDataSet.InitializeDerivedDataSet()
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.InitializeDerivedDataSet()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: InitializeDerivedDataSet
+    path: ../../CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+    startLine: 118
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  example: []
+  syntax:
+    content: protected override void InitializeDerivedDataSet()
+    content.vb: Protected Overrides Sub InitializeDerivedDataSet()
+  overridden: System.Data.DataSet.InitializeDerivedDataSet
+  overload: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.InitializeDerivedDataSet*
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Clone
+  commentId: M:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Clone
+  id: Clone
+  parent: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: HistorialReservasPorSocioDataSet.Clone()
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Clone()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Clone
+    path: ../../CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+    startLine: 126
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  example: []
+  syntax:
+    content: public override DataSet Clone()
+    return:
+      type: System.Data.DataSet
+    content.vb: Public Overrides Function Clone() As DataSet
+  overridden: System.Data.DataSet.Clone
+  overload: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Clone*
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ShouldSerializeTables
+  commentId: M:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ShouldSerializeTables
+  id: ShouldSerializeTables
+  parent: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  langs:
+  - csharp
+  - vb
+  name: ShouldSerializeTables()
+  nameWithType: HistorialReservasPorSocioDataSet.ShouldSerializeTables()
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ShouldSerializeTables()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: ShouldSerializeTables
+    path: ../../CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+    startLine: 135
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  example: []
+  syntax:
+    content: protected override bool ShouldSerializeTables()
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides Function ShouldSerializeTables() As Boolean
+  overridden: System.Data.DataSet.ShouldSerializeTables
+  overload: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ShouldSerializeTables*
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ShouldSerializeRelations
+  commentId: M:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ShouldSerializeRelations
+  id: ShouldSerializeRelations
+  parent: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  langs:
+  - csharp
+  - vb
+  name: ShouldSerializeRelations()
+  nameWithType: HistorialReservasPorSocioDataSet.ShouldSerializeRelations()
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ShouldSerializeRelations()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: ShouldSerializeRelations
+    path: ../../CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+    startLine: 141
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  example: []
+  syntax:
+    content: protected override bool ShouldSerializeRelations()
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides Function ShouldSerializeRelations() As Boolean
+  overridden: System.Data.DataSet.ShouldSerializeRelations
+  overload: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ShouldSerializeRelations*
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ReadXmlSerializable(System.Xml.XmlReader)
+  commentId: M:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ReadXmlSerializable(System.Xml.XmlReader)
+  id: ReadXmlSerializable(System.Xml.XmlReader)
+  parent: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  langs:
+  - csharp
+  - vb
+  name: ReadXmlSerializable(XmlReader)
+  nameWithType: HistorialReservasPorSocioDataSet.ReadXmlSerializable(XmlReader)
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ReadXmlSerializable(System.Xml.XmlReader)
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: ReadXmlSerializable
+    path: ../../CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+    startLine: 147
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  example: []
+  syntax:
+    content: protected override void ReadXmlSerializable(XmlReader reader)
+    parameters:
+    - id: reader
+      type: System.Xml.XmlReader
+    content.vb: Protected Overrides Sub ReadXmlSerializable(reader As XmlReader)
+  overridden: System.Data.DataSet.ReadXmlSerializable(System.Xml.XmlReader)
+  overload: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ReadXmlSerializable*
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.GetSchemaSerializable
+  commentId: M:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.GetSchemaSerializable
+  id: GetSchemaSerializable
+  parent: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  langs:
+  - csharp
+  - vb
+  name: GetSchemaSerializable()
+  nameWithType: HistorialReservasPorSocioDataSet.GetSchemaSerializable()
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.GetSchemaSerializable()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: GetSchemaSerializable
+    path: ../../CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+    startLine: 172
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  example: []
+  syntax:
+    content: protected override XmlSchema GetSchemaSerializable()
+    return:
+      type: System.Xml.Schema.XmlSchema
+    content.vb: Protected Overrides Function GetSchemaSerializable() As XmlSchema
+  overridden: System.Data.DataSet.GetSchemaSerializable
+  overload: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.GetSchemaSerializable*
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.GetTypedDataSetSchema(System.Xml.Schema.XmlSchemaSet)
+  commentId: M:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.GetTypedDataSetSchema(System.Xml.Schema.XmlSchemaSet)
+  id: GetTypedDataSetSchema(System.Xml.Schema.XmlSchemaSet)
+  parent: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+  langs:
+  - csharp
+  - vb
+  name: GetTypedDataSetSchema(XmlSchemaSet)
+  nameWithType: HistorialReservasPorSocioDataSet.GetTypedDataSetSchema(XmlSchemaSet)
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.GetTypedDataSetSchema(System.Xml.Schema.XmlSchemaSet)
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: GetTypedDataSetSchema
+    path: ../../CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+    startLine: 224
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public static XmlSchemaComplexType GetTypedDataSetSchema(XmlSchemaSet xs)
+    parameters:
+    - id: xs
+      type: System.Xml.Schema.XmlSchemaSet
+    return:
+      type: System.Xml.Schema.XmlSchemaComplexType
+    content.vb: Public Shared Function GetTypedDataSetSchema(xs As XmlSchemaSet) As XmlSchemaComplexType
+  overload: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.GetTypedDataSetSchema*
+references:
+- uid: CentroDeportivo.Reports
+  commentId: N:CentroDeportivo.Reports
+  href: CentroDeportivo.html
+  name: CentroDeportivo.Reports
+  nameWithType: CentroDeportivo.Reports
+  fullName: CentroDeportivo.Reports
+  spec.csharp:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.Reports
+    name: Reports
+    href: CentroDeportivo.Reports.html
+  spec.vb:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.Reports
+    name: Reports
+    href: CentroDeportivo.Reports.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.ComponentModel.MarshalByValueComponent
+  commentId: T:System.ComponentModel.MarshalByValueComponent
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent
+  name: MarshalByValueComponent
+  nameWithType: MarshalByValueComponent
+  fullName: System.ComponentModel.MarshalByValueComponent
+- uid: System.Data.DataSet
+  commentId: T:System.Data.DataSet
+  parent: System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset
+  name: DataSet
+  nameWithType: DataSet
+  fullName: System.Data.DataSet
+- uid: System.ComponentModel.IComponent
+  commentId: T:System.ComponentModel.IComponent
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.icomponent
+  name: IComponent
+  nameWithType: IComponent
+  fullName: System.ComponentModel.IComponent
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: System.ComponentModel.IListSource
+  commentId: T:System.ComponentModel.IListSource
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.ilistsource
+  name: IListSource
+  nameWithType: IListSource
+  fullName: System.ComponentModel.IListSource
+- uid: System.Xml.Serialization.IXmlSerializable
+  commentId: T:System.Xml.Serialization.IXmlSerializable
+  parent: System.Xml.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.xml.serialization.ixmlserializable
+  name: IXmlSerializable
+  nameWithType: IXmlSerializable
+  fullName: System.Xml.Serialization.IXmlSerializable
+- uid: System.ComponentModel.ISupportInitializeNotification
+  commentId: T:System.ComponentModel.ISupportInitializeNotification
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.isupportinitializenotification
+  name: ISupportInitializeNotification
+  nameWithType: ISupportInitializeNotification
+  fullName: System.ComponentModel.ISupportInitializeNotification
+- uid: System.ComponentModel.ISupportInitialize
+  commentId: T:System.ComponentModel.ISupportInitialize
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.isupportinitialize
+  name: ISupportInitialize
+  nameWithType: ISupportInitialize
+  fullName: System.ComponentModel.ISupportInitialize
+- uid: System.Runtime.Serialization.ISerializable
+  commentId: T:System.Runtime.Serialization.ISerializable
+  parent: System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: System.Runtime.Serialization.ISerializable
+- uid: System.Data.DataSet.IsBinarySerialized(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:System.Data.DataSet.IsBinarySerialized(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.isbinaryserialized
+  name: IsBinarySerialized(SerializationInfo, StreamingContext)
+  nameWithType: DataSet.IsBinarySerialized(SerializationInfo, StreamingContext)
+  fullName: System.Data.DataSet.IsBinarySerialized(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  spec.csharp:
+  - uid: System.Data.DataSet.IsBinarySerialized(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: IsBinarySerialized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.isbinaryserialized
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.IsBinarySerialized(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: IsBinarySerialized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.isbinaryserialized
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+- uid: System.Data.DataSet.DetermineSchemaSerializationMode(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:System.Data.DataSet.DetermineSchemaSerializationMode(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.determineschemaserializationmode#system-data-dataset-determineschemaserializationmode(system-runtime-serialization-serializationinfo-system-runtime-serialization-streamingcontext)
+  name: DetermineSchemaSerializationMode(SerializationInfo, StreamingContext)
+  nameWithType: DataSet.DetermineSchemaSerializationMode(SerializationInfo, StreamingContext)
+  fullName: System.Data.DataSet.DetermineSchemaSerializationMode(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  spec.csharp:
+  - uid: System.Data.DataSet.DetermineSchemaSerializationMode(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: DetermineSchemaSerializationMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.determineschemaserializationmode#system-data-dataset-determineschemaserializationmode(system-runtime-serialization-serializationinfo-system-runtime-serialization-streamingcontext)
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.DetermineSchemaSerializationMode(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: DetermineSchemaSerializationMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.determineschemaserializationmode#system-data-dataset-determineschemaserializationmode(system-runtime-serialization-serializationinfo-system-runtime-serialization-streamingcontext)
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+- uid: System.Data.DataSet.DetermineSchemaSerializationMode(System.Xml.XmlReader)
+  commentId: M:System.Data.DataSet.DetermineSchemaSerializationMode(System.Xml.XmlReader)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.determineschemaserializationmode#system-data-dataset-determineschemaserializationmode(system-xml-xmlreader)
+  name: DetermineSchemaSerializationMode(XmlReader)
+  nameWithType: DataSet.DetermineSchemaSerializationMode(XmlReader)
+  fullName: System.Data.DataSet.DetermineSchemaSerializationMode(System.Xml.XmlReader)
+  spec.csharp:
+  - uid: System.Data.DataSet.DetermineSchemaSerializationMode(System.Xml.XmlReader)
+    name: DetermineSchemaSerializationMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.determineschemaserializationmode#system-data-dataset-determineschemaserializationmode(system-xml-xmlreader)
+  - name: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlreader
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.DetermineSchemaSerializationMode(System.Xml.XmlReader)
+    name: DetermineSchemaSerializationMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.determineschemaserializationmode#system-data-dataset-determineschemaserializationmode(system-xml-xmlreader)
+  - name: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlreader
+  - name: )
+- uid: System.Data.DataSet.GetSerializationData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:System.Data.DataSet.GetSerializationData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getserializationdata
+  name: GetSerializationData(SerializationInfo, StreamingContext)
+  nameWithType: DataSet.GetSerializationData(SerializationInfo, StreamingContext)
+  fullName: System.Data.DataSet.GetSerializationData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  spec.csharp:
+  - uid: System.Data.DataSet.GetSerializationData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetSerializationData
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getserializationdata
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.GetSerializationData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetSerializationData
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getserializationdata
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+- uid: System.Data.DataSet.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:System.Data.DataSet.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getobjectdata
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  nameWithType: DataSet.GetObjectData(SerializationInfo, StreamingContext)
+  fullName: System.Data.DataSet.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  spec.csharp:
+  - uid: System.Data.DataSet.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getobjectdata
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getobjectdata
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+- uid: System.Data.DataSet.AcceptChanges
+  commentId: M:System.Data.DataSet.AcceptChanges
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.acceptchanges
+  name: AcceptChanges()
+  nameWithType: DataSet.AcceptChanges()
+  fullName: System.Data.DataSet.AcceptChanges()
+  spec.csharp:
+  - uid: System.Data.DataSet.AcceptChanges
+    name: AcceptChanges
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.acceptchanges
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.AcceptChanges
+    name: AcceptChanges
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.acceptchanges
+  - name: (
+  - name: )
+- uid: System.Data.DataSet.BeginInit
+  commentId: M:System.Data.DataSet.BeginInit
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.begininit
+  name: BeginInit()
+  nameWithType: DataSet.BeginInit()
+  fullName: System.Data.DataSet.BeginInit()
+  spec.csharp:
+  - uid: System.Data.DataSet.BeginInit
+    name: BeginInit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.begininit
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.BeginInit
+    name: BeginInit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.begininit
+  - name: (
+  - name: )
+- uid: System.Data.DataSet.EndInit
+  commentId: M:System.Data.DataSet.EndInit
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.endinit
+  name: EndInit()
+  nameWithType: DataSet.EndInit()
+  fullName: System.Data.DataSet.EndInit()
+  spec.csharp:
+  - uid: System.Data.DataSet.EndInit
+    name: EndInit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.endinit
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.EndInit
+    name: EndInit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.endinit
+  - name: (
+  - name: )
+- uid: System.Data.DataSet.Clear
+  commentId: M:System.Data.DataSet.Clear
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.clear
+  name: Clear()
+  nameWithType: DataSet.Clear()
+  fullName: System.Data.DataSet.Clear()
+  spec.csharp:
+  - uid: System.Data.DataSet.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.clear
+  - name: (
+  - name: )
+- uid: System.Data.DataSet.Copy
+  commentId: M:System.Data.DataSet.Copy
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.copy
+  name: Copy()
+  nameWithType: DataSet.Copy()
+  fullName: System.Data.DataSet.Copy()
+  spec.csharp:
+  - uid: System.Data.DataSet.Copy
+    name: Copy
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.copy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.Copy
+    name: Copy
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.copy
+  - name: (
+  - name: )
+- uid: System.Data.DataSet.GetChanges
+  commentId: M:System.Data.DataSet.GetChanges
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getchanges#system-data-dataset-getchanges
+  name: GetChanges()
+  nameWithType: DataSet.GetChanges()
+  fullName: System.Data.DataSet.GetChanges()
+  spec.csharp:
+  - uid: System.Data.DataSet.GetChanges
+    name: GetChanges
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getchanges#system-data-dataset-getchanges
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.GetChanges
+    name: GetChanges
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getchanges#system-data-dataset-getchanges
+  - name: (
+  - name: )
+- uid: System.Data.DataSet.GetChanges(System.Data.DataRowState)
+  commentId: M:System.Data.DataSet.GetChanges(System.Data.DataRowState)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getchanges#system-data-dataset-getchanges(system-data-datarowstate)
+  name: GetChanges(DataRowState)
+  nameWithType: DataSet.GetChanges(DataRowState)
+  fullName: System.Data.DataSet.GetChanges(System.Data.DataRowState)
+  spec.csharp:
+  - uid: System.Data.DataSet.GetChanges(System.Data.DataRowState)
+    name: GetChanges
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getchanges#system-data-dataset-getchanges(system-data-datarowstate)
+  - name: (
+  - uid: System.Data.DataRowState
+    name: DataRowState
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowstate
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.GetChanges(System.Data.DataRowState)
+    name: GetChanges
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getchanges#system-data-dataset-getchanges(system-data-datarowstate)
+  - name: (
+  - uid: System.Data.DataRowState
+    name: DataRowState
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowstate
+  - name: )
+- uid: System.Data.DataSet.GetXml
+  commentId: M:System.Data.DataSet.GetXml
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getxml
+  name: GetXml()
+  nameWithType: DataSet.GetXml()
+  fullName: System.Data.DataSet.GetXml()
+  spec.csharp:
+  - uid: System.Data.DataSet.GetXml
+    name: GetXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getxml
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.GetXml
+    name: GetXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getxml
+  - name: (
+  - name: )
+- uid: System.Data.DataSet.GetXmlSchema
+  commentId: M:System.Data.DataSet.GetXmlSchema
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getxmlschema
+  name: GetXmlSchema()
+  nameWithType: DataSet.GetXmlSchema()
+  fullName: System.Data.DataSet.GetXmlSchema()
+  spec.csharp:
+  - uid: System.Data.DataSet.GetXmlSchema
+    name: GetXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getxmlschema
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.GetXmlSchema
+    name: GetXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getxmlschema
+  - name: (
+  - name: )
+- uid: System.Data.DataSet.HasChanges
+  commentId: M:System.Data.DataSet.HasChanges
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.haschanges#system-data-dataset-haschanges
+  name: HasChanges()
+  nameWithType: DataSet.HasChanges()
+  fullName: System.Data.DataSet.HasChanges()
+  spec.csharp:
+  - uid: System.Data.DataSet.HasChanges
+    name: HasChanges
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.haschanges#system-data-dataset-haschanges
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.HasChanges
+    name: HasChanges
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.haschanges#system-data-dataset-haschanges
+  - name: (
+  - name: )
+- uid: System.Data.DataSet.HasChanges(System.Data.DataRowState)
+  commentId: M:System.Data.DataSet.HasChanges(System.Data.DataRowState)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.haschanges#system-data-dataset-haschanges(system-data-datarowstate)
+  name: HasChanges(DataRowState)
+  nameWithType: DataSet.HasChanges(DataRowState)
+  fullName: System.Data.DataSet.HasChanges(System.Data.DataRowState)
+  spec.csharp:
+  - uid: System.Data.DataSet.HasChanges(System.Data.DataRowState)
+    name: HasChanges
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.haschanges#system-data-dataset-haschanges(system-data-datarowstate)
+  - name: (
+  - uid: System.Data.DataRowState
+    name: DataRowState
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowstate
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.HasChanges(System.Data.DataRowState)
+    name: HasChanges
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.haschanges#system-data-dataset-haschanges(system-data-datarowstate)
+  - name: (
+  - uid: System.Data.DataRowState
+    name: DataRowState
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowstate
+  - name: )
+- uid: System.Data.DataSet.InferXmlSchema(System.Xml.XmlReader,System.String[])
+  commentId: M:System.Data.DataSet.InferXmlSchema(System.Xml.XmlReader,System.String[])
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.inferxmlschema#system-data-dataset-inferxmlschema(system-xml-xmlreader-system-string())
+  name: InferXmlSchema(XmlReader, string[])
+  nameWithType: DataSet.InferXmlSchema(XmlReader, string[])
+  fullName: System.Data.DataSet.InferXmlSchema(System.Xml.XmlReader, string[])
+  nameWithType.vb: DataSet.InferXmlSchema(XmlReader, String())
+  fullName.vb: System.Data.DataSet.InferXmlSchema(System.Xml.XmlReader, String())
+  name.vb: InferXmlSchema(XmlReader, String())
+  spec.csharp:
+  - uid: System.Data.DataSet.InferXmlSchema(System.Xml.XmlReader,System.String[])
+    name: InferXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.inferxmlschema#system-data-dataset-inferxmlschema(system-xml-xmlreader-system-string())
+  - name: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlreader
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.InferXmlSchema(System.Xml.XmlReader,System.String[])
+    name: InferXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.inferxmlschema#system-data-dataset-inferxmlschema(system-xml-xmlreader-system-string())
+  - name: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlreader
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Data.DataSet.InferXmlSchema(System.IO.Stream,System.String[])
+  commentId: M:System.Data.DataSet.InferXmlSchema(System.IO.Stream,System.String[])
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.inferxmlschema#system-data-dataset-inferxmlschema(system-io-stream-system-string())
+  name: InferXmlSchema(Stream, string[])
+  nameWithType: DataSet.InferXmlSchema(Stream, string[])
+  fullName: System.Data.DataSet.InferXmlSchema(System.IO.Stream, string[])
+  nameWithType.vb: DataSet.InferXmlSchema(Stream, String())
+  fullName.vb: System.Data.DataSet.InferXmlSchema(System.IO.Stream, String())
+  name.vb: InferXmlSchema(Stream, String())
+  spec.csharp:
+  - uid: System.Data.DataSet.InferXmlSchema(System.IO.Stream,System.String[])
+    name: InferXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.inferxmlschema#system-data-dataset-inferxmlschema(system-io-stream-system-string())
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.InferXmlSchema(System.IO.Stream,System.String[])
+    name: InferXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.inferxmlschema#system-data-dataset-inferxmlschema(system-io-stream-system-string())
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Data.DataSet.InferXmlSchema(System.IO.TextReader,System.String[])
+  commentId: M:System.Data.DataSet.InferXmlSchema(System.IO.TextReader,System.String[])
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.inferxmlschema#system-data-dataset-inferxmlschema(system-io-textreader-system-string())
+  name: InferXmlSchema(TextReader, string[])
+  nameWithType: DataSet.InferXmlSchema(TextReader, string[])
+  fullName: System.Data.DataSet.InferXmlSchema(System.IO.TextReader, string[])
+  nameWithType.vb: DataSet.InferXmlSchema(TextReader, String())
+  fullName.vb: System.Data.DataSet.InferXmlSchema(System.IO.TextReader, String())
+  name.vb: InferXmlSchema(TextReader, String())
+  spec.csharp:
+  - uid: System.Data.DataSet.InferXmlSchema(System.IO.TextReader,System.String[])
+    name: InferXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.inferxmlschema#system-data-dataset-inferxmlschema(system-io-textreader-system-string())
+  - name: (
+  - uid: System.IO.TextReader
+    name: TextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.InferXmlSchema(System.IO.TextReader,System.String[])
+    name: InferXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.inferxmlschema#system-data-dataset-inferxmlschema(system-io-textreader-system-string())
+  - name: (
+  - uid: System.IO.TextReader
+    name: TextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Data.DataSet.InferXmlSchema(System.String,System.String[])
+  commentId: M:System.Data.DataSet.InferXmlSchema(System.String,System.String[])
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.inferxmlschema#system-data-dataset-inferxmlschema(system-string-system-string())
+  name: InferXmlSchema(string, string[])
+  nameWithType: DataSet.InferXmlSchema(string, string[])
+  fullName: System.Data.DataSet.InferXmlSchema(string, string[])
+  nameWithType.vb: DataSet.InferXmlSchema(String, String())
+  fullName.vb: System.Data.DataSet.InferXmlSchema(String, String())
+  name.vb: InferXmlSchema(String, String())
+  spec.csharp:
+  - uid: System.Data.DataSet.InferXmlSchema(System.String,System.String[])
+    name: InferXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.inferxmlschema#system-data-dataset-inferxmlschema(system-string-system-string())
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.InferXmlSchema(System.String,System.String[])
+    name: InferXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.inferxmlschema#system-data-dataset-inferxmlschema(system-string-system-string())
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Data.DataSet.ReadXmlSchema(System.Xml.XmlReader)
+  commentId: M:System.Data.DataSet.ReadXmlSchema(System.Xml.XmlReader)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlschema#system-data-dataset-readxmlschema(system-xml-xmlreader)
+  name: ReadXmlSchema(XmlReader)
+  nameWithType: DataSet.ReadXmlSchema(XmlReader)
+  fullName: System.Data.DataSet.ReadXmlSchema(System.Xml.XmlReader)
+  spec.csharp:
+  - uid: System.Data.DataSet.ReadXmlSchema(System.Xml.XmlReader)
+    name: ReadXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlschema#system-data-dataset-readxmlschema(system-xml-xmlreader)
+  - name: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlreader
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.ReadXmlSchema(System.Xml.XmlReader)
+    name: ReadXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlschema#system-data-dataset-readxmlschema(system-xml-xmlreader)
+  - name: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlreader
+  - name: )
+- uid: System.Data.DataSet.ReadXmlSchema(System.IO.Stream)
+  commentId: M:System.Data.DataSet.ReadXmlSchema(System.IO.Stream)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlschema#system-data-dataset-readxmlschema(system-io-stream)
+  name: ReadXmlSchema(Stream)
+  nameWithType: DataSet.ReadXmlSchema(Stream)
+  fullName: System.Data.DataSet.ReadXmlSchema(System.IO.Stream)
+  spec.csharp:
+  - uid: System.Data.DataSet.ReadXmlSchema(System.IO.Stream)
+    name: ReadXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlschema#system-data-dataset-readxmlschema(system-io-stream)
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.ReadXmlSchema(System.IO.Stream)
+    name: ReadXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlschema#system-data-dataset-readxmlschema(system-io-stream)
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+- uid: System.Data.DataSet.ReadXmlSchema(System.IO.TextReader)
+  commentId: M:System.Data.DataSet.ReadXmlSchema(System.IO.TextReader)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlschema#system-data-dataset-readxmlschema(system-io-textreader)
+  name: ReadXmlSchema(TextReader)
+  nameWithType: DataSet.ReadXmlSchema(TextReader)
+  fullName: System.Data.DataSet.ReadXmlSchema(System.IO.TextReader)
+  spec.csharp:
+  - uid: System.Data.DataSet.ReadXmlSchema(System.IO.TextReader)
+    name: ReadXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlschema#system-data-dataset-readxmlschema(system-io-textreader)
+  - name: (
+  - uid: System.IO.TextReader
+    name: TextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.ReadXmlSchema(System.IO.TextReader)
+    name: ReadXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlschema#system-data-dataset-readxmlschema(system-io-textreader)
+  - name: (
+  - uid: System.IO.TextReader
+    name: TextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  - name: )
+- uid: System.Data.DataSet.ReadXmlSchema(System.String)
+  commentId: M:System.Data.DataSet.ReadXmlSchema(System.String)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlschema#system-data-dataset-readxmlschema(system-string)
+  name: ReadXmlSchema(string)
+  nameWithType: DataSet.ReadXmlSchema(string)
+  fullName: System.Data.DataSet.ReadXmlSchema(string)
+  nameWithType.vb: DataSet.ReadXmlSchema(String)
+  fullName.vb: System.Data.DataSet.ReadXmlSchema(String)
+  name.vb: ReadXmlSchema(String)
+  spec.csharp:
+  - uid: System.Data.DataSet.ReadXmlSchema(System.String)
+    name: ReadXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlschema#system-data-dataset-readxmlschema(system-string)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.ReadXmlSchema(System.String)
+    name: ReadXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlschema#system-data-dataset-readxmlschema(system-string)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Data.DataSet.WriteXmlSchema(System.IO.Stream)
+  commentId: M:System.Data.DataSet.WriteXmlSchema(System.IO.Stream)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-io-stream)
+  name: WriteXmlSchema(Stream)
+  nameWithType: DataSet.WriteXmlSchema(Stream)
+  fullName: System.Data.DataSet.WriteXmlSchema(System.IO.Stream)
+  spec.csharp:
+  - uid: System.Data.DataSet.WriteXmlSchema(System.IO.Stream)
+    name: WriteXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-io-stream)
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.WriteXmlSchema(System.IO.Stream)
+    name: WriteXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-io-stream)
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+- uid: System.Data.DataSet.WriteXmlSchema(System.IO.Stream,System.Converter{System.Type,System.String})
+  commentId: M:System.Data.DataSet.WriteXmlSchema(System.IO.Stream,System.Converter{System.Type,System.String})
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-io-stream-system-converter((system-type-system-string)))
+  name: WriteXmlSchema(Stream, Converter<Type, string>)
+  nameWithType: DataSet.WriteXmlSchema(Stream, Converter<Type, string>)
+  fullName: System.Data.DataSet.WriteXmlSchema(System.IO.Stream, System.Converter<System.Type, string>)
+  nameWithType.vb: DataSet.WriteXmlSchema(Stream, Converter(Of Type, String))
+  fullName.vb: System.Data.DataSet.WriteXmlSchema(System.IO.Stream, System.Converter(Of System.Type, String))
+  name.vb: WriteXmlSchema(Stream, Converter(Of Type, String))
+  spec.csharp:
+  - uid: System.Data.DataSet.WriteXmlSchema(System.IO.Stream,System.Converter{System.Type,System.String})
+    name: WriteXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-io-stream-system-converter((system-type-system-string)))
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Converter`2
+    name: Converter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.converter-2
+  - name: <
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.WriteXmlSchema(System.IO.Stream,System.Converter{System.Type,System.String})
+    name: WriteXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-io-stream-system-converter((system-type-system-string)))
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Converter`2
+    name: Converter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.converter-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: System.Data.DataSet.WriteXmlSchema(System.String)
+  commentId: M:System.Data.DataSet.WriteXmlSchema(System.String)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-string)
+  name: WriteXmlSchema(string)
+  nameWithType: DataSet.WriteXmlSchema(string)
+  fullName: System.Data.DataSet.WriteXmlSchema(string)
+  nameWithType.vb: DataSet.WriteXmlSchema(String)
+  fullName.vb: System.Data.DataSet.WriteXmlSchema(String)
+  name.vb: WriteXmlSchema(String)
+  spec.csharp:
+  - uid: System.Data.DataSet.WriteXmlSchema(System.String)
+    name: WriteXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-string)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.WriteXmlSchema(System.String)
+    name: WriteXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-string)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Data.DataSet.WriteXmlSchema(System.String,System.Converter{System.Type,System.String})
+  commentId: M:System.Data.DataSet.WriteXmlSchema(System.String,System.Converter{System.Type,System.String})
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-string-system-converter((system-type-system-string)))
+  name: WriteXmlSchema(string, Converter<Type, string>)
+  nameWithType: DataSet.WriteXmlSchema(string, Converter<Type, string>)
+  fullName: System.Data.DataSet.WriteXmlSchema(string, System.Converter<System.Type, string>)
+  nameWithType.vb: DataSet.WriteXmlSchema(String, Converter(Of Type, String))
+  fullName.vb: System.Data.DataSet.WriteXmlSchema(String, System.Converter(Of System.Type, String))
+  name.vb: WriteXmlSchema(String, Converter(Of Type, String))
+  spec.csharp:
+  - uid: System.Data.DataSet.WriteXmlSchema(System.String,System.Converter{System.Type,System.String})
+    name: WriteXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-string-system-converter((system-type-system-string)))
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Converter`2
+    name: Converter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.converter-2
+  - name: <
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.WriteXmlSchema(System.String,System.Converter{System.Type,System.String})
+    name: WriteXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-string-system-converter((system-type-system-string)))
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Converter`2
+    name: Converter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.converter-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: System.Data.DataSet.WriteXmlSchema(System.IO.TextWriter)
+  commentId: M:System.Data.DataSet.WriteXmlSchema(System.IO.TextWriter)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-io-textwriter)
+  name: WriteXmlSchema(TextWriter)
+  nameWithType: DataSet.WriteXmlSchema(TextWriter)
+  fullName: System.Data.DataSet.WriteXmlSchema(System.IO.TextWriter)
+  spec.csharp:
+  - uid: System.Data.DataSet.WriteXmlSchema(System.IO.TextWriter)
+    name: WriteXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-io-textwriter)
+  - name: (
+  - uid: System.IO.TextWriter
+    name: TextWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textwriter
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.WriteXmlSchema(System.IO.TextWriter)
+    name: WriteXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-io-textwriter)
+  - name: (
+  - uid: System.IO.TextWriter
+    name: TextWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textwriter
+  - name: )
+- uid: System.Data.DataSet.WriteXmlSchema(System.IO.TextWriter,System.Converter{System.Type,System.String})
+  commentId: M:System.Data.DataSet.WriteXmlSchema(System.IO.TextWriter,System.Converter{System.Type,System.String})
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-io-textwriter-system-converter((system-type-system-string)))
+  name: WriteXmlSchema(TextWriter, Converter<Type, string>)
+  nameWithType: DataSet.WriteXmlSchema(TextWriter, Converter<Type, string>)
+  fullName: System.Data.DataSet.WriteXmlSchema(System.IO.TextWriter, System.Converter<System.Type, string>)
+  nameWithType.vb: DataSet.WriteXmlSchema(TextWriter, Converter(Of Type, String))
+  fullName.vb: System.Data.DataSet.WriteXmlSchema(System.IO.TextWriter, System.Converter(Of System.Type, String))
+  name.vb: WriteXmlSchema(TextWriter, Converter(Of Type, String))
+  spec.csharp:
+  - uid: System.Data.DataSet.WriteXmlSchema(System.IO.TextWriter,System.Converter{System.Type,System.String})
+    name: WriteXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-io-textwriter-system-converter((system-type-system-string)))
+  - name: (
+  - uid: System.IO.TextWriter
+    name: TextWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textwriter
+  - name: ','
+  - name: " "
+  - uid: System.Converter`2
+    name: Converter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.converter-2
+  - name: <
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.WriteXmlSchema(System.IO.TextWriter,System.Converter{System.Type,System.String})
+    name: WriteXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-io-textwriter-system-converter((system-type-system-string)))
+  - name: (
+  - uid: System.IO.TextWriter
+    name: TextWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textwriter
+  - name: ','
+  - name: " "
+  - uid: System.Converter`2
+    name: Converter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.converter-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: System.Data.DataSet.WriteXmlSchema(System.Xml.XmlWriter)
+  commentId: M:System.Data.DataSet.WriteXmlSchema(System.Xml.XmlWriter)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-xml-xmlwriter)
+  name: WriteXmlSchema(XmlWriter)
+  nameWithType: DataSet.WriteXmlSchema(XmlWriter)
+  fullName: System.Data.DataSet.WriteXmlSchema(System.Xml.XmlWriter)
+  spec.csharp:
+  - uid: System.Data.DataSet.WriteXmlSchema(System.Xml.XmlWriter)
+    name: WriteXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-xml-xmlwriter)
+  - name: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.WriteXmlSchema(System.Xml.XmlWriter)
+    name: WriteXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-xml-xmlwriter)
+  - name: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter
+  - name: )
+- uid: System.Data.DataSet.WriteXmlSchema(System.Xml.XmlWriter,System.Converter{System.Type,System.String})
+  commentId: M:System.Data.DataSet.WriteXmlSchema(System.Xml.XmlWriter,System.Converter{System.Type,System.String})
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-xml-xmlwriter-system-converter((system-type-system-string)))
+  name: WriteXmlSchema(XmlWriter, Converter<Type, string>)
+  nameWithType: DataSet.WriteXmlSchema(XmlWriter, Converter<Type, string>)
+  fullName: System.Data.DataSet.WriteXmlSchema(System.Xml.XmlWriter, System.Converter<System.Type, string>)
+  nameWithType.vb: DataSet.WriteXmlSchema(XmlWriter, Converter(Of Type, String))
+  fullName.vb: System.Data.DataSet.WriteXmlSchema(System.Xml.XmlWriter, System.Converter(Of System.Type, String))
+  name.vb: WriteXmlSchema(XmlWriter, Converter(Of Type, String))
+  spec.csharp:
+  - uid: System.Data.DataSet.WriteXmlSchema(System.Xml.XmlWriter,System.Converter{System.Type,System.String})
+    name: WriteXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-xml-xmlwriter-system-converter((system-type-system-string)))
+  - name: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter
+  - name: ','
+  - name: " "
+  - uid: System.Converter`2
+    name: Converter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.converter-2
+  - name: <
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.WriteXmlSchema(System.Xml.XmlWriter,System.Converter{System.Type,System.String})
+    name: WriteXmlSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-xml-xmlwriter-system-converter((system-type-system-string)))
+  - name: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter
+  - name: ','
+  - name: " "
+  - uid: System.Converter`2
+    name: Converter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.converter-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: System.Data.DataSet.ReadXml(System.Xml.XmlReader)
+  commentId: M:System.Data.DataSet.ReadXml(System.Xml.XmlReader)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-xml-xmlreader)
+  name: ReadXml(XmlReader)
+  nameWithType: DataSet.ReadXml(XmlReader)
+  fullName: System.Data.DataSet.ReadXml(System.Xml.XmlReader)
+  spec.csharp:
+  - uid: System.Data.DataSet.ReadXml(System.Xml.XmlReader)
+    name: ReadXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-xml-xmlreader)
+  - name: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlreader
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.ReadXml(System.Xml.XmlReader)
+    name: ReadXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-xml-xmlreader)
+  - name: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlreader
+  - name: )
+- uid: System.Data.DataSet.ReadXml(System.IO.Stream)
+  commentId: M:System.Data.DataSet.ReadXml(System.IO.Stream)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-io-stream)
+  name: ReadXml(Stream)
+  nameWithType: DataSet.ReadXml(Stream)
+  fullName: System.Data.DataSet.ReadXml(System.IO.Stream)
+  spec.csharp:
+  - uid: System.Data.DataSet.ReadXml(System.IO.Stream)
+    name: ReadXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-io-stream)
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.ReadXml(System.IO.Stream)
+    name: ReadXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-io-stream)
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+- uid: System.Data.DataSet.ReadXml(System.IO.TextReader)
+  commentId: M:System.Data.DataSet.ReadXml(System.IO.TextReader)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-io-textreader)
+  name: ReadXml(TextReader)
+  nameWithType: DataSet.ReadXml(TextReader)
+  fullName: System.Data.DataSet.ReadXml(System.IO.TextReader)
+  spec.csharp:
+  - uid: System.Data.DataSet.ReadXml(System.IO.TextReader)
+    name: ReadXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-io-textreader)
+  - name: (
+  - uid: System.IO.TextReader
+    name: TextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.ReadXml(System.IO.TextReader)
+    name: ReadXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-io-textreader)
+  - name: (
+  - uid: System.IO.TextReader
+    name: TextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  - name: )
+- uid: System.Data.DataSet.ReadXml(System.String)
+  commentId: M:System.Data.DataSet.ReadXml(System.String)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-string)
+  name: ReadXml(string)
+  nameWithType: DataSet.ReadXml(string)
+  fullName: System.Data.DataSet.ReadXml(string)
+  nameWithType.vb: DataSet.ReadXml(String)
+  fullName.vb: System.Data.DataSet.ReadXml(String)
+  name.vb: ReadXml(String)
+  spec.csharp:
+  - uid: System.Data.DataSet.ReadXml(System.String)
+    name: ReadXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-string)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.ReadXml(System.String)
+    name: ReadXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-string)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Data.DataSet.ReadXml(System.Xml.XmlReader,System.Data.XmlReadMode)
+  commentId: M:System.Data.DataSet.ReadXml(System.Xml.XmlReader,System.Data.XmlReadMode)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-xml-xmlreader-system-data-xmlreadmode)
+  name: ReadXml(XmlReader, XmlReadMode)
+  nameWithType: DataSet.ReadXml(XmlReader, XmlReadMode)
+  fullName: System.Data.DataSet.ReadXml(System.Xml.XmlReader, System.Data.XmlReadMode)
+  spec.csharp:
+  - uid: System.Data.DataSet.ReadXml(System.Xml.XmlReader,System.Data.XmlReadMode)
+    name: ReadXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-xml-xmlreader-system-data-xmlreadmode)
+  - name: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlreader
+  - name: ','
+  - name: " "
+  - uid: System.Data.XmlReadMode
+    name: XmlReadMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.xmlreadmode
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.ReadXml(System.Xml.XmlReader,System.Data.XmlReadMode)
+    name: ReadXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-xml-xmlreader-system-data-xmlreadmode)
+  - name: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlreader
+  - name: ','
+  - name: " "
+  - uid: System.Data.XmlReadMode
+    name: XmlReadMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.xmlreadmode
+  - name: )
+- uid: System.Data.DataSet.ReadXml(System.IO.Stream,System.Data.XmlReadMode)
+  commentId: M:System.Data.DataSet.ReadXml(System.IO.Stream,System.Data.XmlReadMode)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-io-stream-system-data-xmlreadmode)
+  name: ReadXml(Stream, XmlReadMode)
+  nameWithType: DataSet.ReadXml(Stream, XmlReadMode)
+  fullName: System.Data.DataSet.ReadXml(System.IO.Stream, System.Data.XmlReadMode)
+  spec.csharp:
+  - uid: System.Data.DataSet.ReadXml(System.IO.Stream,System.Data.XmlReadMode)
+    name: ReadXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-io-stream-system-data-xmlreadmode)
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Data.XmlReadMode
+    name: XmlReadMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.xmlreadmode
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.ReadXml(System.IO.Stream,System.Data.XmlReadMode)
+    name: ReadXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-io-stream-system-data-xmlreadmode)
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Data.XmlReadMode
+    name: XmlReadMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.xmlreadmode
+  - name: )
+- uid: System.Data.DataSet.ReadXml(System.IO.TextReader,System.Data.XmlReadMode)
+  commentId: M:System.Data.DataSet.ReadXml(System.IO.TextReader,System.Data.XmlReadMode)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-io-textreader-system-data-xmlreadmode)
+  name: ReadXml(TextReader, XmlReadMode)
+  nameWithType: DataSet.ReadXml(TextReader, XmlReadMode)
+  fullName: System.Data.DataSet.ReadXml(System.IO.TextReader, System.Data.XmlReadMode)
+  spec.csharp:
+  - uid: System.Data.DataSet.ReadXml(System.IO.TextReader,System.Data.XmlReadMode)
+    name: ReadXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-io-textreader-system-data-xmlreadmode)
+  - name: (
+  - uid: System.IO.TextReader
+    name: TextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  - name: ','
+  - name: " "
+  - uid: System.Data.XmlReadMode
+    name: XmlReadMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.xmlreadmode
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.ReadXml(System.IO.TextReader,System.Data.XmlReadMode)
+    name: ReadXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-io-textreader-system-data-xmlreadmode)
+  - name: (
+  - uid: System.IO.TextReader
+    name: TextReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  - name: ','
+  - name: " "
+  - uid: System.Data.XmlReadMode
+    name: XmlReadMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.xmlreadmode
+  - name: )
+- uid: System.Data.DataSet.ReadXml(System.String,System.Data.XmlReadMode)
+  commentId: M:System.Data.DataSet.ReadXml(System.String,System.Data.XmlReadMode)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-string-system-data-xmlreadmode)
+  name: ReadXml(string, XmlReadMode)
+  nameWithType: DataSet.ReadXml(string, XmlReadMode)
+  fullName: System.Data.DataSet.ReadXml(string, System.Data.XmlReadMode)
+  nameWithType.vb: DataSet.ReadXml(String, XmlReadMode)
+  fullName.vb: System.Data.DataSet.ReadXml(String, System.Data.XmlReadMode)
+  name.vb: ReadXml(String, XmlReadMode)
+  spec.csharp:
+  - uid: System.Data.DataSet.ReadXml(System.String,System.Data.XmlReadMode)
+    name: ReadXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-string-system-data-xmlreadmode)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Data.XmlReadMode
+    name: XmlReadMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.xmlreadmode
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.ReadXml(System.String,System.Data.XmlReadMode)
+    name: ReadXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-string-system-data-xmlreadmode)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Data.XmlReadMode
+    name: XmlReadMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.xmlreadmode
+  - name: )
+- uid: System.Data.DataSet.WriteXml(System.IO.Stream)
+  commentId: M:System.Data.DataSet.WriteXml(System.IO.Stream)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-io-stream)
+  name: WriteXml(Stream)
+  nameWithType: DataSet.WriteXml(Stream)
+  fullName: System.Data.DataSet.WriteXml(System.IO.Stream)
+  spec.csharp:
+  - uid: System.Data.DataSet.WriteXml(System.IO.Stream)
+    name: WriteXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-io-stream)
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.WriteXml(System.IO.Stream)
+    name: WriteXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-io-stream)
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+- uid: System.Data.DataSet.WriteXml(System.IO.TextWriter)
+  commentId: M:System.Data.DataSet.WriteXml(System.IO.TextWriter)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-io-textwriter)
+  name: WriteXml(TextWriter)
+  nameWithType: DataSet.WriteXml(TextWriter)
+  fullName: System.Data.DataSet.WriteXml(System.IO.TextWriter)
+  spec.csharp:
+  - uid: System.Data.DataSet.WriteXml(System.IO.TextWriter)
+    name: WriteXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-io-textwriter)
+  - name: (
+  - uid: System.IO.TextWriter
+    name: TextWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textwriter
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.WriteXml(System.IO.TextWriter)
+    name: WriteXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-io-textwriter)
+  - name: (
+  - uid: System.IO.TextWriter
+    name: TextWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textwriter
+  - name: )
+- uid: System.Data.DataSet.WriteXml(System.Xml.XmlWriter)
+  commentId: M:System.Data.DataSet.WriteXml(System.Xml.XmlWriter)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-xml-xmlwriter)
+  name: WriteXml(XmlWriter)
+  nameWithType: DataSet.WriteXml(XmlWriter)
+  fullName: System.Data.DataSet.WriteXml(System.Xml.XmlWriter)
+  spec.csharp:
+  - uid: System.Data.DataSet.WriteXml(System.Xml.XmlWriter)
+    name: WriteXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-xml-xmlwriter)
+  - name: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.WriteXml(System.Xml.XmlWriter)
+    name: WriteXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-xml-xmlwriter)
+  - name: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter
+  - name: )
+- uid: System.Data.DataSet.WriteXml(System.String)
+  commentId: M:System.Data.DataSet.WriteXml(System.String)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-string)
+  name: WriteXml(string)
+  nameWithType: DataSet.WriteXml(string)
+  fullName: System.Data.DataSet.WriteXml(string)
+  nameWithType.vb: DataSet.WriteXml(String)
+  fullName.vb: System.Data.DataSet.WriteXml(String)
+  name.vb: WriteXml(String)
+  spec.csharp:
+  - uid: System.Data.DataSet.WriteXml(System.String)
+    name: WriteXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-string)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.WriteXml(System.String)
+    name: WriteXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-string)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Data.DataSet.WriteXml(System.IO.Stream,System.Data.XmlWriteMode)
+  commentId: M:System.Data.DataSet.WriteXml(System.IO.Stream,System.Data.XmlWriteMode)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-io-stream-system-data-xmlwritemode)
+  name: WriteXml(Stream, XmlWriteMode)
+  nameWithType: DataSet.WriteXml(Stream, XmlWriteMode)
+  fullName: System.Data.DataSet.WriteXml(System.IO.Stream, System.Data.XmlWriteMode)
+  spec.csharp:
+  - uid: System.Data.DataSet.WriteXml(System.IO.Stream,System.Data.XmlWriteMode)
+    name: WriteXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-io-stream-system-data-xmlwritemode)
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Data.XmlWriteMode
+    name: XmlWriteMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.xmlwritemode
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.WriteXml(System.IO.Stream,System.Data.XmlWriteMode)
+    name: WriteXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-io-stream-system-data-xmlwritemode)
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Data.XmlWriteMode
+    name: XmlWriteMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.xmlwritemode
+  - name: )
+- uid: System.Data.DataSet.WriteXml(System.IO.TextWriter,System.Data.XmlWriteMode)
+  commentId: M:System.Data.DataSet.WriteXml(System.IO.TextWriter,System.Data.XmlWriteMode)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-io-textwriter-system-data-xmlwritemode)
+  name: WriteXml(TextWriter, XmlWriteMode)
+  nameWithType: DataSet.WriteXml(TextWriter, XmlWriteMode)
+  fullName: System.Data.DataSet.WriteXml(System.IO.TextWriter, System.Data.XmlWriteMode)
+  spec.csharp:
+  - uid: System.Data.DataSet.WriteXml(System.IO.TextWriter,System.Data.XmlWriteMode)
+    name: WriteXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-io-textwriter-system-data-xmlwritemode)
+  - name: (
+  - uid: System.IO.TextWriter
+    name: TextWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textwriter
+  - name: ','
+  - name: " "
+  - uid: System.Data.XmlWriteMode
+    name: XmlWriteMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.xmlwritemode
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.WriteXml(System.IO.TextWriter,System.Data.XmlWriteMode)
+    name: WriteXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-io-textwriter-system-data-xmlwritemode)
+  - name: (
+  - uid: System.IO.TextWriter
+    name: TextWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.textwriter
+  - name: ','
+  - name: " "
+  - uid: System.Data.XmlWriteMode
+    name: XmlWriteMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.xmlwritemode
+  - name: )
+- uid: System.Data.DataSet.WriteXml(System.Xml.XmlWriter,System.Data.XmlWriteMode)
+  commentId: M:System.Data.DataSet.WriteXml(System.Xml.XmlWriter,System.Data.XmlWriteMode)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-xml-xmlwriter-system-data-xmlwritemode)
+  name: WriteXml(XmlWriter, XmlWriteMode)
+  nameWithType: DataSet.WriteXml(XmlWriter, XmlWriteMode)
+  fullName: System.Data.DataSet.WriteXml(System.Xml.XmlWriter, System.Data.XmlWriteMode)
+  spec.csharp:
+  - uid: System.Data.DataSet.WriteXml(System.Xml.XmlWriter,System.Data.XmlWriteMode)
+    name: WriteXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-xml-xmlwriter-system-data-xmlwritemode)
+  - name: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter
+  - name: ','
+  - name: " "
+  - uid: System.Data.XmlWriteMode
+    name: XmlWriteMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.xmlwritemode
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.WriteXml(System.Xml.XmlWriter,System.Data.XmlWriteMode)
+    name: WriteXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-xml-xmlwriter-system-data-xmlwritemode)
+  - name: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter
+  - name: ','
+  - name: " "
+  - uid: System.Data.XmlWriteMode
+    name: XmlWriteMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.xmlwritemode
+  - name: )
+- uid: System.Data.DataSet.WriteXml(System.String,System.Data.XmlWriteMode)
+  commentId: M:System.Data.DataSet.WriteXml(System.String,System.Data.XmlWriteMode)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-string-system-data-xmlwritemode)
+  name: WriteXml(string, XmlWriteMode)
+  nameWithType: DataSet.WriteXml(string, XmlWriteMode)
+  fullName: System.Data.DataSet.WriteXml(string, System.Data.XmlWriteMode)
+  nameWithType.vb: DataSet.WriteXml(String, XmlWriteMode)
+  fullName.vb: System.Data.DataSet.WriteXml(String, System.Data.XmlWriteMode)
+  name.vb: WriteXml(String, XmlWriteMode)
+  spec.csharp:
+  - uid: System.Data.DataSet.WriteXml(System.String,System.Data.XmlWriteMode)
+    name: WriteXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-string-system-data-xmlwritemode)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Data.XmlWriteMode
+    name: XmlWriteMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.xmlwritemode
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.WriteXml(System.String,System.Data.XmlWriteMode)
+    name: WriteXml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-string-system-data-xmlwritemode)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Data.XmlWriteMode
+    name: XmlWriteMode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.xmlwritemode
+  - name: )
+- uid: System.Data.DataSet.Merge(System.Data.DataSet)
+  commentId: M:System.Data.DataSet.Merge(System.Data.DataSet)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-dataset)
+  name: Merge(DataSet)
+  nameWithType: DataSet.Merge(DataSet)
+  fullName: System.Data.DataSet.Merge(System.Data.DataSet)
+  spec.csharp:
+  - uid: System.Data.DataSet.Merge(System.Data.DataSet)
+    name: Merge
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-dataset)
+  - name: (
+  - uid: System.Data.DataSet
+    name: DataSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.Merge(System.Data.DataSet)
+    name: Merge
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-dataset)
+  - name: (
+  - uid: System.Data.DataSet
+    name: DataSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset
+  - name: )
+- uid: System.Data.DataSet.Merge(System.Data.DataSet,System.Boolean)
+  commentId: M:System.Data.DataSet.Merge(System.Data.DataSet,System.Boolean)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-dataset-system-boolean)
+  name: Merge(DataSet, bool)
+  nameWithType: DataSet.Merge(DataSet, bool)
+  fullName: System.Data.DataSet.Merge(System.Data.DataSet, bool)
+  nameWithType.vb: DataSet.Merge(DataSet, Boolean)
+  fullName.vb: System.Data.DataSet.Merge(System.Data.DataSet, Boolean)
+  name.vb: Merge(DataSet, Boolean)
+  spec.csharp:
+  - uid: System.Data.DataSet.Merge(System.Data.DataSet,System.Boolean)
+    name: Merge
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-dataset-system-boolean)
+  - name: (
+  - uid: System.Data.DataSet
+    name: DataSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.Merge(System.Data.DataSet,System.Boolean)
+    name: Merge
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-dataset-system-boolean)
+  - name: (
+  - uid: System.Data.DataSet
+    name: DataSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Data.DataSet.Merge(System.Data.DataSet,System.Boolean,System.Data.MissingSchemaAction)
+  commentId: M:System.Data.DataSet.Merge(System.Data.DataSet,System.Boolean,System.Data.MissingSchemaAction)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-dataset-system-boolean-system-data-missingschemaaction)
+  name: Merge(DataSet, bool, MissingSchemaAction)
+  nameWithType: DataSet.Merge(DataSet, bool, MissingSchemaAction)
+  fullName: System.Data.DataSet.Merge(System.Data.DataSet, bool, System.Data.MissingSchemaAction)
+  nameWithType.vb: DataSet.Merge(DataSet, Boolean, MissingSchemaAction)
+  fullName.vb: System.Data.DataSet.Merge(System.Data.DataSet, Boolean, System.Data.MissingSchemaAction)
+  name.vb: Merge(DataSet, Boolean, MissingSchemaAction)
+  spec.csharp:
+  - uid: System.Data.DataSet.Merge(System.Data.DataSet,System.Boolean,System.Data.MissingSchemaAction)
+    name: Merge
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-dataset-system-boolean-system-data-missingschemaaction)
+  - name: (
+  - uid: System.Data.DataSet
+    name: DataSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Data.MissingSchemaAction
+    name: MissingSchemaAction
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.missingschemaaction
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.Merge(System.Data.DataSet,System.Boolean,System.Data.MissingSchemaAction)
+    name: Merge
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-dataset-system-boolean-system-data-missingschemaaction)
+  - name: (
+  - uid: System.Data.DataSet
+    name: DataSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Data.MissingSchemaAction
+    name: MissingSchemaAction
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.missingschemaaction
+  - name: )
+- uid: System.Data.DataSet.Merge(System.Data.DataTable)
+  commentId: M:System.Data.DataSet.Merge(System.Data.DataTable)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-datatable)
+  name: Merge(DataTable)
+  nameWithType: DataSet.Merge(DataTable)
+  fullName: System.Data.DataSet.Merge(System.Data.DataTable)
+  spec.csharp:
+  - uid: System.Data.DataSet.Merge(System.Data.DataTable)
+    name: Merge
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-datatable)
+  - name: (
+  - uid: System.Data.DataTable
+    name: DataTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datatable
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.Merge(System.Data.DataTable)
+    name: Merge
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-datatable)
+  - name: (
+  - uid: System.Data.DataTable
+    name: DataTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datatable
+  - name: )
+- uid: System.Data.DataSet.Merge(System.Data.DataTable,System.Boolean,System.Data.MissingSchemaAction)
+  commentId: M:System.Data.DataSet.Merge(System.Data.DataTable,System.Boolean,System.Data.MissingSchemaAction)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-datatable-system-boolean-system-data-missingschemaaction)
+  name: Merge(DataTable, bool, MissingSchemaAction)
+  nameWithType: DataSet.Merge(DataTable, bool, MissingSchemaAction)
+  fullName: System.Data.DataSet.Merge(System.Data.DataTable, bool, System.Data.MissingSchemaAction)
+  nameWithType.vb: DataSet.Merge(DataTable, Boolean, MissingSchemaAction)
+  fullName.vb: System.Data.DataSet.Merge(System.Data.DataTable, Boolean, System.Data.MissingSchemaAction)
+  name.vb: Merge(DataTable, Boolean, MissingSchemaAction)
+  spec.csharp:
+  - uid: System.Data.DataSet.Merge(System.Data.DataTable,System.Boolean,System.Data.MissingSchemaAction)
+    name: Merge
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-datatable-system-boolean-system-data-missingschemaaction)
+  - name: (
+  - uid: System.Data.DataTable
+    name: DataTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datatable
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Data.MissingSchemaAction
+    name: MissingSchemaAction
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.missingschemaaction
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.Merge(System.Data.DataTable,System.Boolean,System.Data.MissingSchemaAction)
+    name: Merge
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-datatable-system-boolean-system-data-missingschemaaction)
+  - name: (
+  - uid: System.Data.DataTable
+    name: DataTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datatable
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Data.MissingSchemaAction
+    name: MissingSchemaAction
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.missingschemaaction
+  - name: )
+- uid: System.Data.DataSet.Merge(System.Data.DataRow[])
+  commentId: M:System.Data.DataSet.Merge(System.Data.DataRow[])
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-datarow())
+  name: Merge(DataRow[])
+  nameWithType: DataSet.Merge(DataRow[])
+  fullName: System.Data.DataSet.Merge(System.Data.DataRow[])
+  nameWithType.vb: DataSet.Merge(DataRow())
+  fullName.vb: System.Data.DataSet.Merge(System.Data.DataRow())
+  name.vb: Merge(DataRow())
+  spec.csharp:
+  - uid: System.Data.DataSet.Merge(System.Data.DataRow[])
+    name: Merge
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-datarow())
+  - name: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.Merge(System.Data.DataRow[])
+    name: Merge
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-datarow())
+  - name: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Data.DataSet.Merge(System.Data.DataRow[],System.Boolean,System.Data.MissingSchemaAction)
+  commentId: M:System.Data.DataSet.Merge(System.Data.DataRow[],System.Boolean,System.Data.MissingSchemaAction)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-datarow()-system-boolean-system-data-missingschemaaction)
+  name: Merge(DataRow[], bool, MissingSchemaAction)
+  nameWithType: DataSet.Merge(DataRow[], bool, MissingSchemaAction)
+  fullName: System.Data.DataSet.Merge(System.Data.DataRow[], bool, System.Data.MissingSchemaAction)
+  nameWithType.vb: DataSet.Merge(DataRow(), Boolean, MissingSchemaAction)
+  fullName.vb: System.Data.DataSet.Merge(System.Data.DataRow(), Boolean, System.Data.MissingSchemaAction)
+  name.vb: Merge(DataRow(), Boolean, MissingSchemaAction)
+  spec.csharp:
+  - uid: System.Data.DataSet.Merge(System.Data.DataRow[],System.Boolean,System.Data.MissingSchemaAction)
+    name: Merge
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-datarow()-system-boolean-system-data-missingschemaaction)
+  - name: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Data.MissingSchemaAction
+    name: MissingSchemaAction
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.missingschemaaction
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.Merge(System.Data.DataRow[],System.Boolean,System.Data.MissingSchemaAction)
+    name: Merge
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-datarow()-system-boolean-system-data-missingschemaaction)
+  - name: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Data.MissingSchemaAction
+    name: MissingSchemaAction
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.missingschemaaction
+  - name: )
+- uid: System.Data.DataSet.OnPropertyChanging(System.ComponentModel.PropertyChangedEventArgs)
+  commentId: M:System.Data.DataSet.OnPropertyChanging(System.ComponentModel.PropertyChangedEventArgs)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.onpropertychanging
+  name: OnPropertyChanging(PropertyChangedEventArgs)
+  nameWithType: DataSet.OnPropertyChanging(PropertyChangedEventArgs)
+  fullName: System.Data.DataSet.OnPropertyChanging(System.ComponentModel.PropertyChangedEventArgs)
+  spec.csharp:
+  - uid: System.Data.DataSet.OnPropertyChanging(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.onpropertychanging
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.OnPropertyChanging(System.ComponentModel.PropertyChangedEventArgs)
+    name: OnPropertyChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.onpropertychanging
+  - name: (
+  - uid: System.ComponentModel.PropertyChangedEventArgs
+    name: PropertyChangedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs
+  - name: )
+- uid: System.Data.DataSet.OnRemoveTable(System.Data.DataTable)
+  commentId: M:System.Data.DataSet.OnRemoveTable(System.Data.DataTable)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.onremovetable
+  name: OnRemoveTable(DataTable)
+  nameWithType: DataSet.OnRemoveTable(DataTable)
+  fullName: System.Data.DataSet.OnRemoveTable(System.Data.DataTable)
+  spec.csharp:
+  - uid: System.Data.DataSet.OnRemoveTable(System.Data.DataTable)
+    name: OnRemoveTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.onremovetable
+  - name: (
+  - uid: System.Data.DataTable
+    name: DataTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datatable
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.OnRemoveTable(System.Data.DataTable)
+    name: OnRemoveTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.onremovetable
+  - name: (
+  - uid: System.Data.DataTable
+    name: DataTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datatable
+  - name: )
+- uid: System.Data.DataSet.OnRemoveRelation(System.Data.DataRelation)
+  commentId: M:System.Data.DataSet.OnRemoveRelation(System.Data.DataRelation)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.onremoverelation
+  name: OnRemoveRelation(DataRelation)
+  nameWithType: DataSet.OnRemoveRelation(DataRelation)
+  fullName: System.Data.DataSet.OnRemoveRelation(System.Data.DataRelation)
+  spec.csharp:
+  - uid: System.Data.DataSet.OnRemoveRelation(System.Data.DataRelation)
+    name: OnRemoveRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.onremoverelation
+  - name: (
+  - uid: System.Data.DataRelation
+    name: DataRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarelation
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.OnRemoveRelation(System.Data.DataRelation)
+    name: OnRemoveRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.onremoverelation
+  - name: (
+  - uid: System.Data.DataRelation
+    name: DataRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarelation
+  - name: )
+- uid: System.Data.DataSet.RaisePropertyChanging(System.String)
+  commentId: M:System.Data.DataSet.RaisePropertyChanging(System.String)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.raisepropertychanging
+  name: RaisePropertyChanging(string)
+  nameWithType: DataSet.RaisePropertyChanging(string)
+  fullName: System.Data.DataSet.RaisePropertyChanging(string)
+  nameWithType.vb: DataSet.RaisePropertyChanging(String)
+  fullName.vb: System.Data.DataSet.RaisePropertyChanging(String)
+  name.vb: RaisePropertyChanging(String)
+  spec.csharp:
+  - uid: System.Data.DataSet.RaisePropertyChanging(System.String)
+    name: RaisePropertyChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.raisepropertychanging
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.RaisePropertyChanging(System.String)
+    name: RaisePropertyChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.raisepropertychanging
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Data.DataSet.RejectChanges
+  commentId: M:System.Data.DataSet.RejectChanges
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.rejectchanges
+  name: RejectChanges()
+  nameWithType: DataSet.RejectChanges()
+  fullName: System.Data.DataSet.RejectChanges()
+  spec.csharp:
+  - uid: System.Data.DataSet.RejectChanges
+    name: RejectChanges
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.rejectchanges
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.RejectChanges
+    name: RejectChanges
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.rejectchanges
+  - name: (
+  - name: )
+- uid: System.Data.DataSet.Reset
+  commentId: M:System.Data.DataSet.Reset
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.reset
+  name: Reset()
+  nameWithType: DataSet.Reset()
+  fullName: System.Data.DataSet.Reset()
+  spec.csharp:
+  - uid: System.Data.DataSet.Reset
+    name: Reset
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.reset
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.Reset
+    name: Reset
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.reset
+  - name: (
+  - name: )
+- uid: System.Data.DataSet.GetDataSetSchema(System.Xml.Schema.XmlSchemaSet)
+  commentId: M:System.Data.DataSet.GetDataSetSchema(System.Xml.Schema.XmlSchemaSet)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getdatasetschema
+  name: GetDataSetSchema(XmlSchemaSet)
+  nameWithType: DataSet.GetDataSetSchema(XmlSchemaSet)
+  fullName: System.Data.DataSet.GetDataSetSchema(System.Xml.Schema.XmlSchemaSet)
+  spec.csharp:
+  - uid: System.Data.DataSet.GetDataSetSchema(System.Xml.Schema.XmlSchemaSet)
+    name: GetDataSetSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getdatasetschema
+  - name: (
+  - uid: System.Xml.Schema.XmlSchemaSet
+    name: XmlSchemaSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschemaset
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.GetDataSetSchema(System.Xml.Schema.XmlSchemaSet)
+    name: GetDataSetSchema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getdatasetschema
+  - name: (
+  - uid: System.Xml.Schema.XmlSchemaSet
+    name: XmlSchemaSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschemaset
+  - name: )
+- uid: System.Data.DataSet.Load(System.Data.IDataReader,System.Data.LoadOption,System.Data.FillErrorEventHandler,System.Data.DataTable[])
+  commentId: M:System.Data.DataSet.Load(System.Data.IDataReader,System.Data.LoadOption,System.Data.FillErrorEventHandler,System.Data.DataTable[])
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.load#system-data-dataset-load(system-data-idatareader-system-data-loadoption-system-data-fillerroreventhandler-system-data-datatable())
+  name: Load(IDataReader, LoadOption, FillErrorEventHandler, params DataTable[])
+  nameWithType: DataSet.Load(IDataReader, LoadOption, FillErrorEventHandler, params DataTable[])
+  fullName: System.Data.DataSet.Load(System.Data.IDataReader, System.Data.LoadOption, System.Data.FillErrorEventHandler, params System.Data.DataTable[])
+  nameWithType.vb: DataSet.Load(IDataReader, LoadOption, FillErrorEventHandler, ParamArray DataTable())
+  fullName.vb: System.Data.DataSet.Load(System.Data.IDataReader, System.Data.LoadOption, System.Data.FillErrorEventHandler, ParamArray System.Data.DataTable())
+  name.vb: Load(IDataReader, LoadOption, FillErrorEventHandler, ParamArray DataTable())
+  spec.csharp:
+  - uid: System.Data.DataSet.Load(System.Data.IDataReader,System.Data.LoadOption,System.Data.FillErrorEventHandler,System.Data.DataTable[])
+    name: Load
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.load#system-data-dataset-load(system-data-idatareader-system-data-loadoption-system-data-fillerroreventhandler-system-data-datatable())
+  - name: (
+  - uid: System.Data.IDataReader
+    name: IDataReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idatareader
+  - name: ','
+  - name: " "
+  - uid: System.Data.LoadOption
+    name: LoadOption
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.loadoption
+  - name: ','
+  - name: " "
+  - uid: System.Data.FillErrorEventHandler
+    name: FillErrorEventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.fillerroreventhandler
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.Data.DataTable
+    name: DataTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datatable
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.Load(System.Data.IDataReader,System.Data.LoadOption,System.Data.FillErrorEventHandler,System.Data.DataTable[])
+    name: Load
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.load#system-data-dataset-load(system-data-idatareader-system-data-loadoption-system-data-fillerroreventhandler-system-data-datatable())
+  - name: (
+  - uid: System.Data.IDataReader
+    name: IDataReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idatareader
+  - name: ','
+  - name: " "
+  - uid: System.Data.LoadOption
+    name: LoadOption
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.loadoption
+  - name: ','
+  - name: " "
+  - uid: System.Data.FillErrorEventHandler
+    name: FillErrorEventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.fillerroreventhandler
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.Data.DataTable
+    name: DataTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datatable
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Data.DataSet.Load(System.Data.IDataReader,System.Data.LoadOption,System.Data.DataTable[])
+  commentId: M:System.Data.DataSet.Load(System.Data.IDataReader,System.Data.LoadOption,System.Data.DataTable[])
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.load#system-data-dataset-load(system-data-idatareader-system-data-loadoption-system-data-datatable())
+  name: Load(IDataReader, LoadOption, params DataTable[])
+  nameWithType: DataSet.Load(IDataReader, LoadOption, params DataTable[])
+  fullName: System.Data.DataSet.Load(System.Data.IDataReader, System.Data.LoadOption, params System.Data.DataTable[])
+  nameWithType.vb: DataSet.Load(IDataReader, LoadOption, ParamArray DataTable())
+  fullName.vb: System.Data.DataSet.Load(System.Data.IDataReader, System.Data.LoadOption, ParamArray System.Data.DataTable())
+  name.vb: Load(IDataReader, LoadOption, ParamArray DataTable())
+  spec.csharp:
+  - uid: System.Data.DataSet.Load(System.Data.IDataReader,System.Data.LoadOption,System.Data.DataTable[])
+    name: Load
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.load#system-data-dataset-load(system-data-idatareader-system-data-loadoption-system-data-datatable())
+  - name: (
+  - uid: System.Data.IDataReader
+    name: IDataReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idatareader
+  - name: ','
+  - name: " "
+  - uid: System.Data.LoadOption
+    name: LoadOption
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.loadoption
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.Data.DataTable
+    name: DataTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datatable
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.Load(System.Data.IDataReader,System.Data.LoadOption,System.Data.DataTable[])
+    name: Load
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.load#system-data-dataset-load(system-data-idatareader-system-data-loadoption-system-data-datatable())
+  - name: (
+  - uid: System.Data.IDataReader
+    name: IDataReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idatareader
+  - name: ','
+  - name: " "
+  - uid: System.Data.LoadOption
+    name: LoadOption
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.loadoption
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.Data.DataTable
+    name: DataTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datatable
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Data.DataSet.Load(System.Data.IDataReader,System.Data.LoadOption,System.String[])
+  commentId: M:System.Data.DataSet.Load(System.Data.IDataReader,System.Data.LoadOption,System.String[])
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.load#system-data-dataset-load(system-data-idatareader-system-data-loadoption-system-string())
+  name: Load(IDataReader, LoadOption, params string[])
+  nameWithType: DataSet.Load(IDataReader, LoadOption, params string[])
+  fullName: System.Data.DataSet.Load(System.Data.IDataReader, System.Data.LoadOption, params string[])
+  nameWithType.vb: DataSet.Load(IDataReader, LoadOption, ParamArray String())
+  fullName.vb: System.Data.DataSet.Load(System.Data.IDataReader, System.Data.LoadOption, ParamArray String())
+  name.vb: Load(IDataReader, LoadOption, ParamArray String())
+  spec.csharp:
+  - uid: System.Data.DataSet.Load(System.Data.IDataReader,System.Data.LoadOption,System.String[])
+    name: Load
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.load#system-data-dataset-load(system-data-idatareader-system-data-loadoption-system-string())
+  - name: (
+  - uid: System.Data.IDataReader
+    name: IDataReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idatareader
+  - name: ','
+  - name: " "
+  - uid: System.Data.LoadOption
+    name: LoadOption
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.loadoption
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.Load(System.Data.IDataReader,System.Data.LoadOption,System.String[])
+    name: Load
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.load#system-data-dataset-load(system-data-idatareader-system-data-loadoption-system-string())
+  - name: (
+  - uid: System.Data.IDataReader
+    name: IDataReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idatareader
+  - name: ','
+  - name: " "
+  - uid: System.Data.LoadOption
+    name: LoadOption
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.loadoption
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Data.DataSet.CreateDataReader
+  commentId: M:System.Data.DataSet.CreateDataReader
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.createdatareader#system-data-dataset-createdatareader
+  name: CreateDataReader()
+  nameWithType: DataSet.CreateDataReader()
+  fullName: System.Data.DataSet.CreateDataReader()
+  spec.csharp:
+  - uid: System.Data.DataSet.CreateDataReader
+    name: CreateDataReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.createdatareader#system-data-dataset-createdatareader
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.CreateDataReader
+    name: CreateDataReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.createdatareader#system-data-dataset-createdatareader
+  - name: (
+  - name: )
+- uid: System.Data.DataSet.CreateDataReader(System.Data.DataTable[])
+  commentId: M:System.Data.DataSet.CreateDataReader(System.Data.DataTable[])
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.createdatareader#system-data-dataset-createdatareader(system-data-datatable())
+  name: CreateDataReader(params DataTable[])
+  nameWithType: DataSet.CreateDataReader(params DataTable[])
+  fullName: System.Data.DataSet.CreateDataReader(params System.Data.DataTable[])
+  nameWithType.vb: DataSet.CreateDataReader(ParamArray DataTable())
+  fullName.vb: System.Data.DataSet.CreateDataReader(ParamArray System.Data.DataTable())
+  name.vb: CreateDataReader(ParamArray DataTable())
+  spec.csharp:
+  - uid: System.Data.DataSet.CreateDataReader(System.Data.DataTable[])
+    name: CreateDataReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.createdatareader#system-data-dataset-createdatareader(system-data-datatable())
+  - name: (
+  - name: params
+  - name: " "
+  - uid: System.Data.DataTable
+    name: DataTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datatable
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.CreateDataReader(System.Data.DataTable[])
+    name: CreateDataReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.createdatareader#system-data-dataset-createdatareader(system-data-datatable())
+  - name: (
+  - name: ParamArray
+  - name: " "
+  - uid: System.Data.DataTable
+    name: DataTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datatable
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Data.DataSet.RemotingFormat
+  commentId: P:System.Data.DataSet.RemotingFormat
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.remotingformat
+  name: RemotingFormat
+  nameWithType: DataSet.RemotingFormat
+  fullName: System.Data.DataSet.RemotingFormat
+- uid: System.Data.DataSet.CaseSensitive
+  commentId: P:System.Data.DataSet.CaseSensitive
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.casesensitive
+  name: CaseSensitive
+  nameWithType: DataSet.CaseSensitive
+  fullName: System.Data.DataSet.CaseSensitive
+- uid: System.Data.DataSet.DefaultViewManager
+  commentId: P:System.Data.DataSet.DefaultViewManager
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.defaultviewmanager
+  name: DefaultViewManager
+  nameWithType: DataSet.DefaultViewManager
+  fullName: System.Data.DataSet.DefaultViewManager
+- uid: System.Data.DataSet.EnforceConstraints
+  commentId: P:System.Data.DataSet.EnforceConstraints
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.enforceconstraints
+  name: EnforceConstraints
+  nameWithType: DataSet.EnforceConstraints
+  fullName: System.Data.DataSet.EnforceConstraints
+- uid: System.Data.DataSet.DataSetName
+  commentId: P:System.Data.DataSet.DataSetName
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.datasetname
+  name: DataSetName
+  nameWithType: DataSet.DataSetName
+  fullName: System.Data.DataSet.DataSetName
+- uid: System.Data.DataSet.Namespace
+  commentId: P:System.Data.DataSet.Namespace
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.namespace
+  name: Namespace
+  nameWithType: DataSet.Namespace
+  fullName: System.Data.DataSet.Namespace
+- uid: System.Data.DataSet.Prefix
+  commentId: P:System.Data.DataSet.Prefix
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.prefix
+  name: Prefix
+  nameWithType: DataSet.Prefix
+  fullName: System.Data.DataSet.Prefix
+- uid: System.Data.DataSet.ExtendedProperties
+  commentId: P:System.Data.DataSet.ExtendedProperties
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.extendedproperties
+  name: ExtendedProperties
+  nameWithType: DataSet.ExtendedProperties
+  fullName: System.Data.DataSet.ExtendedProperties
+- uid: System.Data.DataSet.HasErrors
+  commentId: P:System.Data.DataSet.HasErrors
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.haserrors
+  name: HasErrors
+  nameWithType: DataSet.HasErrors
+  fullName: System.Data.DataSet.HasErrors
+- uid: System.Data.DataSet.IsInitialized
+  commentId: P:System.Data.DataSet.IsInitialized
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.isinitialized
+  name: IsInitialized
+  nameWithType: DataSet.IsInitialized
+  fullName: System.Data.DataSet.IsInitialized
+- uid: System.Data.DataSet.Locale
+  commentId: P:System.Data.DataSet.Locale
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.locale
+  name: Locale
+  nameWithType: DataSet.Locale
+  fullName: System.Data.DataSet.Locale
+- uid: System.Data.DataSet.Site
+  commentId: P:System.Data.DataSet.Site
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.site
+  name: Site
+  nameWithType: DataSet.Site
+  fullName: System.Data.DataSet.Site
+- uid: System.Data.DataSet.MergeFailed
+  commentId: E:System.Data.DataSet.MergeFailed
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.mergefailed
+  name: MergeFailed
+  nameWithType: DataSet.MergeFailed
+  fullName: System.Data.DataSet.MergeFailed
+- uid: System.Data.DataSet.Initialized
+  commentId: E:System.Data.DataSet.Initialized
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.initialized
+  name: Initialized
+  nameWithType: DataSet.Initialized
+  fullName: System.Data.DataSet.Initialized
+- uid: System.ComponentModel.MarshalByValueComponent.Dispose
+  commentId: M:System.ComponentModel.MarshalByValueComponent.Dispose
+  parent: System.ComponentModel.MarshalByValueComponent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.dispose#system-componentmodel-marshalbyvaluecomponent-dispose
+  name: Dispose()
+  nameWithType: MarshalByValueComponent.Dispose()
+  fullName: System.ComponentModel.MarshalByValueComponent.Dispose()
+  spec.csharp:
+  - uid: System.ComponentModel.MarshalByValueComponent.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.dispose#system-componentmodel-marshalbyvaluecomponent-dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ComponentModel.MarshalByValueComponent.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.dispose#system-componentmodel-marshalbyvaluecomponent-dispose
+  - name: (
+  - name: )
+- uid: System.ComponentModel.MarshalByValueComponent.Dispose(System.Boolean)
+  commentId: M:System.ComponentModel.MarshalByValueComponent.Dispose(System.Boolean)
+  parent: System.ComponentModel.MarshalByValueComponent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.dispose#system-componentmodel-marshalbyvaluecomponent-dispose(system-boolean)
+  name: Dispose(bool)
+  nameWithType: MarshalByValueComponent.Dispose(bool)
+  fullName: System.ComponentModel.MarshalByValueComponent.Dispose(bool)
+  nameWithType.vb: MarshalByValueComponent.Dispose(Boolean)
+  fullName.vb: System.ComponentModel.MarshalByValueComponent.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+  spec.csharp:
+  - uid: System.ComponentModel.MarshalByValueComponent.Dispose(System.Boolean)
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.dispose#system-componentmodel-marshalbyvaluecomponent-dispose(system-boolean)
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: System.ComponentModel.MarshalByValueComponent.Dispose(System.Boolean)
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.dispose#system-componentmodel-marshalbyvaluecomponent-dispose(system-boolean)
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.ComponentModel.MarshalByValueComponent.GetService(System.Type)
+  commentId: M:System.ComponentModel.MarshalByValueComponent.GetService(System.Type)
+  parent: System.ComponentModel.MarshalByValueComponent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.getservice
+  name: GetService(Type)
+  nameWithType: MarshalByValueComponent.GetService(Type)
+  fullName: System.ComponentModel.MarshalByValueComponent.GetService(System.Type)
+  spec.csharp:
+  - uid: System.ComponentModel.MarshalByValueComponent.GetService(System.Type)
+    name: GetService
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.getservice
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: System.ComponentModel.MarshalByValueComponent.GetService(System.Type)
+    name: GetService
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.getservice
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.ComponentModel.MarshalByValueComponent.ToString
+  commentId: M:System.ComponentModel.MarshalByValueComponent.ToString
+  parent: System.ComponentModel.MarshalByValueComponent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.tostring
+  name: ToString()
+  nameWithType: MarshalByValueComponent.ToString()
+  fullName: System.ComponentModel.MarshalByValueComponent.ToString()
+  spec.csharp:
+  - uid: System.ComponentModel.MarshalByValueComponent.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ComponentModel.MarshalByValueComponent.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.tostring
+  - name: (
+  - name: )
+- uid: System.ComponentModel.MarshalByValueComponent.Events
+  commentId: P:System.ComponentModel.MarshalByValueComponent.Events
+  parent: System.ComponentModel.MarshalByValueComponent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.events
+  name: Events
+  nameWithType: MarshalByValueComponent.Events
+  fullName: System.ComponentModel.MarshalByValueComponent.Events
+- uid: System.ComponentModel.MarshalByValueComponent.Container
+  commentId: P:System.ComponentModel.MarshalByValueComponent.Container
+  parent: System.ComponentModel.MarshalByValueComponent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.container
+  name: Container
+  nameWithType: MarshalByValueComponent.Container
+  fullName: System.ComponentModel.MarshalByValueComponent.Container
+- uid: System.ComponentModel.MarshalByValueComponent.DesignMode
+  commentId: P:System.ComponentModel.MarshalByValueComponent.DesignMode
+  parent: System.ComponentModel.MarshalByValueComponent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.designmode
+  name: DesignMode
+  nameWithType: MarshalByValueComponent.DesignMode
+  fullName: System.ComponentModel.MarshalByValueComponent.DesignMode
+- uid: System.ComponentModel.MarshalByValueComponent.Disposed
+  commentId: E:System.ComponentModel.MarshalByValueComponent.Disposed
+  parent: System.ComponentModel.MarshalByValueComponent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.disposed
+  name: Disposed
+  nameWithType: MarshalByValueComponent.Disposed
+  fullName: System.ComponentModel.MarshalByValueComponent.Disposed
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: System.Data
+  commentId: N:System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Data
+  nameWithType: System.Data
+  fullName: System.Data
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Data
+    name: Data
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Data
+    name: Data
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data
+- uid: System.Xml.Serialization
+  commentId: N:System.Xml.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Xml.Serialization
+  nameWithType: System.Xml.Serialization
+  fullName: System.Xml.Serialization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml
+  - name: .
+  - uid: System.Xml.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.serialization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml
+  - name: .
+  - uid: System.Xml.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.serialization
+- uid: System.Runtime.Serialization
+  commentId: N:System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Runtime.Serialization
+  nameWithType: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.#ctor*
+  commentId: Overload:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.#ctor
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html#CentroDeportivo_Reports_HistorialReservasPorSocioDataSet__ctor
+  name: HistorialReservasPorSocioDataSet
+  nameWithType: HistorialReservasPorSocioDataSet.HistorialReservasPorSocioDataSet
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasPorSocioDataSet
+  nameWithType.vb: HistorialReservasPorSocioDataSet.New
+  fullName.vb: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.New
+  name.vb: New
+- uid: System.Runtime.Serialization.SerializationInfo
+  commentId: T:System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  commentId: T:System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservas*
+  commentId: Overload:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservas
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html#CentroDeportivo_Reports_HistorialReservasPorSocioDataSet_HistorialReservas
+  name: HistorialReservas
+  nameWithType: HistorialReservasPorSocioDataSet.HistorialReservas
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservas
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+  commentId: T:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  name: HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+  nameWithType: HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+  spec.csharp:
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+    name: HistorialReservasPorSocioDataSet
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+    name: HistorialReservasDataTable
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable.html
+  spec.vb:
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+    name: HistorialReservasPorSocioDataSet
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+    name: HistorialReservasDataTable
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable.html
+- uid: System.Data.DataSet.SchemaSerializationMode
+  commentId: P:System.Data.DataSet.SchemaSerializationMode
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.schemaserializationmode
+  name: SchemaSerializationMode
+  nameWithType: DataSet.SchemaSerializationMode
+  fullName: System.Data.DataSet.SchemaSerializationMode
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.SchemaSerializationMode*
+  commentId: Overload:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.SchemaSerializationMode
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html#CentroDeportivo_Reports_HistorialReservasPorSocioDataSet_SchemaSerializationMode
+  name: SchemaSerializationMode
+  nameWithType: HistorialReservasPorSocioDataSet.SchemaSerializationMode
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.SchemaSerializationMode
+- uid: System.Data.SchemaSerializationMode
+  commentId: T:System.Data.SchemaSerializationMode
+  parent: System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.schemaserializationmode
+  name: SchemaSerializationMode
+  nameWithType: SchemaSerializationMode
+  fullName: System.Data.SchemaSerializationMode
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Tables*
+  commentId: Overload:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Tables
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html#CentroDeportivo_Reports_HistorialReservasPorSocioDataSet_Tables
+  name: Tables
+  nameWithType: HistorialReservasPorSocioDataSet.Tables
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Tables
+- uid: System.Data.DataTableCollection
+  commentId: T:System.Data.DataTableCollection
+  parent: System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datatablecollection
+  name: DataTableCollection
+  nameWithType: DataTableCollection
+  fullName: System.Data.DataTableCollection
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Relations*
+  commentId: Overload:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Relations
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html#CentroDeportivo_Reports_HistorialReservasPorSocioDataSet_Relations
+  name: Relations
+  nameWithType: HistorialReservasPorSocioDataSet.Relations
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Relations
+- uid: System.Data.DataRelationCollection
+  commentId: T:System.Data.DataRelationCollection
+  parent: System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarelationcollection
+  name: DataRelationCollection
+  nameWithType: DataRelationCollection
+  fullName: System.Data.DataRelationCollection
+- uid: System.Data.DataSet.InitializeDerivedDataSet
+  commentId: M:System.Data.DataSet.InitializeDerivedDataSet
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.initializederiveddataset
+  name: InitializeDerivedDataSet()
+  nameWithType: DataSet.InitializeDerivedDataSet()
+  fullName: System.Data.DataSet.InitializeDerivedDataSet()
+  spec.csharp:
+  - uid: System.Data.DataSet.InitializeDerivedDataSet
+    name: InitializeDerivedDataSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.initializederiveddataset
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.InitializeDerivedDataSet
+    name: InitializeDerivedDataSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.initializederiveddataset
+  - name: (
+  - name: )
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.InitializeDerivedDataSet*
+  commentId: Overload:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.InitializeDerivedDataSet
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html#CentroDeportivo_Reports_HistorialReservasPorSocioDataSet_InitializeDerivedDataSet
+  name: InitializeDerivedDataSet
+  nameWithType: HistorialReservasPorSocioDataSet.InitializeDerivedDataSet
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.InitializeDerivedDataSet
+- uid: System.Data.DataSet.Clone
+  commentId: M:System.Data.DataSet.Clone
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.clone
+  name: Clone()
+  nameWithType: DataSet.Clone()
+  fullName: System.Data.DataSet.Clone()
+  spec.csharp:
+  - uid: System.Data.DataSet.Clone
+    name: Clone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.clone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.Clone
+    name: Clone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.clone
+  - name: (
+  - name: )
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Clone*
+  commentId: Overload:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Clone
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html#CentroDeportivo_Reports_HistorialReservasPorSocioDataSet_Clone
+  name: Clone
+  nameWithType: HistorialReservasPorSocioDataSet.Clone
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.Clone
+- uid: System.Data.DataSet.ShouldSerializeTables
+  commentId: M:System.Data.DataSet.ShouldSerializeTables
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.shouldserializetables
+  name: ShouldSerializeTables()
+  nameWithType: DataSet.ShouldSerializeTables()
+  fullName: System.Data.DataSet.ShouldSerializeTables()
+  spec.csharp:
+  - uid: System.Data.DataSet.ShouldSerializeTables
+    name: ShouldSerializeTables
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.shouldserializetables
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.ShouldSerializeTables
+    name: ShouldSerializeTables
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.shouldserializetables
+  - name: (
+  - name: )
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ShouldSerializeTables*
+  commentId: Overload:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ShouldSerializeTables
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html#CentroDeportivo_Reports_HistorialReservasPorSocioDataSet_ShouldSerializeTables
+  name: ShouldSerializeTables
+  nameWithType: HistorialReservasPorSocioDataSet.ShouldSerializeTables
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ShouldSerializeTables
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Data.DataSet.ShouldSerializeRelations
+  commentId: M:System.Data.DataSet.ShouldSerializeRelations
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.shouldserializerelations
+  name: ShouldSerializeRelations()
+  nameWithType: DataSet.ShouldSerializeRelations()
+  fullName: System.Data.DataSet.ShouldSerializeRelations()
+  spec.csharp:
+  - uid: System.Data.DataSet.ShouldSerializeRelations
+    name: ShouldSerializeRelations
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.shouldserializerelations
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.ShouldSerializeRelations
+    name: ShouldSerializeRelations
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.shouldserializerelations
+  - name: (
+  - name: )
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ShouldSerializeRelations*
+  commentId: Overload:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ShouldSerializeRelations
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html#CentroDeportivo_Reports_HistorialReservasPorSocioDataSet_ShouldSerializeRelations
+  name: ShouldSerializeRelations
+  nameWithType: HistorialReservasPorSocioDataSet.ShouldSerializeRelations
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ShouldSerializeRelations
+- uid: System.Data.DataSet.ReadXmlSerializable(System.Xml.XmlReader)
+  commentId: M:System.Data.DataSet.ReadXmlSerializable(System.Xml.XmlReader)
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlserializable
+  name: ReadXmlSerializable(XmlReader)
+  nameWithType: DataSet.ReadXmlSerializable(XmlReader)
+  fullName: System.Data.DataSet.ReadXmlSerializable(System.Xml.XmlReader)
+  spec.csharp:
+  - uid: System.Data.DataSet.ReadXmlSerializable(System.Xml.XmlReader)
+    name: ReadXmlSerializable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlserializable
+  - name: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlreader
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.ReadXmlSerializable(System.Xml.XmlReader)
+    name: ReadXmlSerializable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlserializable
+  - name: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.xmlreader
+  - name: )
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ReadXmlSerializable*
+  commentId: Overload:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ReadXmlSerializable
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html#CentroDeportivo_Reports_HistorialReservasPorSocioDataSet_ReadXmlSerializable_System_Xml_XmlReader_
+  name: ReadXmlSerializable
+  nameWithType: HistorialReservasPorSocioDataSet.ReadXmlSerializable
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.ReadXmlSerializable
+- uid: System.Xml.XmlReader
+  commentId: T:System.Xml.XmlReader
+  parent: System.Xml
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.xml.xmlreader
+  name: XmlReader
+  nameWithType: XmlReader
+  fullName: System.Xml.XmlReader
+- uid: System.Xml
+  commentId: N:System.Xml
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Xml
+  nameWithType: System.Xml
+  fullName: System.Xml
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml
+- uid: System.Data.DataSet.GetSchemaSerializable
+  commentId: M:System.Data.DataSet.GetSchemaSerializable
+  parent: System.Data.DataSet
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getschemaserializable
+  name: GetSchemaSerializable()
+  nameWithType: DataSet.GetSchemaSerializable()
+  fullName: System.Data.DataSet.GetSchemaSerializable()
+  spec.csharp:
+  - uid: System.Data.DataSet.GetSchemaSerializable
+    name: GetSchemaSerializable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getschemaserializable
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataSet.GetSchemaSerializable
+    name: GetSchemaSerializable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset.getschemaserializable
+  - name: (
+  - name: )
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.GetSchemaSerializable*
+  commentId: Overload:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.GetSchemaSerializable
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html#CentroDeportivo_Reports_HistorialReservasPorSocioDataSet_GetSchemaSerializable
+  name: GetSchemaSerializable
+  nameWithType: HistorialReservasPorSocioDataSet.GetSchemaSerializable
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.GetSchemaSerializable
+- uid: System.Xml.Schema.XmlSchema
+  commentId: T:System.Xml.Schema.XmlSchema
+  parent: System.Xml.Schema
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema
+  name: XmlSchema
+  nameWithType: XmlSchema
+  fullName: System.Xml.Schema.XmlSchema
+- uid: System.Xml.Schema
+  commentId: N:System.Xml.Schema
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Xml.Schema
+  nameWithType: System.Xml.Schema
+  fullName: System.Xml.Schema
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml
+  - name: .
+  - uid: System.Xml.Schema
+    name: Schema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.schema
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml
+  - name: .
+  - uid: System.Xml.Schema
+    name: Schema
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.schema
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.GetTypedDataSetSchema*
+  commentId: Overload:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.GetTypedDataSetSchema
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html#CentroDeportivo_Reports_HistorialReservasPorSocioDataSet_GetTypedDataSetSchema_System_Xml_Schema_XmlSchemaSet_
+  name: GetTypedDataSetSchema
+  nameWithType: HistorialReservasPorSocioDataSet.GetTypedDataSetSchema
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.GetTypedDataSetSchema
+- uid: System.Xml.Schema.XmlSchemaSet
+  commentId: T:System.Xml.Schema.XmlSchemaSet
+  parent: System.Xml.Schema
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschemaset
+  name: XmlSchemaSet
+  nameWithType: XmlSchemaSet
+  fullName: System.Xml.Schema.XmlSchemaSet
+- uid: System.Xml.Schema.XmlSchemaComplexType
+  commentId: T:System.Xml.Schema.XmlSchemaComplexType
+  parent: System.Xml.Schema
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschemacomplextype
+  name: XmlSchemaComplexType
+  nameWithType: XmlSchemaComplexType
+  fullName: System.Xml.Schema.XmlSchemaComplexType

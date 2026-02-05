@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: CentroDeportivo.ViewModel
+  commentId: N:CentroDeportivo.ViewModel
+  id: CentroDeportivo.ViewModel
+  children:
+  - CentroDeportivo.ViewModel.ActividadesViewModel
+  - CentroDeportivo.ViewModel.BaseValidableViewModel
+  - CentroDeportivo.ViewModel.BaseViewModel
+  - CentroDeportivo.ViewModel.MenuPrincipalViewModel
+  - CentroDeportivo.ViewModel.RelayCommand
+  - CentroDeportivo.ViewModel.ReservasViewModel
+  - CentroDeportivo.ViewModel.SociosViewModel
+  langs:
+  - csharp
+  - vb
+  name: CentroDeportivo.ViewModel
+  nameWithType: CentroDeportivo.ViewModel
+  fullName: CentroDeportivo.ViewModel
+  type: Namespace
+  assemblies:
+  - CentroDeportivo.ViewModel
+references:
+- uid: CentroDeportivo.ViewModel.ActividadesViewModel
+  commentId: T:CentroDeportivo.ViewModel.ActividadesViewModel
+  href: CentroDeportivo.ViewModel.ActividadesViewModel.html
+  name: ActividadesViewModel
+  nameWithType: ActividadesViewModel
+  fullName: CentroDeportivo.ViewModel.ActividadesViewModel
+- uid: CentroDeportivo.ViewModel.BaseValidableViewModel
+  commentId: T:CentroDeportivo.ViewModel.BaseValidableViewModel
+  href: CentroDeportivo.ViewModel.BaseValidableViewModel.html
+  name: BaseValidableViewModel
+  nameWithType: BaseValidableViewModel
+  fullName: CentroDeportivo.ViewModel.BaseValidableViewModel
+- uid: CentroDeportivo.ViewModel.BaseViewModel
+  commentId: T:CentroDeportivo.ViewModel.BaseViewModel
+  parent: CentroDeportivo.ViewModel
+  href: CentroDeportivo.ViewModel.BaseViewModel.html
+  name: BaseViewModel
+  nameWithType: BaseViewModel
+  fullName: CentroDeportivo.ViewModel.BaseViewModel
+- uid: CentroDeportivo.ViewModel.MenuPrincipalViewModel
+  commentId: T:CentroDeportivo.ViewModel.MenuPrincipalViewModel
+  href: CentroDeportivo.ViewModel.MenuPrincipalViewModel.html
+  name: MenuPrincipalViewModel
+  nameWithType: MenuPrincipalViewModel
+  fullName: CentroDeportivo.ViewModel.MenuPrincipalViewModel
+- uid: CentroDeportivo.ViewModel.RelayCommand
+  commentId: T:CentroDeportivo.ViewModel.RelayCommand
+  parent: CentroDeportivo.ViewModel
+  href: CentroDeportivo.ViewModel.RelayCommand.html
+  name: RelayCommand
+  nameWithType: RelayCommand
+  fullName: CentroDeportivo.ViewModel.RelayCommand
+- uid: CentroDeportivo.ViewModel.ReservasViewModel
+  commentId: T:CentroDeportivo.ViewModel.ReservasViewModel
+  href: CentroDeportivo.ViewModel.ReservasViewModel.html
+  name: ReservasViewModel
+  nameWithType: ReservasViewModel
+  fullName: CentroDeportivo.ViewModel.ReservasViewModel
+- uid: CentroDeportivo.ViewModel.SociosViewModel
+  commentId: T:CentroDeportivo.ViewModel.SociosViewModel
+  href: CentroDeportivo.ViewModel.SociosViewModel.html
+  name: SociosViewModel
+  nameWithType: SociosViewModel
+  fullName: CentroDeportivo.ViewModel.SociosViewModel
+- uid: CentroDeportivo.ViewModel
+  commentId: N:CentroDeportivo.ViewModel
+  href: CentroDeportivo.html
+  name: CentroDeportivo.ViewModel
+  nameWithType: CentroDeportivo.ViewModel
+  fullName: CentroDeportivo.ViewModel
+  spec.csharp:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.ViewModel
+    name: ViewModel
+    href: CentroDeportivo.ViewModel.html
+  spec.vb:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.ViewModel
+    name: ViewModel
+    href: CentroDeportivo.ViewModel.html

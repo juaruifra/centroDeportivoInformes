@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler
+  commentId: T:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler
+  id: HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler
+  parent: CentroDeportivo.Reports
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler
+  nameWithType: HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: HistorialReservasRowChangeEventHandler
+    path: ../../CentroDeportivo.Reports/HistorialReservasPorSocioDataSet.Designer.cs
+    startLine: 271
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public delegate void HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler(object sender, HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+    content.vb: Public Delegate Sub HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler(sender As Object, e As HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent)
+references:
+- uid: CentroDeportivo.Reports
+  commentId: N:CentroDeportivo.Reports
+  href: CentroDeportivo.html
+  name: CentroDeportivo.Reports
+  nameWithType: CentroDeportivo.Reports
+  fullName: CentroDeportivo.Reports
+  spec.csharp:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.Reports
+    name: Reports
+    href: CentroDeportivo.Reports.html
+  spec.vb:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.Reports
+    name: Reports
+    href: CentroDeportivo.Reports.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+  commentId: T:CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  name: HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+  nameWithType: HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+  fullName: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+  spec.csharp:
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+    name: HistorialReservasPorSocioDataSet
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+    name: HistorialReservasRowChangeEvent
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent.html
+  spec.vb:
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+    name: HistorialReservasPorSocioDataSet
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+    name: HistorialReservasRowChangeEvent
+    href: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

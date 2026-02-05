@@ -3,6 +3,7 @@ using System.Collections.ObjectModel;
 using System.Windows;
 using System.Text.RegularExpressions;
 using System;
+using centroDeportivo.Model.Repositories;
 
 namespace CentroDeportivo.ViewModel
 {

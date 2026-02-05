@@ -1,0 +1,789 @@
+### YamlMime:ManagedReference
+items:
+- uid: CentroDeportivo.ViewModel.ActividadesViewModel
+  commentId: T:CentroDeportivo.ViewModel.ActividadesViewModel
+  id: ActividadesViewModel
+  parent: CentroDeportivo.ViewModel
+  children:
+  - CentroDeportivo.ViewModel.ActividadesViewModel.#ctor
+  - CentroDeportivo.ViewModel.ActividadesViewModel.ActividadSeleccionada
+  - CentroDeportivo.ViewModel.ActividadesViewModel.EliminarCommand
+  - CentroDeportivo.ViewModel.ActividadesViewModel.FormularioHabilitado
+  - CentroDeportivo.ViewModel.ActividadesViewModel.GuardarCommand
+  - CentroDeportivo.ViewModel.ActividadesViewModel.ListaActividades
+  - CentroDeportivo.ViewModel.ActividadesViewModel.NuevoCommand
+  langs:
+  - csharp
+  - vb
+  name: ActividadesViewModel
+  nameWithType: ActividadesViewModel
+  fullName: CentroDeportivo.ViewModel.ActividadesViewModel
+  type: Class
+  source:
+    remote:
+      path: CentroDeportivo.ViewModel/ActividadesViewModel.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: ActividadesViewModel
+    path: ../../CentroDeportivo.ViewModel/ActividadesViewModel.cs
+    startLine: 11
+  assemblies:
+  - CentroDeportivo.ViewModel
+  namespace: CentroDeportivo.ViewModel
+  summary: ViewModel para la gestión de actividades.
+  example: []
+  syntax:
+    content: 'public class ActividadesViewModel : BaseViewModel, INotifyPropertyChanged'
+    content.vb: Public Class ActividadesViewModel Inherits BaseViewModel Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - CentroDeportivo.ViewModel.BaseViewModel
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - CentroDeportivo.ViewModel.BaseViewModel.PropertyChanged
+  - CentroDeportivo.ViewModel.BaseViewModel.OnPropertyChanged(System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: CentroDeportivo.ViewModel.ActividadesViewModel.ListaActividades
+  commentId: P:CentroDeportivo.ViewModel.ActividadesViewModel.ListaActividades
+  id: ListaActividades
+  parent: CentroDeportivo.ViewModel.ActividadesViewModel
+  langs:
+  - csharp
+  - vb
+  name: ListaActividades
+  nameWithType: ActividadesViewModel.ListaActividades
+  fullName: CentroDeportivo.ViewModel.ActividadesViewModel.ListaActividades
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.ViewModel/ActividadesViewModel.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: ListaActividades
+    path: ../../CentroDeportivo.ViewModel/ActividadesViewModel.cs
+    startLine: 22
+  assemblies:
+  - CentroDeportivo.ViewModel
+  namespace: CentroDeportivo.ViewModel
+  summary: Lista de actividades mostrada en el DataGrid.
+  example: []
+  syntax:
+    content: public ObservableCollection<Actividades> ListaActividades { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{centroDeportivo.Model.Actividades}
+    content.vb: Public Property ListaActividades As ObservableCollection(Of Actividades)
+  overload: CentroDeportivo.ViewModel.ActividadesViewModel.ListaActividades*
+- uid: CentroDeportivo.ViewModel.ActividadesViewModel.FormularioHabilitado
+  commentId: P:CentroDeportivo.ViewModel.ActividadesViewModel.FormularioHabilitado
+  id: FormularioHabilitado
+  parent: CentroDeportivo.ViewModel.ActividadesViewModel
+  langs:
+  - csharp
+  - vb
+  name: FormularioHabilitado
+  nameWithType: ActividadesViewModel.FormularioHabilitado
+  fullName: CentroDeportivo.ViewModel.ActividadesViewModel.FormularioHabilitado
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.ViewModel/ActividadesViewModel.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: FormularioHabilitado
+    path: ../../CentroDeportivo.ViewModel/ActividadesViewModel.cs
+    startLine: 27
+  assemblies:
+  - CentroDeportivo.ViewModel
+  namespace: CentroDeportivo.ViewModel
+  summary: Indica si el formulario está habilitado.
+  example: []
+  syntax:
+    content: public bool FormularioHabilitado { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property FormularioHabilitado As Boolean
+  overload: CentroDeportivo.ViewModel.ActividadesViewModel.FormularioHabilitado*
+- uid: CentroDeportivo.ViewModel.ActividadesViewModel.ActividadSeleccionada
+  commentId: P:CentroDeportivo.ViewModel.ActividadesViewModel.ActividadSeleccionada
+  id: ActividadSeleccionada
+  parent: CentroDeportivo.ViewModel.ActividadesViewModel
+  langs:
+  - csharp
+  - vb
+  name: ActividadSeleccionada
+  nameWithType: ActividadesViewModel.ActividadSeleccionada
+  fullName: CentroDeportivo.ViewModel.ActividadesViewModel.ActividadSeleccionada
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.ViewModel/ActividadesViewModel.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: ActividadSeleccionada
+    path: ../../CentroDeportivo.ViewModel/ActividadesViewModel.cs
+    startLine: 34
+  assemblies:
+  - CentroDeportivo.ViewModel
+  namespace: CentroDeportivo.ViewModel
+  syntax:
+    content: public Actividades ActividadSeleccionada { get; set; }
+    parameters: []
+    return:
+      type: centroDeportivo.Model.Actividades
+    content.vb: Public Property ActividadSeleccionada As Actividades
+  overload: CentroDeportivo.ViewModel.ActividadesViewModel.ActividadSeleccionada*
+- uid: CentroDeportivo.ViewModel.ActividadesViewModel.NuevoCommand
+  commentId: P:CentroDeportivo.ViewModel.ActividadesViewModel.NuevoCommand
+  id: NuevoCommand
+  parent: CentroDeportivo.ViewModel.ActividadesViewModel
+  langs:
+  - csharp
+  - vb
+  name: NuevoCommand
+  nameWithType: ActividadesViewModel.NuevoCommand
+  fullName: CentroDeportivo.ViewModel.ActividadesViewModel.NuevoCommand
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.ViewModel/ActividadesViewModel.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: NuevoCommand
+    path: ../../CentroDeportivo.ViewModel/ActividadesViewModel.cs
+    startLine: 49
+  assemblies:
+  - CentroDeportivo.ViewModel
+  namespace: CentroDeportivo.ViewModel
+  syntax:
+    content: public RelayCommand NuevoCommand { get; }
+    parameters: []
+    return:
+      type: CentroDeportivo.ViewModel.RelayCommand
+    content.vb: Public ReadOnly Property NuevoCommand As RelayCommand
+  overload: CentroDeportivo.ViewModel.ActividadesViewModel.NuevoCommand*
+- uid: CentroDeportivo.ViewModel.ActividadesViewModel.GuardarCommand
+  commentId: P:CentroDeportivo.ViewModel.ActividadesViewModel.GuardarCommand
+  id: GuardarCommand
+  parent: CentroDeportivo.ViewModel.ActividadesViewModel
+  langs:
+  - csharp
+  - vb
+  name: GuardarCommand
+  nameWithType: ActividadesViewModel.GuardarCommand
+  fullName: CentroDeportivo.ViewModel.ActividadesViewModel.GuardarCommand
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.ViewModel/ActividadesViewModel.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: GuardarCommand
+    path: ../../CentroDeportivo.ViewModel/ActividadesViewModel.cs
+    startLine: 50
+  assemblies:
+  - CentroDeportivo.ViewModel
+  namespace: CentroDeportivo.ViewModel
+  syntax:
+    content: public RelayCommand GuardarCommand { get; }
+    parameters: []
+    return:
+      type: CentroDeportivo.ViewModel.RelayCommand
+    content.vb: Public ReadOnly Property GuardarCommand As RelayCommand
+  overload: CentroDeportivo.ViewModel.ActividadesViewModel.GuardarCommand*
+- uid: CentroDeportivo.ViewModel.ActividadesViewModel.EliminarCommand
+  commentId: P:CentroDeportivo.ViewModel.ActividadesViewModel.EliminarCommand
+  id: EliminarCommand
+  parent: CentroDeportivo.ViewModel.ActividadesViewModel
+  langs:
+  - csharp
+  - vb
+  name: EliminarCommand
+  nameWithType: ActividadesViewModel.EliminarCommand
+  fullName: CentroDeportivo.ViewModel.ActividadesViewModel.EliminarCommand
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.ViewModel/ActividadesViewModel.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: EliminarCommand
+    path: ../../CentroDeportivo.ViewModel/ActividadesViewModel.cs
+    startLine: 51
+  assemblies:
+  - CentroDeportivo.ViewModel
+  namespace: CentroDeportivo.ViewModel
+  syntax:
+    content: public RelayCommand EliminarCommand { get; }
+    parameters: []
+    return:
+      type: CentroDeportivo.ViewModel.RelayCommand
+    content.vb: Public ReadOnly Property EliminarCommand As RelayCommand
+  overload: CentroDeportivo.ViewModel.ActividadesViewModel.EliminarCommand*
+- uid: CentroDeportivo.ViewModel.ActividadesViewModel.#ctor
+  commentId: M:CentroDeportivo.ViewModel.ActividadesViewModel.#ctor
+  id: '#ctor'
+  parent: CentroDeportivo.ViewModel.ActividadesViewModel
+  langs:
+  - csharp
+  - vb
+  name: ActividadesViewModel()
+  nameWithType: ActividadesViewModel.ActividadesViewModel()
+  fullName: CentroDeportivo.ViewModel.ActividadesViewModel.ActividadesViewModel()
+  type: Constructor
+  source:
+    remote:
+      path: CentroDeportivo.ViewModel/ActividadesViewModel.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: .ctor
+    path: ../../CentroDeportivo.ViewModel/ActividadesViewModel.cs
+    startLine: 56
+  assemblies:
+  - CentroDeportivo.ViewModel
+  namespace: CentroDeportivo.ViewModel
+  summary: Constructor.
+  example: []
+  syntax:
+    content: public ActividadesViewModel()
+    content.vb: Public Sub New()
+  overload: CentroDeportivo.ViewModel.ActividadesViewModel.#ctor*
+  nameWithType.vb: ActividadesViewModel.New()
+  fullName.vb: CentroDeportivo.ViewModel.ActividadesViewModel.New()
+  name.vb: New()
+references:
+- uid: CentroDeportivo.ViewModel
+  commentId: N:CentroDeportivo.ViewModel
+  href: CentroDeportivo.html
+  name: CentroDeportivo.ViewModel
+  nameWithType: CentroDeportivo.ViewModel
+  fullName: CentroDeportivo.ViewModel
+  spec.csharp:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.ViewModel
+    name: ViewModel
+    href: CentroDeportivo.ViewModel.html
+  spec.vb:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.ViewModel
+    name: ViewModel
+    href: CentroDeportivo.ViewModel.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: CentroDeportivo.ViewModel.BaseViewModel
+  commentId: T:CentroDeportivo.ViewModel.BaseViewModel
+  parent: CentroDeportivo.ViewModel
+  href: CentroDeportivo.ViewModel.BaseViewModel.html
+  name: BaseViewModel
+  nameWithType: BaseViewModel
+  fullName: CentroDeportivo.ViewModel.BaseViewModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: CentroDeportivo.ViewModel.BaseViewModel.PropertyChanged
+  commentId: E:CentroDeportivo.ViewModel.BaseViewModel.PropertyChanged
+  parent: CentroDeportivo.ViewModel.BaseViewModel
+  href: CentroDeportivo.ViewModel.BaseViewModel.html#CentroDeportivo_ViewModel_BaseViewModel_PropertyChanged
+  name: PropertyChanged
+  nameWithType: BaseViewModel.PropertyChanged
+  fullName: CentroDeportivo.ViewModel.BaseViewModel.PropertyChanged
+- uid: CentroDeportivo.ViewModel.BaseViewModel.OnPropertyChanged(System.String)
+  commentId: M:CentroDeportivo.ViewModel.BaseViewModel.OnPropertyChanged(System.String)
+  parent: CentroDeportivo.ViewModel.BaseViewModel
+  isExternal: true
+  href: CentroDeportivo.ViewModel.BaseViewModel.html#CentroDeportivo_ViewModel_BaseViewModel_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: BaseViewModel.OnPropertyChanged(string)
+  fullName: CentroDeportivo.ViewModel.BaseViewModel.OnPropertyChanged(string)
+  nameWithType.vb: BaseViewModel.OnPropertyChanged(String)
+  fullName.vb: CentroDeportivo.ViewModel.BaseViewModel.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: CentroDeportivo.ViewModel.BaseViewModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: CentroDeportivo.ViewModel.BaseViewModel.html#CentroDeportivo_ViewModel_BaseViewModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: CentroDeportivo.ViewModel.BaseViewModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: CentroDeportivo.ViewModel.BaseViewModel.html#CentroDeportivo_ViewModel_BaseViewModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: CentroDeportivo.ViewModel.ActividadesViewModel.ListaActividades*
+  commentId: Overload:CentroDeportivo.ViewModel.ActividadesViewModel.ListaActividades
+  href: CentroDeportivo.ViewModel.ActividadesViewModel.html#CentroDeportivo_ViewModel_ActividadesViewModel_ListaActividades
+  name: ListaActividades
+  nameWithType: ActividadesViewModel.ListaActividades
+  fullName: CentroDeportivo.ViewModel.ActividadesViewModel.ListaActividades
+- uid: System.Collections.ObjectModel.ObservableCollection{centroDeportivo.Model.Actividades}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{centroDeportivo.Model.Actividades}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<Actividades>
+  nameWithType: ObservableCollection<Actividades>
+  fullName: System.Collections.ObjectModel.ObservableCollection<centroDeportivo.Model.Actividades>
+  nameWithType.vb: ObservableCollection(Of Actividades)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of centroDeportivo.Model.Actividades)
+  name.vb: ObservableCollection(Of Actividades)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: centroDeportivo.Model.Actividades
+    name: Actividades
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: centroDeportivo.Model.Actividades
+    name: Actividades
+  - name: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: CentroDeportivo.ViewModel.ActividadesViewModel.FormularioHabilitado*
+  commentId: Overload:CentroDeportivo.ViewModel.ActividadesViewModel.FormularioHabilitado
+  href: CentroDeportivo.ViewModel.ActividadesViewModel.html#CentroDeportivo_ViewModel_ActividadesViewModel_FormularioHabilitado
+  name: FormularioHabilitado
+  nameWithType: ActividadesViewModel.FormularioHabilitado
+  fullName: CentroDeportivo.ViewModel.ActividadesViewModel.FormularioHabilitado
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: CentroDeportivo.ViewModel.ActividadesViewModel.ActividadSeleccionada*
+  commentId: Overload:CentroDeportivo.ViewModel.ActividadesViewModel.ActividadSeleccionada
+  href: CentroDeportivo.ViewModel.ActividadesViewModel.html#CentroDeportivo_ViewModel_ActividadesViewModel_ActividadSeleccionada
+  name: ActividadSeleccionada
+  nameWithType: ActividadesViewModel.ActividadSeleccionada
+  fullName: CentroDeportivo.ViewModel.ActividadesViewModel.ActividadSeleccionada
+- uid: centroDeportivo.Model.Actividades
+  commentId: T:centroDeportivo.Model.Actividades
+  parent: centroDeportivo.Model
+  href: centroDeportivo.Model.Actividades.html
+  name: Actividades
+  nameWithType: Actividades
+  fullName: centroDeportivo.Model.Actividades
+- uid: centroDeportivo.Model
+  commentId: N:centroDeportivo.Model
+  href: centroDeportivo.html
+  name: centroDeportivo.Model
+  nameWithType: centroDeportivo.Model
+  fullName: centroDeportivo.Model
+  spec.csharp:
+  - uid: centroDeportivo
+    name: centroDeportivo
+    href: centroDeportivo.html
+  - name: .
+  - uid: centroDeportivo.Model
+    name: Model
+    href: centroDeportivo.Model.html
+  spec.vb:
+  - uid: centroDeportivo
+    name: centroDeportivo
+    href: centroDeportivo.html
+  - name: .
+  - uid: centroDeportivo.Model
+    name: Model
+    href: centroDeportivo.Model.html
+- uid: CentroDeportivo.ViewModel.ActividadesViewModel.NuevoCommand*
+  commentId: Overload:CentroDeportivo.ViewModel.ActividadesViewModel.NuevoCommand
+  href: CentroDeportivo.ViewModel.ActividadesViewModel.html#CentroDeportivo_ViewModel_ActividadesViewModel_NuevoCommand
+  name: NuevoCommand
+  nameWithType: ActividadesViewModel.NuevoCommand
+  fullName: CentroDeportivo.ViewModel.ActividadesViewModel.NuevoCommand
+- uid: CentroDeportivo.ViewModel.RelayCommand
+  commentId: T:CentroDeportivo.ViewModel.RelayCommand
+  parent: CentroDeportivo.ViewModel
+  href: CentroDeportivo.ViewModel.RelayCommand.html
+  name: RelayCommand
+  nameWithType: RelayCommand
+  fullName: CentroDeportivo.ViewModel.RelayCommand
+- uid: CentroDeportivo.ViewModel.ActividadesViewModel.GuardarCommand*
+  commentId: Overload:CentroDeportivo.ViewModel.ActividadesViewModel.GuardarCommand
+  href: CentroDeportivo.ViewModel.ActividadesViewModel.html#CentroDeportivo_ViewModel_ActividadesViewModel_GuardarCommand
+  name: GuardarCommand
+  nameWithType: ActividadesViewModel.GuardarCommand
+  fullName: CentroDeportivo.ViewModel.ActividadesViewModel.GuardarCommand
+- uid: CentroDeportivo.ViewModel.ActividadesViewModel.EliminarCommand*
+  commentId: Overload:CentroDeportivo.ViewModel.ActividadesViewModel.EliminarCommand
+  href: CentroDeportivo.ViewModel.ActividadesViewModel.html#CentroDeportivo_ViewModel_ActividadesViewModel_EliminarCommand
+  name: EliminarCommand
+  nameWithType: ActividadesViewModel.EliminarCommand
+  fullName: CentroDeportivo.ViewModel.ActividadesViewModel.EliminarCommand
+- uid: CentroDeportivo.ViewModel.ActividadesViewModel.#ctor*
+  commentId: Overload:CentroDeportivo.ViewModel.ActividadesViewModel.#ctor
+  href: CentroDeportivo.ViewModel.ActividadesViewModel.html#CentroDeportivo_ViewModel_ActividadesViewModel__ctor
+  name: ActividadesViewModel
+  nameWithType: ActividadesViewModel.ActividadesViewModel
+  fullName: CentroDeportivo.ViewModel.ActividadesViewModel.ActividadesViewModel
+  nameWithType.vb: ActividadesViewModel.New
+  fullName.vb: CentroDeportivo.ViewModel.ActividadesViewModel.New
+  name.vb: New

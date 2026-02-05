@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler
+  commentId: T:CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler
+  id: SociosReportDataSet.SociosRowChangeEventHandler
+  parent: CentroDeportivo.Reports
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SociosReportDataSet.SociosRowChangeEventHandler
+  nameWithType: SociosReportDataSet.SociosRowChangeEventHandler
+  fullName: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: CentroDeportivo.Reports/SociosReportDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: SociosRowChangeEventHandler
+    path: ../../CentroDeportivo.Reports/SociosReportDataSet.Designer.cs
+    startLine: 271
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public delegate void SociosReportDataSet.SociosRowChangeEventHandler(object sender, SociosReportDataSet.SociosRowChangeEvent e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent
+    content.vb: Public Delegate Sub SociosReportDataSet.SociosRowChangeEventHandler(sender As Object, e As SociosReportDataSet.SociosRowChangeEvent)
+references:
+- uid: CentroDeportivo.Reports
+  commentId: N:CentroDeportivo.Reports
+  href: CentroDeportivo.html
+  name: CentroDeportivo.Reports
+  nameWithType: CentroDeportivo.Reports
+  fullName: CentroDeportivo.Reports
+  spec.csharp:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.Reports
+    name: Reports
+    href: CentroDeportivo.Reports.html
+  spec.vb:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.Reports
+    name: Reports
+    href: CentroDeportivo.Reports.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent
+  commentId: T:CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.SociosReportDataSet.html
+  name: SociosReportDataSet.SociosRowChangeEvent
+  nameWithType: SociosReportDataSet.SociosRowChangeEvent
+  fullName: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent
+  spec.csharp:
+  - uid: CentroDeportivo.Reports.SociosReportDataSet
+    name: SociosReportDataSet
+    href: CentroDeportivo.Reports.SociosReportDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent
+    name: SociosRowChangeEvent
+    href: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent.html
+  spec.vb:
+  - uid: CentroDeportivo.Reports.SociosReportDataSet
+    name: SociosReportDataSet
+    href: CentroDeportivo.Reports.SociosReportDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent
+    name: SociosRowChangeEvent
+    href: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

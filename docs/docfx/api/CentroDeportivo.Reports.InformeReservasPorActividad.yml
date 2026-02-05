@@ -1,0 +1,3316 @@
+### YamlMime:ManagedReference
+items:
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad
+  commentId: T:CentroDeportivo.Reports.InformeReservasPorActividad
+  id: InformeReservasPorActividad
+  parent: CentroDeportivo.Reports
+  children:
+  - CentroDeportivo.Reports.InformeReservasPorActividad.#ctor
+  - CentroDeportivo.Reports.InformeReservasPorActividad.FullResourceName
+  - CentroDeportivo.Reports.InformeReservasPorActividad.GroupFooterSection1
+  - CentroDeportivo.Reports.InformeReservasPorActividad.GroupHeaderSection1
+  - CentroDeportivo.Reports.InformeReservasPorActividad.NewGenerator
+  - CentroDeportivo.Reports.InformeReservasPorActividad.ResourceName
+  - CentroDeportivo.Reports.InformeReservasPorActividad.Section1
+  - CentroDeportivo.Reports.InformeReservasPorActividad.Section2
+  - CentroDeportivo.Reports.InformeReservasPorActividad.Section3
+  - CentroDeportivo.Reports.InformeReservasPorActividad.Section4
+  - CentroDeportivo.Reports.InformeReservasPorActividad.Section5
+  langs:
+  - csharp
+  - vb
+  name: InformeReservasPorActividad
+  nameWithType: InformeReservasPorActividad
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad
+  type: Class
+  source:
+    remote:
+      path: CentroDeportivo.Reports/InformeReservasPorActividad.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: InformeReservasPorActividad
+    path: ../../CentroDeportivo.Reports/InformeReservasPorActividad.cs
+    startLine: 18
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: 'public class InformeReservasPorActividad : ReportClass, IComponent, IDisposable, ICustomTypeDescriptor, IReportID, ISerializable, ICloneable'
+    content.vb: Public Class InformeReservasPorActividad Inherits ReportClass Implements IComponent, IDisposable, ICustomTypeDescriptor, IReportID, ISerializable, ICloneable
+  inheritance:
+  - System.Object
+  - System.MarshalByRefObject
+  - System.ComponentModel.Component
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument
+  - CrystalDecisions.CrystalReports.Engine.ReportClass
+  implements:
+  - System.ComponentModel.IComponent
+  - System.IDisposable
+  - System.ComponentModel.ICustomTypeDescriptor
+  - CrystalDecisions.ReportAppServer.IReportID
+  - System.Runtime.Serialization.ISerializable
+  - System.ICloneable
+  inheritedMembers:
+  - CrystalDecisions.CrystalReports.Engine.ReportClass.m_sTempFilename
+  - CrystalDecisions.CrystalReports.Engine.ReportClass.Load
+  - CrystalDecisions.CrystalReports.Engine.ReportClass.Load(System.String,CrystalDecisions.Shared.OpenReportMethod,System.Int16)
+  - CrystalDecisions.CrystalReports.Engine.ReportClass.Dispose(System.Boolean)
+  - CrystalDecisions.CrystalReports.Engine.ReportClass.TempFilename
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.m_entRptDoc
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.m_formatEngine
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.m_iUseCount
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.m_eventLogLevel
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.Clone
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.EnableEvent(CrystalDecisions.CrystalReports.Engine.EventEnabledArgs)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.CheckLicenseStatus
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.Close
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.EnableEventLog(CrystalDecisions.Shared.EventLogLevel)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportOptions,System.Web.HttpResponse,System.Boolean,System.String)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportFormatType,System.Web.HttpResponse,System.Boolean,System.String)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.Export(CrystalDecisions.Shared.ExportOptions)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToDisk(CrystalDecisions.Shared.ExportFormatType,System.String)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToStream(CrystalDecisions.Shared.ExportFormatType)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String,CrystalDecisions.Shared.OpenReportMethod)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String,System.String)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.OpenSubreport(System.String)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Int32,System.Boolean,System.Int32,System.Int32)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Drawing.Printing.PrinterSettings,System.Drawing.Printing.PageSettings,System.Boolean)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Drawing.Printing.PrinterSettings,System.Drawing.Printing.PageSettings,System.Boolean,CrystalDecisions.Shared.PrintLayoutSettings)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.Refresh
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(System.String,System.Boolean)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(System.String)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.SetCssClass(CrystalDecisions.Shared.ObjectScope,System.String)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String,System.String,System.String)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String,System.String,System.String,System.Boolean)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Collections.IEnumerable)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.IDataReader)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.DataTable)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.DataSet)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.Int32,System.Object)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.String,System.Object)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.String,System.Object,System.String)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.VerifyDatabase
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.GetAttributes
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.GetClassName
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.GetComponentName
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.GetConverter
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.GetDefaultEvent
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.GetDefaultProperty
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEditor(System.Type)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEvents
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEvents(System.Attribute[])
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.GetProperties
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.GetProperties(System.Attribute[])
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.GetPropertyOwner(System.ComponentModel.PropertyDescriptor)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.ReadRecords
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.SetSQLCommandTable(CrystalDecisions.Shared.ConnectionInfo,System.String,System.String)
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportMapping
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.Subreports
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.Database
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.DataDefinition
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.HasSavedData
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.IsLoaded
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.IsSubreport
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.HasRecords
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.Name
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintOptions
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.RecordSelectionFormula
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportDefinition
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportOptions
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.SummaryInfo
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.HistoryInfos
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.SavedXmlExportFormats
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.DefaultXmlExportSelection
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.DataSourceConnections
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.ParameterFields
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportClientDocument
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.FileName
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.IsRPTR
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportAppServer
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.Rows
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportRequestStatus
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.InitReport
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.RefreshReport
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.BeforeFormatPage
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.AfterFormatPage
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.NoData
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.FieldMapping
+  - CrystalDecisions.CrystalReports.Engine.ReportDocument.FormatSection
+  - System.ComponentModel.Component.Dispose
+  - System.ComponentModel.Component.GetService(System.Type)
+  - System.ComponentModel.Component.ToString
+  - System.ComponentModel.Component.CanRaiseEvents
+  - System.ComponentModel.Component.Events
+  - System.ComponentModel.Component.Site
+  - System.ComponentModel.Component.Container
+  - System.ComponentModel.Component.DesignMode
+  - System.ComponentModel.Component.Disposed
+  - System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  - System.MarshalByRefObject.GetLifetimeService
+  - System.MarshalByRefObject.InitializeLifetimeService
+  - System.MarshalByRefObject.CreateObjRef(System.Type)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.#ctor
+  commentId: M:CentroDeportivo.Reports.InformeReservasPorActividad.#ctor
+  id: '#ctor'
+  parent: CentroDeportivo.Reports.InformeReservasPorActividad
+  langs:
+  - csharp
+  - vb
+  name: InformeReservasPorActividad()
+  nameWithType: InformeReservasPorActividad.InformeReservasPorActividad()
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.InformeReservasPorActividad()
+  type: Constructor
+  source:
+    remote:
+      path: CentroDeportivo.Reports/InformeReservasPorActividad.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: .ctor
+    path: ../../CentroDeportivo.Reports/InformeReservasPorActividad.cs
+    startLine: 20
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public InformeReservasPorActividad()
+    content.vb: Public Sub New()
+  overload: CentroDeportivo.Reports.InformeReservasPorActividad.#ctor*
+  nameWithType.vb: InformeReservasPorActividad.New()
+  fullName.vb: CentroDeportivo.Reports.InformeReservasPorActividad.New()
+  name.vb: New()
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.ResourceName
+  commentId: P:CentroDeportivo.Reports.InformeReservasPorActividad.ResourceName
+  id: ResourceName
+  parent: CentroDeportivo.Reports.InformeReservasPorActividad
+  langs:
+  - csharp
+  - vb
+  name: ResourceName
+  nameWithType: InformeReservasPorActividad.ResourceName
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.ResourceName
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/InformeReservasPorActividad.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: ResourceName
+    path: ../../CentroDeportivo.Reports/InformeReservasPorActividad.cs
+    startLine: 23
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  example: []
+  syntax:
+    content: public override string ResourceName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides Property ResourceName As String
+  overridden: CrystalDecisions.CrystalReports.Engine.ReportClass.ResourceName
+  overload: CentroDeportivo.Reports.InformeReservasPorActividad.ResourceName*
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.NewGenerator
+  commentId: P:CentroDeportivo.Reports.InformeReservasPorActividad.NewGenerator
+  id: NewGenerator
+  parent: CentroDeportivo.Reports.InformeReservasPorActividad
+  langs:
+  - csharp
+  - vb
+  name: NewGenerator
+  nameWithType: InformeReservasPorActividad.NewGenerator
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.NewGenerator
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/InformeReservasPorActividad.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: NewGenerator
+    path: ../../CentroDeportivo.Reports/InformeReservasPorActividad.cs
+    startLine: 32
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  example: []
+  syntax:
+    content: public override bool NewGenerator { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Property NewGenerator As Boolean
+  overridden: CrystalDecisions.CrystalReports.Engine.ReportClass.NewGenerator
+  overload: CentroDeportivo.Reports.InformeReservasPorActividad.NewGenerator*
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.FullResourceName
+  commentId: P:CentroDeportivo.Reports.InformeReservasPorActividad.FullResourceName
+  id: FullResourceName
+  parent: CentroDeportivo.Reports.InformeReservasPorActividad
+  langs:
+  - csharp
+  - vb
+  name: FullResourceName
+  nameWithType: InformeReservasPorActividad.FullResourceName
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.FullResourceName
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/InformeReservasPorActividad.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: FullResourceName
+    path: ../../CentroDeportivo.Reports/InformeReservasPorActividad.cs
+    startLine: 41
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  example: []
+  syntax:
+    content: public override string FullResourceName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides Property FullResourceName As String
+  overridden: CrystalDecisions.CrystalReports.Engine.ReportClass.FullResourceName
+  overload: CentroDeportivo.Reports.InformeReservasPorActividad.FullResourceName*
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.Section1
+  commentId: P:CentroDeportivo.Reports.InformeReservasPorActividad.Section1
+  id: Section1
+  parent: CentroDeportivo.Reports.InformeReservasPorActividad
+  langs:
+  - csharp
+  - vb
+  name: Section1
+  nameWithType: InformeReservasPorActividad.Section1
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.Section1
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/InformeReservasPorActividad.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Section1
+    path: ../../CentroDeportivo.Reports/InformeReservasPorActividad.cs
+    startLine: 50
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: >-
+      [Browsable(false)]
+
+      public Section Section1 { get; }
+    parameters: []
+    return:
+      type: CrystalDecisions.CrystalReports.Engine.Section
+    content.vb: >-
+      <Browsable(False)>
+
+      Public ReadOnly Property Section1 As Section
+  overload: CentroDeportivo.Reports.InformeReservasPorActividad.Section1*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.Section2
+  commentId: P:CentroDeportivo.Reports.InformeReservasPorActividad.Section2
+  id: Section2
+  parent: CentroDeportivo.Reports.InformeReservasPorActividad
+  langs:
+  - csharp
+  - vb
+  name: Section2
+  nameWithType: InformeReservasPorActividad.Section2
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.Section2
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/InformeReservasPorActividad.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Section2
+    path: ../../CentroDeportivo.Reports/InformeReservasPorActividad.cs
+    startLine: 58
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: >-
+      [Browsable(false)]
+
+      public Section Section2 { get; }
+    parameters: []
+    return:
+      type: CrystalDecisions.CrystalReports.Engine.Section
+    content.vb: >-
+      <Browsable(False)>
+
+      Public ReadOnly Property Section2 As Section
+  overload: CentroDeportivo.Reports.InformeReservasPorActividad.Section2*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.GroupHeaderSection1
+  commentId: P:CentroDeportivo.Reports.InformeReservasPorActividad.GroupHeaderSection1
+  id: GroupHeaderSection1
+  parent: CentroDeportivo.Reports.InformeReservasPorActividad
+  langs:
+  - csharp
+  - vb
+  name: GroupHeaderSection1
+  nameWithType: InformeReservasPorActividad.GroupHeaderSection1
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.GroupHeaderSection1
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/InformeReservasPorActividad.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: GroupHeaderSection1
+    path: ../../CentroDeportivo.Reports/InformeReservasPorActividad.cs
+    startLine: 66
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: >-
+      [Browsable(false)]
+
+      public Section GroupHeaderSection1 { get; }
+    parameters: []
+    return:
+      type: CrystalDecisions.CrystalReports.Engine.Section
+    content.vb: >-
+      <Browsable(False)>
+
+      Public ReadOnly Property GroupHeaderSection1 As Section
+  overload: CentroDeportivo.Reports.InformeReservasPorActividad.GroupHeaderSection1*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.Section3
+  commentId: P:CentroDeportivo.Reports.InformeReservasPorActividad.Section3
+  id: Section3
+  parent: CentroDeportivo.Reports.InformeReservasPorActividad
+  langs:
+  - csharp
+  - vb
+  name: Section3
+  nameWithType: InformeReservasPorActividad.Section3
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.Section3
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/InformeReservasPorActividad.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Section3
+    path: ../../CentroDeportivo.Reports/InformeReservasPorActividad.cs
+    startLine: 74
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: >-
+      [Browsable(false)]
+
+      public Section Section3 { get; }
+    parameters: []
+    return:
+      type: CrystalDecisions.CrystalReports.Engine.Section
+    content.vb: >-
+      <Browsable(False)>
+
+      Public ReadOnly Property Section3 As Section
+  overload: CentroDeportivo.Reports.InformeReservasPorActividad.Section3*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.GroupFooterSection1
+  commentId: P:CentroDeportivo.Reports.InformeReservasPorActividad.GroupFooterSection1
+  id: GroupFooterSection1
+  parent: CentroDeportivo.Reports.InformeReservasPorActividad
+  langs:
+  - csharp
+  - vb
+  name: GroupFooterSection1
+  nameWithType: InformeReservasPorActividad.GroupFooterSection1
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.GroupFooterSection1
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/InformeReservasPorActividad.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: GroupFooterSection1
+    path: ../../CentroDeportivo.Reports/InformeReservasPorActividad.cs
+    startLine: 82
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: >-
+      [Browsable(false)]
+
+      public Section GroupFooterSection1 { get; }
+    parameters: []
+    return:
+      type: CrystalDecisions.CrystalReports.Engine.Section
+    content.vb: >-
+      <Browsable(False)>
+
+      Public ReadOnly Property GroupFooterSection1 As Section
+  overload: CentroDeportivo.Reports.InformeReservasPorActividad.GroupFooterSection1*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.Section4
+  commentId: P:CentroDeportivo.Reports.InformeReservasPorActividad.Section4
+  id: Section4
+  parent: CentroDeportivo.Reports.InformeReservasPorActividad
+  langs:
+  - csharp
+  - vb
+  name: Section4
+  nameWithType: InformeReservasPorActividad.Section4
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.Section4
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/InformeReservasPorActividad.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Section4
+    path: ../../CentroDeportivo.Reports/InformeReservasPorActividad.cs
+    startLine: 90
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: >-
+      [Browsable(false)]
+
+      public Section Section4 { get; }
+    parameters: []
+    return:
+      type: CrystalDecisions.CrystalReports.Engine.Section
+    content.vb: >-
+      <Browsable(False)>
+
+      Public ReadOnly Property Section4 As Section
+  overload: CentroDeportivo.Reports.InformeReservasPorActividad.Section4*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.Section5
+  commentId: P:CentroDeportivo.Reports.InformeReservasPorActividad.Section5
+  id: Section5
+  parent: CentroDeportivo.Reports.InformeReservasPorActividad
+  langs:
+  - csharp
+  - vb
+  name: Section5
+  nameWithType: InformeReservasPorActividad.Section5
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.Section5
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/InformeReservasPorActividad.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Section5
+    path: ../../CentroDeportivo.Reports/InformeReservasPorActividad.cs
+    startLine: 98
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: >-
+      [Browsable(false)]
+
+      public Section Section5 { get; }
+    parameters: []
+    return:
+      type: CrystalDecisions.CrystalReports.Engine.Section
+    content.vb: >-
+      <Browsable(False)>
+
+      Public ReadOnly Property Section5 As Section
+  overload: CentroDeportivo.Reports.InformeReservasPorActividad.Section5*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
+references:
+- uid: CentroDeportivo.Reports
+  commentId: N:CentroDeportivo.Reports
+  href: CentroDeportivo.html
+  name: CentroDeportivo.Reports
+  nameWithType: CentroDeportivo.Reports
+  fullName: CentroDeportivo.Reports
+  spec.csharp:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.Reports
+    name: Reports
+    href: CentroDeportivo.Reports.html
+  spec.vb:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.Reports
+    name: Reports
+    href: CentroDeportivo.Reports.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.MarshalByRefObject
+  commentId: T:System.MarshalByRefObject
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject
+  name: MarshalByRefObject
+  nameWithType: MarshalByRefObject
+  fullName: System.MarshalByRefObject
+- uid: System.ComponentModel.Component
+  commentId: T:System.ComponentModel.Component
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component
+  name: Component
+  nameWithType: Component
+  fullName: System.ComponentModel.Component
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  commentId: T:CrystalDecisions.CrystalReports.Engine.ReportDocument
+  parent: CrystalDecisions.CrystalReports.Engine
+  isExternal: true
+  name: ReportDocument
+  nameWithType: ReportDocument
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument
+- uid: CrystalDecisions.CrystalReports.Engine.ReportClass
+  commentId: T:CrystalDecisions.CrystalReports.Engine.ReportClass
+  parent: CrystalDecisions.CrystalReports.Engine
+  isExternal: true
+  name: ReportClass
+  nameWithType: ReportClass
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportClass
+- uid: System.ComponentModel.IComponent
+  commentId: T:System.ComponentModel.IComponent
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.icomponent
+  name: IComponent
+  nameWithType: IComponent
+  fullName: System.ComponentModel.IComponent
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.ComponentModel.ICustomTypeDescriptor
+  commentId: T:System.ComponentModel.ICustomTypeDescriptor
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.icustomtypedescriptor
+  name: ICustomTypeDescriptor
+  nameWithType: ICustomTypeDescriptor
+  fullName: System.ComponentModel.ICustomTypeDescriptor
+- uid: CrystalDecisions.ReportAppServer.IReportID
+  commentId: T:CrystalDecisions.ReportAppServer.IReportID
+  parent: CrystalDecisions.ReportAppServer
+  isExternal: true
+  name: IReportID
+  nameWithType: IReportID
+  fullName: CrystalDecisions.ReportAppServer.IReportID
+- uid: System.Runtime.Serialization.ISerializable
+  commentId: T:System.Runtime.Serialization.ISerializable
+  parent: System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: System.Runtime.Serialization.ISerializable
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: CrystalDecisions.CrystalReports.Engine.ReportClass.m_sTempFilename
+  commentId: F:CrystalDecisions.CrystalReports.Engine.ReportClass.m_sTempFilename
+  parent: CrystalDecisions.CrystalReports.Engine.ReportClass
+  isExternal: true
+  name: m_sTempFilename
+  nameWithType: ReportClass.m_sTempFilename
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportClass.m_sTempFilename
+- uid: CrystalDecisions.CrystalReports.Engine.ReportClass.Load
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportClass.Load
+  parent: CrystalDecisions.CrystalReports.Engine.ReportClass
+  isExternal: true
+  name: Load()
+  nameWithType: ReportClass.Load()
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportClass.Load()
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportClass.Load
+    name: Load
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportClass.Load
+    name: Load
+    isExternal: true
+  - name: (
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportClass.Load(System.String,CrystalDecisions.Shared.OpenReportMethod,System.Int16)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportClass.Load(System.String,CrystalDecisions.Shared.OpenReportMethod,System.Int16)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportClass
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: Load(string, OpenReportMethod, short)
+  nameWithType: ReportClass.Load(string, OpenReportMethod, short)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportClass.Load(string, CrystalDecisions.Shared.OpenReportMethod, short)
+  nameWithType.vb: ReportClass.Load(String, OpenReportMethod, Short)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String, CrystalDecisions.Shared.OpenReportMethod, Short)
+  name.vb: Load(String, OpenReportMethod, Short)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportClass.Load(System.String,CrystalDecisions.Shared.OpenReportMethod,System.Int16)
+    name: Load
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: CrystalDecisions.Shared.OpenReportMethod
+    name: OpenReportMethod
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int16
+    name: short
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportClass.Load(System.String,CrystalDecisions.Shared.OpenReportMethod,System.Int16)
+    name: Load
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: CrystalDecisions.Shared.OpenReportMethod
+    name: OpenReportMethod
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int16
+    name: Short
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportClass.Dispose(System.Boolean)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportClass.Dispose(System.Boolean)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportClass
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: Dispose(bool)
+  nameWithType: ReportClass.Dispose(bool)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportClass.Dispose(bool)
+  nameWithType.vb: ReportClass.Dispose(Boolean)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportClass.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportClass.Dispose(System.Boolean)
+    name: Dispose
+    isExternal: true
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportClass.Dispose(System.Boolean)
+    name: Dispose
+    isExternal: true
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportClass.TempFilename
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportClass.TempFilename
+  parent: CrystalDecisions.CrystalReports.Engine.ReportClass
+  isExternal: true
+  name: TempFilename
+  nameWithType: ReportClass.TempFilename
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportClass.TempFilename
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.m_entRptDoc
+  commentId: F:CrystalDecisions.CrystalReports.Engine.ReportDocument.m_entRptDoc
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: m_entRptDoc
+  nameWithType: ReportDocument.m_entRptDoc
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.m_entRptDoc
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.m_formatEngine
+  commentId: F:CrystalDecisions.CrystalReports.Engine.ReportDocument.m_formatEngine
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: m_formatEngine
+  nameWithType: ReportDocument.m_formatEngine
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.m_formatEngine
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.m_iUseCount
+  commentId: F:CrystalDecisions.CrystalReports.Engine.ReportDocument.m_iUseCount
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: m_iUseCount
+  nameWithType: ReportDocument.m_iUseCount
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.m_iUseCount
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.m_eventLogLevel
+  commentId: F:CrystalDecisions.CrystalReports.Engine.ReportDocument.m_eventLogLevel
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: m_eventLogLevel
+  nameWithType: ReportDocument.m_eventLogLevel
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.m_eventLogLevel
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Clone
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Clone
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: Clone()
+  nameWithType: ReportDocument.Clone()
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.Clone()
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.EnableEvent(CrystalDecisions.CrystalReports.Engine.EventEnabledArgs)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.EnableEvent(CrystalDecisions.CrystalReports.Engine.EventEnabledArgs)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: EnableEvent(EventEnabledArgs)
+  nameWithType: ReportDocument.EnableEvent(EventEnabledArgs)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.EnableEvent(CrystalDecisions.CrystalReports.Engine.EventEnabledArgs)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.EnableEvent(CrystalDecisions.CrystalReports.Engine.EventEnabledArgs)
+    name: EnableEvent
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.CrystalReports.Engine.EventEnabledArgs
+    name: EventEnabledArgs
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.EnableEvent(CrystalDecisions.CrystalReports.Engine.EventEnabledArgs)
+    name: EnableEvent
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.CrystalReports.Engine.EventEnabledArgs
+    name: EventEnabledArgs
+    isExternal: true
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.CheckLicenseStatus
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.CheckLicenseStatus
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: CheckLicenseStatus()
+  nameWithType: ReportDocument.CheckLicenseStatus()
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.CheckLicenseStatus()
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.CheckLicenseStatus
+    name: CheckLicenseStatus
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.CheckLicenseStatus
+    name: CheckLicenseStatus
+    isExternal: true
+  - name: (
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Close
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Close
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: Close()
+  nameWithType: ReportDocument.Close()
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.Close()
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Close
+    name: Close
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Close
+    name: Close
+    isExternal: true
+  - name: (
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.EnableEventLog(CrystalDecisions.Shared.EventLogLevel)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.EnableEventLog(CrystalDecisions.Shared.EventLogLevel)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: EnableEventLog(EventLogLevel)
+  nameWithType: ReportDocument.EnableEventLog(EventLogLevel)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.EnableEventLog(CrystalDecisions.Shared.EventLogLevel)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.EnableEventLog(CrystalDecisions.Shared.EventLogLevel)
+    name: EnableEventLog
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.Shared.EventLogLevel
+    name: EventLogLevel
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.EnableEventLog(CrystalDecisions.Shared.EventLogLevel)
+    name: EnableEventLog
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.Shared.EventLogLevel
+    name: EventLogLevel
+    isExternal: true
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportOptions,System.Web.HttpResponse,System.Boolean,System.String)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportOptions,System.Web.HttpResponse,System.Boolean,System.String)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: ExportToHttpResponse(ExportOptions, HttpResponse, bool, string)
+  nameWithType: ReportDocument.ExportToHttpResponse(ExportOptions, HttpResponse, bool, string)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportOptions, System.Web.HttpResponse, bool, string)
+  nameWithType.vb: ReportDocument.ExportToHttpResponse(ExportOptions, HttpResponse, Boolean, String)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportOptions, System.Web.HttpResponse, Boolean, String)
+  name.vb: ExportToHttpResponse(ExportOptions, HttpResponse, Boolean, String)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportOptions,System.Web.HttpResponse,System.Boolean,System.String)
+    name: ExportToHttpResponse
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.Shared.ExportOptions
+    name: ExportOptions
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Web.HttpResponse
+    name: HttpResponse
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportOptions,System.Web.HttpResponse,System.Boolean,System.String)
+    name: ExportToHttpResponse
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.Shared.ExportOptions
+    name: ExportOptions
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Web.HttpResponse
+    name: HttpResponse
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportFormatType,System.Web.HttpResponse,System.Boolean,System.String)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportFormatType,System.Web.HttpResponse,System.Boolean,System.String)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: ExportToHttpResponse(ExportFormatType, HttpResponse, bool, string)
+  nameWithType: ReportDocument.ExportToHttpResponse(ExportFormatType, HttpResponse, bool, string)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportFormatType, System.Web.HttpResponse, bool, string)
+  nameWithType.vb: ReportDocument.ExportToHttpResponse(ExportFormatType, HttpResponse, Boolean, String)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportFormatType, System.Web.HttpResponse, Boolean, String)
+  name.vb: ExportToHttpResponse(ExportFormatType, HttpResponse, Boolean, String)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportFormatType,System.Web.HttpResponse,System.Boolean,System.String)
+    name: ExportToHttpResponse
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.Shared.ExportFormatType
+    name: ExportFormatType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Web.HttpResponse
+    name: HttpResponse
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToHttpResponse(CrystalDecisions.Shared.ExportFormatType,System.Web.HttpResponse,System.Boolean,System.String)
+    name: ExportToHttpResponse
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.Shared.ExportFormatType
+    name: ExportFormatType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Web.HttpResponse
+    name: HttpResponse
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Export(CrystalDecisions.Shared.ExportOptions)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Export(CrystalDecisions.Shared.ExportOptions)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: Export(ExportOptions)
+  nameWithType: ReportDocument.Export(ExportOptions)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.Export(CrystalDecisions.Shared.ExportOptions)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Export(CrystalDecisions.Shared.ExportOptions)
+    name: Export
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.Shared.ExportOptions
+    name: ExportOptions
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Export(CrystalDecisions.Shared.ExportOptions)
+    name: Export
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.Shared.ExportOptions
+    name: ExportOptions
+    isExternal: true
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToDisk(CrystalDecisions.Shared.ExportFormatType,System.String)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToDisk(CrystalDecisions.Shared.ExportFormatType,System.String)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ExportToDisk(ExportFormatType, string)
+  nameWithType: ReportDocument.ExportToDisk(ExportFormatType, string)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToDisk(CrystalDecisions.Shared.ExportFormatType, string)
+  nameWithType.vb: ReportDocument.ExportToDisk(ExportFormatType, String)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToDisk(CrystalDecisions.Shared.ExportFormatType, String)
+  name.vb: ExportToDisk(ExportFormatType, String)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToDisk(CrystalDecisions.Shared.ExportFormatType,System.String)
+    name: ExportToDisk
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.Shared.ExportFormatType
+    name: ExportFormatType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToDisk(CrystalDecisions.Shared.ExportFormatType,System.String)
+    name: ExportToDisk
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.Shared.ExportFormatType
+    name: ExportFormatType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToStream(CrystalDecisions.Shared.ExportFormatType)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToStream(CrystalDecisions.Shared.ExportFormatType)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: ExportToStream(ExportFormatType)
+  nameWithType: ReportDocument.ExportToStream(ExportFormatType)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToStream(CrystalDecisions.Shared.ExportFormatType)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToStream(CrystalDecisions.Shared.ExportFormatType)
+    name: ExportToStream
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.Shared.ExportFormatType
+    name: ExportFormatType
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ExportToStream(CrystalDecisions.Shared.ExportFormatType)
+    name: ExportToStream
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.Shared.ExportFormatType
+    name: ExportFormatType
+    isExternal: true
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String,CrystalDecisions.Shared.OpenReportMethod)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String,CrystalDecisions.Shared.OpenReportMethod)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: Load(string, OpenReportMethod)
+  nameWithType: ReportDocument.Load(string, OpenReportMethod)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(string, CrystalDecisions.Shared.OpenReportMethod)
+  nameWithType.vb: ReportDocument.Load(String, OpenReportMethod)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String, CrystalDecisions.Shared.OpenReportMethod)
+  name.vb: Load(String, OpenReportMethod)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String,CrystalDecisions.Shared.OpenReportMethod)
+    name: Load
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: CrystalDecisions.Shared.OpenReportMethod
+    name: OpenReportMethod
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String,CrystalDecisions.Shared.OpenReportMethod)
+    name: Load
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: CrystalDecisions.Shared.OpenReportMethod
+    name: OpenReportMethod
+    isExternal: true
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String,System.String)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String,System.String)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: Load(string, string)
+  nameWithType: ReportDocument.Load(string, string)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(string, string)
+  nameWithType.vb: ReportDocument.Load(String, String)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String, String)
+  name.vb: Load(String, String)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String,System.String)
+    name: Load
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String,System.String)
+    name: Load
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: Load(string)
+  nameWithType: ReportDocument.Load(string)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(string)
+  nameWithType.vb: ReportDocument.Load(String)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String)
+  name.vb: Load(String)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String)
+    name: Load
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(System.String)
+    name: Load
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.OpenSubreport(System.String)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.OpenSubreport(System.String)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: OpenSubreport(string)
+  nameWithType: ReportDocument.OpenSubreport(string)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.OpenSubreport(string)
+  nameWithType.vb: ReportDocument.OpenSubreport(String)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.OpenSubreport(String)
+  name.vb: OpenSubreport(String)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.OpenSubreport(System.String)
+    name: OpenSubreport
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.OpenSubreport(System.String)
+    name: OpenSubreport
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Int32,System.Boolean,System.Int32,System.Int32)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Int32,System.Boolean,System.Int32,System.Int32)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: PrintToPrinter(int, bool, int, int)
+  nameWithType: ReportDocument.PrintToPrinter(int, bool, int, int)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(int, bool, int, int)
+  nameWithType.vb: ReportDocument.PrintToPrinter(Integer, Boolean, Integer, Integer)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(Integer, Boolean, Integer, Integer)
+  name.vb: PrintToPrinter(Integer, Boolean, Integer, Integer)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Int32,System.Boolean,System.Int32,System.Int32)
+    name: PrintToPrinter
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Int32,System.Boolean,System.Int32,System.Int32)
+    name: PrintToPrinter
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Drawing.Printing.PrinterSettings,System.Drawing.Printing.PageSettings,System.Boolean)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Drawing.Printing.PrinterSettings,System.Drawing.Printing.PageSettings,System.Boolean)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.printing.printersettings
+  name: PrintToPrinter(PrinterSettings, PageSettings, bool)
+  nameWithType: ReportDocument.PrintToPrinter(PrinterSettings, PageSettings, bool)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Drawing.Printing.PrinterSettings, System.Drawing.Printing.PageSettings, bool)
+  nameWithType.vb: ReportDocument.PrintToPrinter(PrinterSettings, PageSettings, Boolean)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Drawing.Printing.PrinterSettings, System.Drawing.Printing.PageSettings, Boolean)
+  name.vb: PrintToPrinter(PrinterSettings, PageSettings, Boolean)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Drawing.Printing.PrinterSettings,System.Drawing.Printing.PageSettings,System.Boolean)
+    name: PrintToPrinter
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Printing.PrinterSettings
+    name: PrinterSettings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.printing.printersettings
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Printing.PageSettings
+    name: PageSettings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.printing.pagesettings
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Drawing.Printing.PrinterSettings,System.Drawing.Printing.PageSettings,System.Boolean)
+    name: PrintToPrinter
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Printing.PrinterSettings
+    name: PrinterSettings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.printing.printersettings
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Printing.PageSettings
+    name: PageSettings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.printing.pagesettings
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Drawing.Printing.PrinterSettings,System.Drawing.Printing.PageSettings,System.Boolean,CrystalDecisions.Shared.PrintLayoutSettings)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Drawing.Printing.PrinterSettings,System.Drawing.Printing.PageSettings,System.Boolean,CrystalDecisions.Shared.PrintLayoutSettings)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.printing.printersettings
+  name: PrintToPrinter(PrinterSettings, PageSettings, bool, PrintLayoutSettings)
+  nameWithType: ReportDocument.PrintToPrinter(PrinterSettings, PageSettings, bool, PrintLayoutSettings)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Drawing.Printing.PrinterSettings, System.Drawing.Printing.PageSettings, bool, CrystalDecisions.Shared.PrintLayoutSettings)
+  nameWithType.vb: ReportDocument.PrintToPrinter(PrinterSettings, PageSettings, Boolean, PrintLayoutSettings)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Drawing.Printing.PrinterSettings, System.Drawing.Printing.PageSettings, Boolean, CrystalDecisions.Shared.PrintLayoutSettings)
+  name.vb: PrintToPrinter(PrinterSettings, PageSettings, Boolean, PrintLayoutSettings)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Drawing.Printing.PrinterSettings,System.Drawing.Printing.PageSettings,System.Boolean,CrystalDecisions.Shared.PrintLayoutSettings)
+    name: PrintToPrinter
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Printing.PrinterSettings
+    name: PrinterSettings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.printing.printersettings
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Printing.PageSettings
+    name: PageSettings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.printing.pagesettings
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: CrystalDecisions.Shared.PrintLayoutSettings
+    name: PrintLayoutSettings
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(System.Drawing.Printing.PrinterSettings,System.Drawing.Printing.PageSettings,System.Boolean,CrystalDecisions.Shared.PrintLayoutSettings)
+    name: PrintToPrinter
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Printing.PrinterSettings
+    name: PrinterSettings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.printing.printersettings
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Printing.PageSettings
+    name: PageSettings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.printing.pagesettings
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: CrystalDecisions.Shared.PrintLayoutSettings
+    name: PrintLayoutSettings
+    isExternal: true
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Refresh
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.Refresh
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: Refresh()
+  nameWithType: ReportDocument.Refresh()
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.Refresh()
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Refresh
+    name: Refresh
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Refresh
+    name: Refresh
+    isExternal: true
+  - name: (
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(System.String,System.Boolean)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(System.String,System.Boolean)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SaveAs(string, bool)
+  nameWithType: ReportDocument.SaveAs(string, bool)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(string, bool)
+  nameWithType.vb: ReportDocument.SaveAs(String, Boolean)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(String, Boolean)
+  name.vb: SaveAs(String, Boolean)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(System.String,System.Boolean)
+    name: SaveAs
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(System.String,System.Boolean)
+    name: SaveAs
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(System.String)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(System.String)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SaveAs(string)
+  nameWithType: ReportDocument.SaveAs(string)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(string)
+  nameWithType.vb: ReportDocument.SaveAs(String)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(String)
+  name.vb: SaveAs(String)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(System.String)
+    name: SaveAs
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SaveAs(System.String)
+    name: SaveAs
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetCssClass(CrystalDecisions.Shared.ObjectScope,System.String)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetCssClass(CrystalDecisions.Shared.ObjectScope,System.String)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SetCssClass(ObjectScope, string)
+  nameWithType: ReportDocument.SetCssClass(ObjectScope, string)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetCssClass(CrystalDecisions.Shared.ObjectScope, string)
+  nameWithType.vb: ReportDocument.SetCssClass(ObjectScope, String)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetCssClass(CrystalDecisions.Shared.ObjectScope, String)
+  name.vb: SetCssClass(ObjectScope, String)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetCssClass(CrystalDecisions.Shared.ObjectScope,System.String)
+    name: SetCssClass
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.Shared.ObjectScope
+    name: ObjectScope
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetCssClass(CrystalDecisions.Shared.ObjectScope,System.String)
+    name: SetCssClass
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.Shared.ObjectScope
+    name: ObjectScope
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SetDatabaseLogon(string, string)
+  nameWithType: ReportDocument.SetDatabaseLogon(string, string)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(string, string)
+  nameWithType.vb: ReportDocument.SetDatabaseLogon(String, String)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(String, String)
+  name.vb: SetDatabaseLogon(String, String)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String)
+    name: SetDatabaseLogon
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String)
+    name: SetDatabaseLogon
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String,System.String,System.String)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String,System.String,System.String)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SetDatabaseLogon(string, string, string, string)
+  nameWithType: ReportDocument.SetDatabaseLogon(string, string, string, string)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(string, string, string, string)
+  nameWithType.vb: ReportDocument.SetDatabaseLogon(String, String, String, String)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(String, String, String, String)
+  name.vb: SetDatabaseLogon(String, String, String, String)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String,System.String,System.String)
+    name: SetDatabaseLogon
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String,System.String,System.String)
+    name: SetDatabaseLogon
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String,System.String,System.String,System.Boolean)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String,System.String,System.String,System.Boolean)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SetDatabaseLogon(string, string, string, string, bool)
+  nameWithType: ReportDocument.SetDatabaseLogon(string, string, string, string, bool)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(string, string, string, string, bool)
+  nameWithType.vb: ReportDocument.SetDatabaseLogon(String, String, String, String, Boolean)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(String, String, String, String, Boolean)
+  name.vb: SetDatabaseLogon(String, String, String, String, Boolean)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String,System.String,System.String,System.Boolean)
+    name: SetDatabaseLogon
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDatabaseLogon(System.String,System.String,System.String,System.String,System.Boolean)
+    name: SetDatabaseLogon
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Collections.IEnumerable)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Collections.IEnumerable)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: SetDataSource(IEnumerable)
+  nameWithType: ReportDocument.SetDataSource(IEnumerable)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Collections.IEnumerable)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Collections.IEnumerable)
+    name: SetDataSource
+    isExternal: true
+  - name: (
+  - uid: System.Collections.IEnumerable
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Collections.IEnumerable)
+    name: SetDataSource
+    isExternal: true
+  - name: (
+  - uid: System.Collections.IEnumerable
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.IDataReader)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.IDataReader)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.idatareader
+  name: SetDataSource(IDataReader)
+  nameWithType: ReportDocument.SetDataSource(IDataReader)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.IDataReader)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.IDataReader)
+    name: SetDataSource
+    isExternal: true
+  - name: (
+  - uid: System.Data.IDataReader
+    name: IDataReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idatareader
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.IDataReader)
+    name: SetDataSource
+    isExternal: true
+  - name: (
+  - uid: System.Data.IDataReader
+    name: IDataReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idatareader
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.DataTable)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.DataTable)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datatable
+  name: SetDataSource(DataTable)
+  nameWithType: ReportDocument.SetDataSource(DataTable)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.DataTable)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.DataTable)
+    name: SetDataSource
+    isExternal: true
+  - name: (
+  - uid: System.Data.DataTable
+    name: DataTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datatable
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.DataTable)
+    name: SetDataSource
+    isExternal: true
+  - name: (
+  - uid: System.Data.DataTable
+    name: DataTable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datatable
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.DataSet)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.DataSet)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.dataset
+  name: SetDataSource(DataSet)
+  nameWithType: ReportDocument.SetDataSource(DataSet)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.DataSet)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.DataSet)
+    name: SetDataSource
+    isExternal: true
+  - name: (
+  - uid: System.Data.DataSet
+    name: DataSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(System.Data.DataSet)
+    name: SetDataSource
+    isExternal: true
+  - name: (
+  - uid: System.Data.DataSet
+    name: DataSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.dataset
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.Int32,System.Object)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.Int32,System.Object)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: SetParameterValue(int, object)
+  nameWithType: ReportDocument.SetParameterValue(int, object)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(int, object)
+  nameWithType.vb: ReportDocument.SetParameterValue(Integer, Object)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(Integer, Object)
+  name.vb: SetParameterValue(Integer, Object)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.Int32,System.Object)
+    name: SetParameterValue
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.Int32,System.Object)
+    name: SetParameterValue
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.String,System.Object)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.String,System.Object)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SetParameterValue(string, object)
+  nameWithType: ReportDocument.SetParameterValue(string, object)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(string, object)
+  nameWithType.vb: ReportDocument.SetParameterValue(String, Object)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(String, Object)
+  name.vb: SetParameterValue(String, Object)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.String,System.Object)
+    name: SetParameterValue
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.String,System.Object)
+    name: SetParameterValue
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.String,System.Object,System.String)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.String,System.Object,System.String)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SetParameterValue(string, object, string)
+  nameWithType: ReportDocument.SetParameterValue(string, object, string)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(string, object, string)
+  nameWithType.vb: ReportDocument.SetParameterValue(String, Object, String)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(String, Object, String)
+  name.vb: SetParameterValue(String, Object, String)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.String,System.Object,System.String)
+    name: SetParameterValue
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(System.String,System.Object,System.String)
+    name: SetParameterValue
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.VerifyDatabase
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.VerifyDatabase
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: VerifyDatabase()
+  nameWithType: ReportDocument.VerifyDatabase()
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.VerifyDatabase()
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.VerifyDatabase
+    name: VerifyDatabase
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.VerifyDatabase
+    name: VerifyDatabase
+    isExternal: true
+  - name: (
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetAttributes
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.GetAttributes
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: GetAttributes()
+  nameWithType: ReportDocument.GetAttributes()
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetAttributes()
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetAttributes
+    name: GetAttributes
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetAttributes
+    name: GetAttributes
+    isExternal: true
+  - name: (
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetClassName
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.GetClassName
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: GetClassName()
+  nameWithType: ReportDocument.GetClassName()
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetClassName()
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetClassName
+    name: GetClassName
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetClassName
+    name: GetClassName
+    isExternal: true
+  - name: (
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetComponentName
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.GetComponentName
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: GetComponentName()
+  nameWithType: ReportDocument.GetComponentName()
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetComponentName()
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetComponentName
+    name: GetComponentName
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetComponentName
+    name: GetComponentName
+    isExternal: true
+  - name: (
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetConverter
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.GetConverter
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: GetConverter()
+  nameWithType: ReportDocument.GetConverter()
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetConverter()
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetConverter
+    name: GetConverter
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetConverter
+    name: GetConverter
+    isExternal: true
+  - name: (
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetDefaultEvent
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.GetDefaultEvent
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: GetDefaultEvent()
+  nameWithType: ReportDocument.GetDefaultEvent()
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetDefaultEvent()
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetDefaultEvent
+    name: GetDefaultEvent
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetDefaultEvent
+    name: GetDefaultEvent
+    isExternal: true
+  - name: (
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetDefaultProperty
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.GetDefaultProperty
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: GetDefaultProperty()
+  nameWithType: ReportDocument.GetDefaultProperty()
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetDefaultProperty()
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetDefaultProperty
+    name: GetDefaultProperty
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetDefaultProperty
+    name: GetDefaultProperty
+    isExternal: true
+  - name: (
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEditor(System.Type)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEditor(System.Type)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: GetEditor(Type)
+  nameWithType: ReportDocument.GetEditor(Type)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEditor(System.Type)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEditor(System.Type)
+    name: GetEditor
+    isExternal: true
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEditor(System.Type)
+    name: GetEditor
+    isExternal: true
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEvents
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEvents
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: GetEvents()
+  nameWithType: ReportDocument.GetEvents()
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEvents()
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEvents
+    name: GetEvents
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEvents
+    name: GetEvents
+    isExternal: true
+  - name: (
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEvents(System.Attribute[])
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEvents(System.Attribute[])
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.attribute
+  name: GetEvents(Attribute[])
+  nameWithType: ReportDocument.GetEvents(Attribute[])
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEvents(System.Attribute[])
+  nameWithType.vb: ReportDocument.GetEvents(Attribute())
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEvents(System.Attribute())
+  name.vb: GetEvents(Attribute())
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEvents(System.Attribute[])
+    name: GetEvents
+    isExternal: true
+  - name: (
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetEvents(System.Attribute[])
+    name: GetEvents
+    isExternal: true
+  - name: (
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: (
+  - name: )
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetProperties
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.GetProperties
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: GetProperties()
+  nameWithType: ReportDocument.GetProperties()
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetProperties()
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetProperties
+    name: GetProperties
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetProperties
+    name: GetProperties
+    isExternal: true
+  - name: (
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetProperties(System.Attribute[])
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.GetProperties(System.Attribute[])
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.attribute
+  name: GetProperties(Attribute[])
+  nameWithType: ReportDocument.GetProperties(Attribute[])
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetProperties(System.Attribute[])
+  nameWithType.vb: ReportDocument.GetProperties(Attribute())
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetProperties(System.Attribute())
+  name.vb: GetProperties(Attribute())
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetProperties(System.Attribute[])
+    name: GetProperties
+    isExternal: true
+  - name: (
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetProperties(System.Attribute[])
+    name: GetProperties
+    isExternal: true
+  - name: (
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: (
+  - name: )
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetPropertyOwner(System.ComponentModel.PropertyDescriptor)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.GetPropertyOwner(System.ComponentModel.PropertyDescriptor)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor
+  name: GetPropertyOwner(PropertyDescriptor)
+  nameWithType: ReportDocument.GetPropertyOwner(PropertyDescriptor)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetPropertyOwner(System.ComponentModel.PropertyDescriptor)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetPropertyOwner(System.ComponentModel.PropertyDescriptor)
+    name: GetPropertyOwner
+    isExternal: true
+  - name: (
+  - uid: System.ComponentModel.PropertyDescriptor
+    name: PropertyDescriptor
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.GetPropertyOwner(System.ComponentModel.PropertyDescriptor)
+    name: GetPropertyOwner
+    isExternal: true
+  - name: (
+  - uid: System.ComponentModel.PropertyDescriptor
+    name: PropertyDescriptor
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ReadRecords
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.ReadRecords
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: ReadRecords()
+  nameWithType: ReportDocument.ReadRecords()
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.ReadRecords()
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ReadRecords
+    name: ReadRecords
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ReadRecords
+    name: ReadRecords
+    isExternal: true
+  - name: (
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetSQLCommandTable(CrystalDecisions.Shared.ConnectionInfo,System.String,System.String)
+  commentId: M:CrystalDecisions.CrystalReports.Engine.ReportDocument.SetSQLCommandTable(CrystalDecisions.Shared.ConnectionInfo,System.String,System.String)
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SetSQLCommandTable(ConnectionInfo, string, string)
+  nameWithType: ReportDocument.SetSQLCommandTable(ConnectionInfo, string, string)
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetSQLCommandTable(CrystalDecisions.Shared.ConnectionInfo, string, string)
+  nameWithType.vb: ReportDocument.SetSQLCommandTable(ConnectionInfo, String, String)
+  fullName.vb: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetSQLCommandTable(CrystalDecisions.Shared.ConnectionInfo, String, String)
+  name.vb: SetSQLCommandTable(ConnectionInfo, String, String)
+  spec.csharp:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetSQLCommandTable(CrystalDecisions.Shared.ConnectionInfo,System.String,System.String)
+    name: SetSQLCommandTable
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.Shared.ConnectionInfo
+    name: ConnectionInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SetSQLCommandTable(CrystalDecisions.Shared.ConnectionInfo,System.String,System.String)
+    name: SetSQLCommandTable
+    isExternal: true
+  - name: (
+  - uid: CrystalDecisions.Shared.ConnectionInfo
+    name: ConnectionInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportMapping
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportMapping
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: ReportMapping
+  nameWithType: ReportDocument.ReportMapping
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportMapping
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Subreports
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.Subreports
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: Subreports
+  nameWithType: ReportDocument.Subreports
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.Subreports
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Database
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.Database
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: Database
+  nameWithType: ReportDocument.Database
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.Database
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.DataDefinition
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.DataDefinition
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: DataDefinition
+  nameWithType: ReportDocument.DataDefinition
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.DataDefinition
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.HasSavedData
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.HasSavedData
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: HasSavedData
+  nameWithType: ReportDocument.HasSavedData
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.HasSavedData
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.IsLoaded
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.IsLoaded
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: IsLoaded
+  nameWithType: ReportDocument.IsLoaded
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.IsLoaded
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.IsSubreport
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.IsSubreport
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: IsSubreport
+  nameWithType: ReportDocument.IsSubreport
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.IsSubreport
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.HasRecords
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.HasRecords
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: HasRecords
+  nameWithType: ReportDocument.HasRecords
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.HasRecords
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Name
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.Name
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: Name
+  nameWithType: ReportDocument.Name
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.Name
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintOptions
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintOptions
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: PrintOptions
+  nameWithType: ReportDocument.PrintOptions
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintOptions
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.RecordSelectionFormula
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.RecordSelectionFormula
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: RecordSelectionFormula
+  nameWithType: ReportDocument.RecordSelectionFormula
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.RecordSelectionFormula
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportDefinition
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportDefinition
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: ReportDefinition
+  nameWithType: ReportDocument.ReportDefinition
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportDefinition
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportOptions
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportOptions
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: ReportOptions
+  nameWithType: ReportDocument.ReportOptions
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportOptions
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SummaryInfo
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.SummaryInfo
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: SummaryInfo
+  nameWithType: ReportDocument.SummaryInfo
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.SummaryInfo
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.HistoryInfos
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.HistoryInfos
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: HistoryInfos
+  nameWithType: ReportDocument.HistoryInfos
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.HistoryInfos
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.SavedXmlExportFormats
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.SavedXmlExportFormats
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: SavedXmlExportFormats
+  nameWithType: ReportDocument.SavedXmlExportFormats
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.SavedXmlExportFormats
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.DefaultXmlExportSelection
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.DefaultXmlExportSelection
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: DefaultXmlExportSelection
+  nameWithType: ReportDocument.DefaultXmlExportSelection
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.DefaultXmlExportSelection
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.DataSourceConnections
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.DataSourceConnections
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: DataSourceConnections
+  nameWithType: ReportDocument.DataSourceConnections
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.DataSourceConnections
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ParameterFields
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ParameterFields
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: ParameterFields
+  nameWithType: ReportDocument.ParameterFields
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.ParameterFields
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportClientDocument
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportClientDocument
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: ReportClientDocument
+  nameWithType: ReportDocument.ReportClientDocument
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportClientDocument
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.FileName
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.FileName
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: FileName
+  nameWithType: ReportDocument.FileName
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.FileName
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.IsRPTR
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.IsRPTR
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: IsRPTR
+  nameWithType: ReportDocument.IsRPTR
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.IsRPTR
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportAppServer
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportAppServer
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: ReportAppServer
+  nameWithType: ReportDocument.ReportAppServer
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportAppServer
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.Rows
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.Rows
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: Rows
+  nameWithType: ReportDocument.Rows
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.Rows
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportRequestStatus
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportRequestStatus
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: ReportRequestStatus
+  nameWithType: ReportDocument.ReportRequestStatus
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.ReportRequestStatus
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.InitReport
+  commentId: E:CrystalDecisions.CrystalReports.Engine.ReportDocument.InitReport
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: InitReport
+  nameWithType: ReportDocument.InitReport
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.InitReport
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.RefreshReport
+  commentId: E:CrystalDecisions.CrystalReports.Engine.ReportDocument.RefreshReport
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: RefreshReport
+  nameWithType: ReportDocument.RefreshReport
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.RefreshReport
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.BeforeFormatPage
+  commentId: E:CrystalDecisions.CrystalReports.Engine.ReportDocument.BeforeFormatPage
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: BeforeFormatPage
+  nameWithType: ReportDocument.BeforeFormatPage
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.BeforeFormatPage
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.AfterFormatPage
+  commentId: E:CrystalDecisions.CrystalReports.Engine.ReportDocument.AfterFormatPage
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: AfterFormatPage
+  nameWithType: ReportDocument.AfterFormatPage
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.AfterFormatPage
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.NoData
+  commentId: E:CrystalDecisions.CrystalReports.Engine.ReportDocument.NoData
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: NoData
+  nameWithType: ReportDocument.NoData
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.NoData
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.FieldMapping
+  commentId: E:CrystalDecisions.CrystalReports.Engine.ReportDocument.FieldMapping
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: FieldMapping
+  nameWithType: ReportDocument.FieldMapping
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.FieldMapping
+- uid: CrystalDecisions.CrystalReports.Engine.ReportDocument.FormatSection
+  commentId: E:CrystalDecisions.CrystalReports.Engine.ReportDocument.FormatSection
+  parent: CrystalDecisions.CrystalReports.Engine.ReportDocument
+  isExternal: true
+  name: FormatSection
+  nameWithType: ReportDocument.FormatSection
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportDocument.FormatSection
+- uid: System.ComponentModel.Component.Dispose
+  commentId: M:System.ComponentModel.Component.Dispose
+  parent: System.ComponentModel.Component
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.dispose#system-componentmodel-component-dispose
+  name: Dispose()
+  nameWithType: Component.Dispose()
+  fullName: System.ComponentModel.Component.Dispose()
+  spec.csharp:
+  - uid: System.ComponentModel.Component.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.dispose#system-componentmodel-component-dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ComponentModel.Component.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.dispose#system-componentmodel-component-dispose
+  - name: (
+  - name: )
+- uid: System.ComponentModel.Component.GetService(System.Type)
+  commentId: M:System.ComponentModel.Component.GetService(System.Type)
+  parent: System.ComponentModel.Component
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.getservice
+  name: GetService(Type)
+  nameWithType: Component.GetService(Type)
+  fullName: System.ComponentModel.Component.GetService(System.Type)
+  spec.csharp:
+  - uid: System.ComponentModel.Component.GetService(System.Type)
+    name: GetService
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.getservice
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: System.ComponentModel.Component.GetService(System.Type)
+    name: GetService
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.getservice
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.ComponentModel.Component.ToString
+  commentId: M:System.ComponentModel.Component.ToString
+  parent: System.ComponentModel.Component
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.tostring
+  name: ToString()
+  nameWithType: Component.ToString()
+  fullName: System.ComponentModel.Component.ToString()
+  spec.csharp:
+  - uid: System.ComponentModel.Component.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ComponentModel.Component.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.tostring
+  - name: (
+  - name: )
+- uid: System.ComponentModel.Component.CanRaiseEvents
+  commentId: P:System.ComponentModel.Component.CanRaiseEvents
+  parent: System.ComponentModel.Component
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.canraiseevents
+  name: CanRaiseEvents
+  nameWithType: Component.CanRaiseEvents
+  fullName: System.ComponentModel.Component.CanRaiseEvents
+- uid: System.ComponentModel.Component.Events
+  commentId: P:System.ComponentModel.Component.Events
+  parent: System.ComponentModel.Component
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.events
+  name: Events
+  nameWithType: Component.Events
+  fullName: System.ComponentModel.Component.Events
+- uid: System.ComponentModel.Component.Site
+  commentId: P:System.ComponentModel.Component.Site
+  parent: System.ComponentModel.Component
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.site
+  name: Site
+  nameWithType: Component.Site
+  fullName: System.ComponentModel.Component.Site
+- uid: System.ComponentModel.Component.Container
+  commentId: P:System.ComponentModel.Component.Container
+  parent: System.ComponentModel.Component
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.container
+  name: Container
+  nameWithType: Component.Container
+  fullName: System.ComponentModel.Component.Container
+- uid: System.ComponentModel.Component.DesignMode
+  commentId: P:System.ComponentModel.Component.DesignMode
+  parent: System.ComponentModel.Component
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.designmode
+  name: DesignMode
+  nameWithType: Component.DesignMode
+  fullName: System.ComponentModel.Component.DesignMode
+- uid: System.ComponentModel.Component.Disposed
+  commentId: E:System.ComponentModel.Component.Disposed
+  parent: System.ComponentModel.Component
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.disposed
+  name: Disposed
+  nameWithType: Component.Disposed
+  fullName: System.ComponentModel.Component.Disposed
+- uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  commentId: M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  parent: System.MarshalByRefObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone
+  name: MemberwiseClone(bool)
+  nameWithType: MarshalByRefObject.MemberwiseClone(bool)
+  fullName: System.MarshalByRefObject.MemberwiseClone(bool)
+  nameWithType.vb: MarshalByRefObject.MemberwiseClone(Boolean)
+  fullName.vb: System.MarshalByRefObject.MemberwiseClone(Boolean)
+  name.vb: MemberwiseClone(Boolean)
+  spec.csharp:
+  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.MarshalByRefObject.GetLifetimeService
+  commentId: M:System.MarshalByRefObject.GetLifetimeService
+  parent: System.MarshalByRefObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice
+  name: GetLifetimeService()
+  nameWithType: MarshalByRefObject.GetLifetimeService()
+  fullName: System.MarshalByRefObject.GetLifetimeService()
+  spec.csharp:
+  - uid: System.MarshalByRefObject.GetLifetimeService
+    name: GetLifetimeService
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.GetLifetimeService
+    name: GetLifetimeService
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice
+  - name: (
+  - name: )
+- uid: System.MarshalByRefObject.InitializeLifetimeService
+  commentId: M:System.MarshalByRefObject.InitializeLifetimeService
+  parent: System.MarshalByRefObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice
+  name: InitializeLifetimeService()
+  nameWithType: MarshalByRefObject.InitializeLifetimeService()
+  fullName: System.MarshalByRefObject.InitializeLifetimeService()
+  spec.csharp:
+  - uid: System.MarshalByRefObject.InitializeLifetimeService
+    name: InitializeLifetimeService
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.InitializeLifetimeService
+    name: InitializeLifetimeService
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice
+  - name: (
+  - name: )
+- uid: System.MarshalByRefObject.CreateObjRef(System.Type)
+  commentId: M:System.MarshalByRefObject.CreateObjRef(System.Type)
+  parent: System.MarshalByRefObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.createobjref
+  name: CreateObjRef(Type)
+  nameWithType: MarshalByRefObject.CreateObjRef(Type)
+  fullName: System.MarshalByRefObject.CreateObjRef(System.Type)
+  spec.csharp:
+  - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
+    name: CreateObjRef
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.createobjref
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
+    name: CreateObjRef
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.createobjref
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: CrystalDecisions.CrystalReports.Engine
+  commentId: N:CrystalDecisions.CrystalReports.Engine
+  isExternal: true
+  name: CrystalDecisions.CrystalReports.Engine
+  nameWithType: CrystalDecisions.CrystalReports.Engine
+  fullName: CrystalDecisions.CrystalReports.Engine
+  spec.csharp:
+  - uid: CrystalDecisions
+    name: CrystalDecisions
+    isExternal: true
+  - name: .
+  - uid: CrystalDecisions.CrystalReports
+    name: CrystalReports
+    isExternal: true
+  - name: .
+  - uid: CrystalDecisions.CrystalReports.Engine
+    name: Engine
+    isExternal: true
+  spec.vb:
+  - uid: CrystalDecisions
+    name: CrystalDecisions
+    isExternal: true
+  - name: .
+  - uid: CrystalDecisions.CrystalReports
+    name: CrystalReports
+    isExternal: true
+  - name: .
+  - uid: CrystalDecisions.CrystalReports.Engine
+    name: Engine
+    isExternal: true
+- uid: CrystalDecisions.ReportAppServer
+  commentId: N:CrystalDecisions.ReportAppServer
+  isExternal: true
+  name: CrystalDecisions.ReportAppServer
+  nameWithType: CrystalDecisions.ReportAppServer
+  fullName: CrystalDecisions.ReportAppServer
+  spec.csharp:
+  - uid: CrystalDecisions
+    name: CrystalDecisions
+    isExternal: true
+  - name: .
+  - uid: CrystalDecisions.ReportAppServer
+    name: ReportAppServer
+    isExternal: true
+  spec.vb:
+  - uid: CrystalDecisions
+    name: CrystalDecisions
+    isExternal: true
+  - name: .
+  - uid: CrystalDecisions.ReportAppServer
+    name: ReportAppServer
+    isExternal: true
+- uid: System.Runtime.Serialization
+  commentId: N:System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Runtime.Serialization
+  nameWithType: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.#ctor*
+  commentId: Overload:CentroDeportivo.Reports.InformeReservasPorActividad.#ctor
+  href: CentroDeportivo.Reports.InformeReservasPorActividad.html#CentroDeportivo_Reports_InformeReservasPorActividad__ctor
+  name: InformeReservasPorActividad
+  nameWithType: InformeReservasPorActividad.InformeReservasPorActividad
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.InformeReservasPorActividad
+  nameWithType.vb: InformeReservasPorActividad.New
+  fullName.vb: CentroDeportivo.Reports.InformeReservasPorActividad.New
+  name.vb: New
+- uid: CrystalDecisions.CrystalReports.Engine.ReportClass.ResourceName
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportClass.ResourceName
+  parent: CrystalDecisions.CrystalReports.Engine.ReportClass
+  isExternal: true
+  name: ResourceName
+  nameWithType: ReportClass.ResourceName
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportClass.ResourceName
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.ResourceName*
+  commentId: Overload:CentroDeportivo.Reports.InformeReservasPorActividad.ResourceName
+  href: CentroDeportivo.Reports.InformeReservasPorActividad.html#CentroDeportivo_Reports_InformeReservasPorActividad_ResourceName
+  name: ResourceName
+  nameWithType: InformeReservasPorActividad.ResourceName
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.ResourceName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CrystalDecisions.CrystalReports.Engine.ReportClass.NewGenerator
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportClass.NewGenerator
+  parent: CrystalDecisions.CrystalReports.Engine.ReportClass
+  isExternal: true
+  name: NewGenerator
+  nameWithType: ReportClass.NewGenerator
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportClass.NewGenerator
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.NewGenerator*
+  commentId: Overload:CentroDeportivo.Reports.InformeReservasPorActividad.NewGenerator
+  href: CentroDeportivo.Reports.InformeReservasPorActividad.html#CentroDeportivo_Reports_InformeReservasPorActividad_NewGenerator
+  name: NewGenerator
+  nameWithType: InformeReservasPorActividad.NewGenerator
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.NewGenerator
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: CrystalDecisions.CrystalReports.Engine.ReportClass.FullResourceName
+  commentId: P:CrystalDecisions.CrystalReports.Engine.ReportClass.FullResourceName
+  parent: CrystalDecisions.CrystalReports.Engine.ReportClass
+  isExternal: true
+  name: FullResourceName
+  nameWithType: ReportClass.FullResourceName
+  fullName: CrystalDecisions.CrystalReports.Engine.ReportClass.FullResourceName
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.FullResourceName*
+  commentId: Overload:CentroDeportivo.Reports.InformeReservasPorActividad.FullResourceName
+  href: CentroDeportivo.Reports.InformeReservasPorActividad.html#CentroDeportivo_Reports_InformeReservasPorActividad_FullResourceName
+  name: FullResourceName
+  nameWithType: InformeReservasPorActividad.FullResourceName
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.FullResourceName
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.Section1*
+  commentId: Overload:CentroDeportivo.Reports.InformeReservasPorActividad.Section1
+  href: CentroDeportivo.Reports.InformeReservasPorActividad.html#CentroDeportivo_Reports_InformeReservasPorActividad_Section1
+  name: Section1
+  nameWithType: InformeReservasPorActividad.Section1
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.Section1
+- uid: CrystalDecisions.CrystalReports.Engine.Section
+  commentId: T:CrystalDecisions.CrystalReports.Engine.Section
+  parent: CrystalDecisions.CrystalReports.Engine
+  isExternal: true
+  name: Section
+  nameWithType: Section
+  fullName: CrystalDecisions.CrystalReports.Engine.Section
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.Section2*
+  commentId: Overload:CentroDeportivo.Reports.InformeReservasPorActividad.Section2
+  href: CentroDeportivo.Reports.InformeReservasPorActividad.html#CentroDeportivo_Reports_InformeReservasPorActividad_Section2
+  name: Section2
+  nameWithType: InformeReservasPorActividad.Section2
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.Section2
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.GroupHeaderSection1*
+  commentId: Overload:CentroDeportivo.Reports.InformeReservasPorActividad.GroupHeaderSection1
+  href: CentroDeportivo.Reports.InformeReservasPorActividad.html#CentroDeportivo_Reports_InformeReservasPorActividad_GroupHeaderSection1
+  name: GroupHeaderSection1
+  nameWithType: InformeReservasPorActividad.GroupHeaderSection1
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.GroupHeaderSection1
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.Section3*
+  commentId: Overload:CentroDeportivo.Reports.InformeReservasPorActividad.Section3
+  href: CentroDeportivo.Reports.InformeReservasPorActividad.html#CentroDeportivo_Reports_InformeReservasPorActividad_Section3
+  name: Section3
+  nameWithType: InformeReservasPorActividad.Section3
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.Section3
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.GroupFooterSection1*
+  commentId: Overload:CentroDeportivo.Reports.InformeReservasPorActividad.GroupFooterSection1
+  href: CentroDeportivo.Reports.InformeReservasPorActividad.html#CentroDeportivo_Reports_InformeReservasPorActividad_GroupFooterSection1
+  name: GroupFooterSection1
+  nameWithType: InformeReservasPorActividad.GroupFooterSection1
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.GroupFooterSection1
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.Section4*
+  commentId: Overload:CentroDeportivo.Reports.InformeReservasPorActividad.Section4
+  href: CentroDeportivo.Reports.InformeReservasPorActividad.html#CentroDeportivo_Reports_InformeReservasPorActividad_Section4
+  name: Section4
+  nameWithType: InformeReservasPorActividad.Section4
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.Section4
+- uid: CentroDeportivo.Reports.InformeReservasPorActividad.Section5*
+  commentId: Overload:CentroDeportivo.Reports.InformeReservasPorActividad.Section5
+  href: CentroDeportivo.Reports.InformeReservasPorActividad.html#CentroDeportivo_Reports_InformeReservasPorActividad_Section5
+  name: Section5
+  nameWithType: InformeReservasPorActividad.Section5
+  fullName: CentroDeportivo.Reports.InformeReservasPorActividad.Section5

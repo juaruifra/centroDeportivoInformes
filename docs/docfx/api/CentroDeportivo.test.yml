@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: CentroDeportivo.test
+  commentId: N:CentroDeportivo.test
+  id: CentroDeportivo.test
+  children:
+  - CentroDeportivo.test.Test1
+  langs:
+  - csharp
+  - vb
+  name: CentroDeportivo.test
+  nameWithType: CentroDeportivo.test
+  fullName: CentroDeportivo.test
+  type: Namespace
+  assemblies:
+  - CentroDeportivo.test
+references:
+- uid: CentroDeportivo.test.Test1
+  commentId: T:CentroDeportivo.test.Test1
+  href: CentroDeportivo.test.Test1.html
+  name: Test1
+  nameWithType: Test1
+  fullName: CentroDeportivo.test.Test1

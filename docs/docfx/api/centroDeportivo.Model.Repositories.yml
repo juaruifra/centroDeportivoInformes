@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: centroDeportivo.Model.Repositories
+  commentId: N:centroDeportivo.Model.Repositories
+  id: centroDeportivo.Model.Repositories
+  children:
+  - centroDeportivo.Model.Repositories.ActividadesRepository
+  - centroDeportivo.Model.Repositories.ReservasRepository
+  - centroDeportivo.Model.Repositories.SociosRepository
+  langs:
+  - csharp
+  - vb
+  name: centroDeportivo.Model.Repositories
+  nameWithType: centroDeportivo.Model.Repositories
+  fullName: centroDeportivo.Model.Repositories
+  type: Namespace
+  assemblies:
+  - centroDeportivo.Model
+references:
+- uid: centroDeportivo.Model.Repositories.ActividadesRepository
+  commentId: T:centroDeportivo.Model.Repositories.ActividadesRepository
+  href: centroDeportivo.Model.Repositories.ActividadesRepository.html
+  name: ActividadesRepository
+  nameWithType: ActividadesRepository
+  fullName: centroDeportivo.Model.Repositories.ActividadesRepository
+- uid: centroDeportivo.Model.Repositories.ReservasRepository
+  commentId: T:centroDeportivo.Model.Repositories.ReservasRepository
+  href: centroDeportivo.Model.Repositories.ReservasRepository.html
+  name: ReservasRepository
+  nameWithType: ReservasRepository
+  fullName: centroDeportivo.Model.Repositories.ReservasRepository
+- uid: centroDeportivo.Model.Repositories.SociosRepository
+  commentId: T:centroDeportivo.Model.Repositories.SociosRepository
+  href: centroDeportivo.Model.Repositories.SociosRepository.html
+  name: SociosRepository
+  nameWithType: SociosRepository
+  fullName: centroDeportivo.Model.Repositories.SociosRepository

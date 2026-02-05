@@ -1,4 +1,5 @@
 ﻿using centroDeportivo.Model;
+using centroDeportivo.Model.Repositories;
 using CentroDeportivo.ViewModel;
 using System;
 using System.Linq;

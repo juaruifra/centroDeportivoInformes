@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: centroDeportivo.Model
+  commentId: N:centroDeportivo.Model
+  id: centroDeportivo.Model
+  children:
+  - centroDeportivo.Model.Actividades
+  - centroDeportivo.Model.CentroDeportivoEntities
+  - centroDeportivo.Model.Reservas
+  - centroDeportivo.Model.Socios
+  langs:
+  - csharp
+  - vb
+  name: centroDeportivo.Model
+  nameWithType: centroDeportivo.Model
+  fullName: centroDeportivo.Model
+  type: Namespace
+  assemblies:
+  - centroDeportivo.Model
+references:
+- uid: centroDeportivo.Model.Actividades
+  commentId: T:centroDeportivo.Model.Actividades
+  parent: centroDeportivo.Model
+  href: centroDeportivo.Model.Actividades.html
+  name: Actividades
+  nameWithType: Actividades
+  fullName: centroDeportivo.Model.Actividades
+- uid: centroDeportivo.Model.CentroDeportivoEntities
+  commentId: T:centroDeportivo.Model.CentroDeportivoEntities
+  href: centroDeportivo.Model.CentroDeportivoEntities.html
+  name: CentroDeportivoEntities
+  nameWithType: CentroDeportivoEntities
+  fullName: centroDeportivo.Model.CentroDeportivoEntities
+- uid: centroDeportivo.Model.Reservas
+  commentId: T:centroDeportivo.Model.Reservas
+  parent: centroDeportivo.Model
+  href: centroDeportivo.Model.Reservas.html
+  name: Reservas
+  nameWithType: Reservas
+  fullName: centroDeportivo.Model.Reservas
+- uid: centroDeportivo.Model.Socios
+  commentId: T:centroDeportivo.Model.Socios
+  parent: centroDeportivo.Model
+  href: centroDeportivo.Model.Socios.html
+  name: Socios
+  nameWithType: Socios
+  fullName: centroDeportivo.Model.Socios
+- uid: centroDeportivo.Model
+  commentId: N:centroDeportivo.Model
+  href: centroDeportivo.html
+  name: centroDeportivo.Model
+  nameWithType: centroDeportivo.Model
+  fullName: centroDeportivo.Model
+  spec.csharp:
+  - uid: centroDeportivo
+    name: centroDeportivo
+    href: centroDeportivo.html
+  - name: .
+  - uid: centroDeportivo.Model
+    name: Model
+    href: centroDeportivo.Model.html
+  spec.vb:
+  - uid: centroDeportivo
+    name: centroDeportivo
+    href: centroDeportivo.html
+  - name: .
+  - uid: centroDeportivo.Model
+    name: Model
+    href: centroDeportivo.Model.html

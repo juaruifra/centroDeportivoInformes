@@ -1,0 +1,172 @@
+### YamlMime:TableOfContent
+items:
+- uid: CentroDeportivo.Reports
+  name: CentroDeportivo.Reports
+  type: Namespace
+  items:
+  - uid: CentroDeportivo.Reports.CachedInformeHistorialReservasPorSocio
+    name: CachedInformeHistorialReservasPorSocio
+    type: Class
+  - uid: CentroDeportivo.Reports.CachedInformeMaestroSocios
+    name: CachedInformeMaestroSocios
+    type: Class
+  - uid: CentroDeportivo.Reports.CachedInformeReservasPorActividad
+    name: CachedInformeReservasPorActividad
+    type: Class
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet
+    name: HistorialReservasPorSocioDataSet
+    type: Class
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+    name: HistorialReservasPorSocioDataSet.HistorialReservasDataTable
+    type: Class
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRow
+    name: HistorialReservasPorSocioDataSet.HistorialReservasRow
+    type: Class
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+    name: HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEvent
+    type: Class
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler
+    name: HistorialReservasPorSocioDataSet.HistorialReservasRowChangeEventHandler
+    type: Delegate
+  - uid: CentroDeportivo.Reports.HistorialReservasPorSocioReportBuilder
+    name: HistorialReservasPorSocioReportBuilder
+    type: Class
+  - uid: CentroDeportivo.Reports.InformeHistorialReservasPorSocio
+    name: InformeHistorialReservasPorSocio
+    type: Class
+  - uid: CentroDeportivo.Reports.InformeMaestroSocios
+    name: InformeMaestroSocios
+    type: Class
+  - uid: CentroDeportivo.Reports.InformeReservasPorActividad
+    name: InformeReservasPorActividad
+    type: Class
+  - uid: CentroDeportivo.Reports.ReportType
+    name: ReportType
+    type: Enum
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet
+    name: ReservasPorActividadDataSet
+    type: Class
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadDataTable
+    name: ReservasPorActividadDataSet.ReservasPorActividadDataTable
+    type: Class
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+    name: ReservasPorActividadDataSet.ReservasPorActividadRow
+    type: Class
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+    name: ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+    type: Class
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler
+    name: ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler
+    type: Delegate
+  - uid: CentroDeportivo.Reports.ReservasPorActividadReportBuilder
+    name: ReservasPorActividadReportBuilder
+    type: Class
+  - uid: CentroDeportivo.Reports.SociosReportBuilder
+    name: SociosReportBuilder
+    type: Class
+  - uid: CentroDeportivo.Reports.SociosReportDataSet
+    name: SociosReportDataSet
+    type: Class
+  - uid: CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable
+    name: SociosReportDataSet.SociosDataTable
+    type: Class
+  - uid: CentroDeportivo.Reports.SociosReportDataSet.SociosRow
+    name: SociosReportDataSet.SociosRow
+    type: Class
+  - uid: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEvent
+    name: SociosReportDataSet.SociosRowChangeEvent
+    type: Class
+  - uid: CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler
+    name: SociosReportDataSet.SociosRowChangeEventHandler
+    type: Delegate
+- uid: CentroDeportivo.ReportsView
+  name: CentroDeportivo.ReportsView
+  type: Namespace
+  items:
+  - uid: CentroDeportivo.ReportsView.App
+    name: App
+    type: Class
+  - uid: CentroDeportivo.ReportsView.Window1
+    name: Window1
+    type: Class
+- uid: CentroDeportivo.View
+  name: CentroDeportivo.View
+  type: Namespace
+  items:
+  - uid: CentroDeportivo.View.ActividadesWindow
+    name: ActividadesWindow
+    type: Class
+  - uid: CentroDeportivo.View.App
+    name: App
+    type: Class
+  - uid: CentroDeportivo.View.MenuWindow
+    name: MenuWindow
+    type: Class
+  - uid: CentroDeportivo.View.ReservasWindow
+    name: ReservasWindow
+    type: Class
+  - uid: CentroDeportivo.View.SociosWindow
+    name: SociosWindow
+    type: Class
+- uid: CentroDeportivo.ViewModel
+  name: CentroDeportivo.ViewModel
+  type: Namespace
+  items:
+  - uid: CentroDeportivo.ViewModel.ActividadesViewModel
+    name: ActividadesViewModel
+    type: Class
+  - uid: CentroDeportivo.ViewModel.BaseValidableViewModel
+    name: BaseValidableViewModel
+    type: Class
+  - uid: CentroDeportivo.ViewModel.BaseViewModel
+    name: BaseViewModel
+    type: Class
+  - uid: CentroDeportivo.ViewModel.MenuPrincipalViewModel
+    name: MenuPrincipalViewModel
+    type: Class
+  - uid: CentroDeportivo.ViewModel.RelayCommand
+    name: RelayCommand
+    type: Class
+  - uid: CentroDeportivo.ViewModel.ReservasViewModel
+    name: ReservasViewModel
+    type: Class
+  - uid: CentroDeportivo.ViewModel.SociosViewModel
+    name: SociosViewModel
+    type: Class
+- uid: CentroDeportivo.test
+  name: CentroDeportivo.test
+  type: Namespace
+  items:
+  - uid: CentroDeportivo.test.Test1
+    name: Test1
+    type: Class
+- uid: centroDeportivo.Model
+  name: centroDeportivo.Model
+  type: Namespace
+  items:
+  - uid: centroDeportivo.Model.Actividades
+    name: Actividades
+    type: Class
+  - uid: centroDeportivo.Model.CentroDeportivoEntities
+    name: CentroDeportivoEntities
+    type: Class
+  - uid: centroDeportivo.Model.Reservas
+    name: Reservas
+    type: Class
+  - uid: centroDeportivo.Model.Socios
+    name: Socios
+    type: Class
+- uid: centroDeportivo.Model.Repositories
+  name: centroDeportivo.Model.Repositories
+  type: Namespace
+  items:
+  - uid: centroDeportivo.Model.Repositories.ActividadesRepository
+    name: ActividadesRepository
+    type: Class
+  - uid: centroDeportivo.Model.Repositories.ReservasRepository
+    name: ReservasRepository
+    type: Class
+  - uid: centroDeportivo.Model.Repositories.SociosRepository
+    name: SociosRepository
+    type: Class
+memberLayout: SamePage

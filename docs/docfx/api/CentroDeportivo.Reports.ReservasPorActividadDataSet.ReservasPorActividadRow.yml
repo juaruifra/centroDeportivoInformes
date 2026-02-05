@@ -1,0 +1,2270 @@
+### YamlMime:ManagedReference
+items:
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  commentId: T:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  id: ReservasPorActividadDataSet.ReservasPorActividadRow
+  parent: CentroDeportivo.Reports
+  children:
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.AforoMaximo
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.FechaReserva
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsAforoMaximoNull
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsFechaReservaNull
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreActividadNull
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreSocioNull
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.NombreActividad
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.NombreSocio
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetAforoMaximoNull
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetFechaReservaNull
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreActividadNull
+  - CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreSocioNull
+  langs:
+  - csharp
+  - vb
+  name: ReservasPorActividadDataSet.ReservasPorActividadRow
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  type: Class
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: ReservasPorActividadRow
+    path: ../../CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+    startLine: 566
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  summary: Represents strongly named DataRow class.
+  example: []
+  syntax:
+    content: 'public class ReservasPorActividadDataSet.ReservasPorActividadRow : DataRow'
+    content.vb: Public Class ReservasPorActividadDataSet.ReservasPorActividadRow Inherits DataRow
+  inheritance:
+  - System.Object
+  - System.Data.DataRow
+  inheritedMembers:
+  - System.Data.DataRow.AcceptChanges
+  - System.Data.DataRow.BeginEdit
+  - System.Data.DataRow.CancelEdit
+  - System.Data.DataRow.Delete
+  - System.Data.DataRow.EndEdit
+  - System.Data.DataRow.SetColumnError(System.Int32,System.String)
+  - System.Data.DataRow.SetColumnError(System.String,System.String)
+  - System.Data.DataRow.SetColumnError(System.Data.DataColumn,System.String)
+  - System.Data.DataRow.GetColumnError(System.Int32)
+  - System.Data.DataRow.GetColumnError(System.String)
+  - System.Data.DataRow.GetColumnError(System.Data.DataColumn)
+  - System.Data.DataRow.ClearErrors
+  - System.Data.DataRow.GetColumnsInError
+  - System.Data.DataRow.GetChildRows(System.String)
+  - System.Data.DataRow.GetChildRows(System.String,System.Data.DataRowVersion)
+  - System.Data.DataRow.GetChildRows(System.Data.DataRelation)
+  - System.Data.DataRow.GetChildRows(System.Data.DataRelation,System.Data.DataRowVersion)
+  - System.Data.DataRow.GetParentRow(System.String)
+  - System.Data.DataRow.GetParentRow(System.String,System.Data.DataRowVersion)
+  - System.Data.DataRow.GetParentRow(System.Data.DataRelation)
+  - System.Data.DataRow.GetParentRow(System.Data.DataRelation,System.Data.DataRowVersion)
+  - System.Data.DataRow.GetParentRows(System.String)
+  - System.Data.DataRow.GetParentRows(System.String,System.Data.DataRowVersion)
+  - System.Data.DataRow.GetParentRows(System.Data.DataRelation)
+  - System.Data.DataRow.GetParentRows(System.Data.DataRelation,System.Data.DataRowVersion)
+  - System.Data.DataRow.HasVersion(System.Data.DataRowVersion)
+  - System.Data.DataRow.IsNull(System.Int32)
+  - System.Data.DataRow.IsNull(System.String)
+  - System.Data.DataRow.IsNull(System.Data.DataColumn)
+  - System.Data.DataRow.IsNull(System.Data.DataColumn,System.Data.DataRowVersion)
+  - System.Data.DataRow.RejectChanges
+  - System.Data.DataRow.SetNull(System.Data.DataColumn)
+  - System.Data.DataRow.SetParentRow(System.Data.DataRow)
+  - System.Data.DataRow.SetParentRow(System.Data.DataRow,System.Data.DataRelation)
+  - System.Data.DataRow.SetAdded
+  - System.Data.DataRow.SetModified
+  - System.Data.DataRow.RowError
+  - System.Data.DataRow.RowState
+  - System.Data.DataRow.Table
+  - System.Data.DataRow.Item(System.Int32)
+  - System.Data.DataRow.Item(System.String)
+  - System.Data.DataRow.Item(System.Data.DataColumn)
+  - System.Data.DataRow.Item(System.Int32,System.Data.DataRowVersion)
+  - System.Data.DataRow.Item(System.String,System.Data.DataRowVersion)
+  - System.Data.DataRow.Item(System.Data.DataColumn,System.Data.DataRowVersion)
+  - System.Data.DataRow.ItemArray
+  - System.Data.DataRow.HasErrors
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.NombreActividad
+  commentId: P:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.NombreActividad
+  id: NombreActividad
+  parent: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  langs:
+  - csharp
+  - vb
+  name: NombreActividad
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.NombreActividad
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.NombreActividad
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: NombreActividad
+    path: ../../CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+    startLine: 577
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public string NombreActividad { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NombreActividad As String
+  overload: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.NombreActividad*
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.FechaReserva
+  commentId: P:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.FechaReserva
+  id: FechaReserva
+  parent: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  langs:
+  - csharp
+  - vb
+  name: FechaReserva
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.FechaReserva
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.FechaReserva
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: FechaReserva
+    path: ../../CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+    startLine: 594
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public DateTime FechaReserva { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property FechaReserva As Date
+  overload: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.FechaReserva*
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.NombreSocio
+  commentId: P:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.NombreSocio
+  id: NombreSocio
+  parent: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  langs:
+  - csharp
+  - vb
+  name: NombreSocio
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.NombreSocio
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.NombreSocio
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: NombreSocio
+    path: ../../CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+    startLine: 611
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public string NombreSocio { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NombreSocio As String
+  overload: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.NombreSocio*
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.AforoMaximo
+  commentId: P:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.AforoMaximo
+  id: AforoMaximo
+  parent: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  langs:
+  - csharp
+  - vb
+  name: AforoMaximo
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.AforoMaximo
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.AforoMaximo
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: AforoMaximo
+    path: ../../CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+    startLine: 628
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public int AforoMaximo { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AforoMaximo As Integer
+  overload: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.AforoMaximo*
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreActividadNull
+  commentId: M:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreActividadNull
+  id: IsNombreActividadNull
+  parent: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  langs:
+  - csharp
+  - vb
+  name: IsNombreActividadNull()
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreActividadNull()
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreActividadNull()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: IsNombreActividadNull
+    path: ../../CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+    startLine: 645
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public bool IsNombreActividadNull()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsNombreActividadNull() As Boolean
+  overload: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreActividadNull*
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreActividadNull
+  commentId: M:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreActividadNull
+  id: SetNombreActividadNull
+  parent: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  langs:
+  - csharp
+  - vb
+  name: SetNombreActividadNull()
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreActividadNull()
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreActividadNull()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: SetNombreActividadNull
+    path: ../../CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+    startLine: 651
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public void SetNombreActividadNull()
+    content.vb: Public Sub SetNombreActividadNull()
+  overload: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreActividadNull*
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsFechaReservaNull
+  commentId: M:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsFechaReservaNull
+  id: IsFechaReservaNull
+  parent: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  langs:
+  - csharp
+  - vb
+  name: IsFechaReservaNull()
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.IsFechaReservaNull()
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsFechaReservaNull()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: IsFechaReservaNull
+    path: ../../CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+    startLine: 657
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public bool IsFechaReservaNull()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsFechaReservaNull() As Boolean
+  overload: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsFechaReservaNull*
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetFechaReservaNull
+  commentId: M:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetFechaReservaNull
+  id: SetFechaReservaNull
+  parent: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  langs:
+  - csharp
+  - vb
+  name: SetFechaReservaNull()
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.SetFechaReservaNull()
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetFechaReservaNull()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: SetFechaReservaNull
+    path: ../../CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+    startLine: 663
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public void SetFechaReservaNull()
+    content.vb: Public Sub SetFechaReservaNull()
+  overload: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetFechaReservaNull*
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreSocioNull
+  commentId: M:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreSocioNull
+  id: IsNombreSocioNull
+  parent: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  langs:
+  - csharp
+  - vb
+  name: IsNombreSocioNull()
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreSocioNull()
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreSocioNull()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: IsNombreSocioNull
+    path: ../../CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+    startLine: 669
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public bool IsNombreSocioNull()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsNombreSocioNull() As Boolean
+  overload: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreSocioNull*
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreSocioNull
+  commentId: M:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreSocioNull
+  id: SetNombreSocioNull
+  parent: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  langs:
+  - csharp
+  - vb
+  name: SetNombreSocioNull()
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreSocioNull()
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreSocioNull()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: SetNombreSocioNull
+    path: ../../CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+    startLine: 675
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public void SetNombreSocioNull()
+    content.vb: Public Sub SetNombreSocioNull()
+  overload: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreSocioNull*
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsAforoMaximoNull
+  commentId: M:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsAforoMaximoNull
+  id: IsAforoMaximoNull
+  parent: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  langs:
+  - csharp
+  - vb
+  name: IsAforoMaximoNull()
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.IsAforoMaximoNull()
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsAforoMaximoNull()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: IsAforoMaximoNull
+    path: ../../CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+    startLine: 681
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public bool IsAforoMaximoNull()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsAforoMaximoNull() As Boolean
+  overload: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsAforoMaximoNull*
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetAforoMaximoNull
+  commentId: M:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetAforoMaximoNull
+  id: SetAforoMaximoNull
+  parent: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow
+  langs:
+  - csharp
+  - vb
+  name: SetAforoMaximoNull()
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.SetAforoMaximoNull()
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetAforoMaximoNull()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: SetAforoMaximoNull
+    path: ../../CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+    startLine: 687
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public void SetAforoMaximoNull()
+    content.vb: Public Sub SetAforoMaximoNull()
+  overload: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetAforoMaximoNull*
+references:
+- uid: CentroDeportivo.Reports
+  commentId: N:CentroDeportivo.Reports
+  href: CentroDeportivo.html
+  name: CentroDeportivo.Reports
+  nameWithType: CentroDeportivo.Reports
+  fullName: CentroDeportivo.Reports
+  spec.csharp:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.Reports
+    name: Reports
+    href: CentroDeportivo.Reports.html
+  spec.vb:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.Reports
+    name: Reports
+    href: CentroDeportivo.Reports.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Data.DataRow
+  commentId: T:System.Data.DataRow
+  parent: System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow
+  name: DataRow
+  nameWithType: DataRow
+  fullName: System.Data.DataRow
+- uid: System.Data.DataRow.AcceptChanges
+  commentId: M:System.Data.DataRow.AcceptChanges
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.acceptchanges
+  name: AcceptChanges()
+  nameWithType: DataRow.AcceptChanges()
+  fullName: System.Data.DataRow.AcceptChanges()
+  spec.csharp:
+  - uid: System.Data.DataRow.AcceptChanges
+    name: AcceptChanges
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.acceptchanges
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.AcceptChanges
+    name: AcceptChanges
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.acceptchanges
+  - name: (
+  - name: )
+- uid: System.Data.DataRow.BeginEdit
+  commentId: M:System.Data.DataRow.BeginEdit
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.beginedit
+  name: BeginEdit()
+  nameWithType: DataRow.BeginEdit()
+  fullName: System.Data.DataRow.BeginEdit()
+  spec.csharp:
+  - uid: System.Data.DataRow.BeginEdit
+    name: BeginEdit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.beginedit
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.BeginEdit
+    name: BeginEdit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.beginedit
+  - name: (
+  - name: )
+- uid: System.Data.DataRow.CancelEdit
+  commentId: M:System.Data.DataRow.CancelEdit
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.canceledit
+  name: CancelEdit()
+  nameWithType: DataRow.CancelEdit()
+  fullName: System.Data.DataRow.CancelEdit()
+  spec.csharp:
+  - uid: System.Data.DataRow.CancelEdit
+    name: CancelEdit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.canceledit
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.CancelEdit
+    name: CancelEdit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.canceledit
+  - name: (
+  - name: )
+- uid: System.Data.DataRow.Delete
+  commentId: M:System.Data.DataRow.Delete
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.delete
+  name: Delete()
+  nameWithType: DataRow.Delete()
+  fullName: System.Data.DataRow.Delete()
+  spec.csharp:
+  - uid: System.Data.DataRow.Delete
+    name: Delete
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.delete
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.Delete
+    name: Delete
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.delete
+  - name: (
+  - name: )
+- uid: System.Data.DataRow.EndEdit
+  commentId: M:System.Data.DataRow.EndEdit
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.endedit
+  name: EndEdit()
+  nameWithType: DataRow.EndEdit()
+  fullName: System.Data.DataRow.EndEdit()
+  spec.csharp:
+  - uid: System.Data.DataRow.EndEdit
+    name: EndEdit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.endedit
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.EndEdit
+    name: EndEdit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.endedit
+  - name: (
+  - name: )
+- uid: System.Data.DataRow.SetColumnError(System.Int32,System.String)
+  commentId: M:System.Data.DataRow.SetColumnError(System.Int32,System.String)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setcolumnerror#system-data-datarow-setcolumnerror(system-int32-system-string)
+  name: SetColumnError(int, string)
+  nameWithType: DataRow.SetColumnError(int, string)
+  fullName: System.Data.DataRow.SetColumnError(int, string)
+  nameWithType.vb: DataRow.SetColumnError(Integer, String)
+  fullName.vb: System.Data.DataRow.SetColumnError(Integer, String)
+  name.vb: SetColumnError(Integer, String)
+  spec.csharp:
+  - uid: System.Data.DataRow.SetColumnError(System.Int32,System.String)
+    name: SetColumnError
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setcolumnerror#system-data-datarow-setcolumnerror(system-int32-system-string)
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.SetColumnError(System.Int32,System.String)
+    name: SetColumnError
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setcolumnerror#system-data-datarow-setcolumnerror(system-int32-system-string)
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Data.DataRow.SetColumnError(System.String,System.String)
+  commentId: M:System.Data.DataRow.SetColumnError(System.String,System.String)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setcolumnerror#system-data-datarow-setcolumnerror(system-string-system-string)
+  name: SetColumnError(string, string)
+  nameWithType: DataRow.SetColumnError(string, string)
+  fullName: System.Data.DataRow.SetColumnError(string, string)
+  nameWithType.vb: DataRow.SetColumnError(String, String)
+  fullName.vb: System.Data.DataRow.SetColumnError(String, String)
+  name.vb: SetColumnError(String, String)
+  spec.csharp:
+  - uid: System.Data.DataRow.SetColumnError(System.String,System.String)
+    name: SetColumnError
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setcolumnerror#system-data-datarow-setcolumnerror(system-string-system-string)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.SetColumnError(System.String,System.String)
+    name: SetColumnError
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setcolumnerror#system-data-datarow-setcolumnerror(system-string-system-string)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Data.DataRow.SetColumnError(System.Data.DataColumn,System.String)
+  commentId: M:System.Data.DataRow.SetColumnError(System.Data.DataColumn,System.String)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setcolumnerror#system-data-datarow-setcolumnerror(system-data-datacolumn-system-string)
+  name: SetColumnError(DataColumn, string)
+  nameWithType: DataRow.SetColumnError(DataColumn, string)
+  fullName: System.Data.DataRow.SetColumnError(System.Data.DataColumn, string)
+  nameWithType.vb: DataRow.SetColumnError(DataColumn, String)
+  fullName.vb: System.Data.DataRow.SetColumnError(System.Data.DataColumn, String)
+  name.vb: SetColumnError(DataColumn, String)
+  spec.csharp:
+  - uid: System.Data.DataRow.SetColumnError(System.Data.DataColumn,System.String)
+    name: SetColumnError
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setcolumnerror#system-data-datarow-setcolumnerror(system-data-datacolumn-system-string)
+  - name: (
+  - uid: System.Data.DataColumn
+    name: DataColumn
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datacolumn
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.SetColumnError(System.Data.DataColumn,System.String)
+    name: SetColumnError
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setcolumnerror#system-data-datarow-setcolumnerror(system-data-datacolumn-system-string)
+  - name: (
+  - uid: System.Data.DataColumn
+    name: DataColumn
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datacolumn
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Data.DataRow.GetColumnError(System.Int32)
+  commentId: M:System.Data.DataRow.GetColumnError(System.Int32)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getcolumnerror#system-data-datarow-getcolumnerror(system-int32)
+  name: GetColumnError(int)
+  nameWithType: DataRow.GetColumnError(int)
+  fullName: System.Data.DataRow.GetColumnError(int)
+  nameWithType.vb: DataRow.GetColumnError(Integer)
+  fullName.vb: System.Data.DataRow.GetColumnError(Integer)
+  name.vb: GetColumnError(Integer)
+  spec.csharp:
+  - uid: System.Data.DataRow.GetColumnError(System.Int32)
+    name: GetColumnError
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getcolumnerror#system-data-datarow-getcolumnerror(system-int32)
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.GetColumnError(System.Int32)
+    name: GetColumnError
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getcolumnerror#system-data-datarow-getcolumnerror(system-int32)
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Data.DataRow.GetColumnError(System.String)
+  commentId: M:System.Data.DataRow.GetColumnError(System.String)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getcolumnerror#system-data-datarow-getcolumnerror(system-string)
+  name: GetColumnError(string)
+  nameWithType: DataRow.GetColumnError(string)
+  fullName: System.Data.DataRow.GetColumnError(string)
+  nameWithType.vb: DataRow.GetColumnError(String)
+  fullName.vb: System.Data.DataRow.GetColumnError(String)
+  name.vb: GetColumnError(String)
+  spec.csharp:
+  - uid: System.Data.DataRow.GetColumnError(System.String)
+    name: GetColumnError
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getcolumnerror#system-data-datarow-getcolumnerror(system-string)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.GetColumnError(System.String)
+    name: GetColumnError
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getcolumnerror#system-data-datarow-getcolumnerror(system-string)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Data.DataRow.GetColumnError(System.Data.DataColumn)
+  commentId: M:System.Data.DataRow.GetColumnError(System.Data.DataColumn)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getcolumnerror#system-data-datarow-getcolumnerror(system-data-datacolumn)
+  name: GetColumnError(DataColumn)
+  nameWithType: DataRow.GetColumnError(DataColumn)
+  fullName: System.Data.DataRow.GetColumnError(System.Data.DataColumn)
+  spec.csharp:
+  - uid: System.Data.DataRow.GetColumnError(System.Data.DataColumn)
+    name: GetColumnError
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getcolumnerror#system-data-datarow-getcolumnerror(system-data-datacolumn)
+  - name: (
+  - uid: System.Data.DataColumn
+    name: DataColumn
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datacolumn
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.GetColumnError(System.Data.DataColumn)
+    name: GetColumnError
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getcolumnerror#system-data-datarow-getcolumnerror(system-data-datacolumn)
+  - name: (
+  - uid: System.Data.DataColumn
+    name: DataColumn
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datacolumn
+  - name: )
+- uid: System.Data.DataRow.ClearErrors
+  commentId: M:System.Data.DataRow.ClearErrors
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.clearerrors
+  name: ClearErrors()
+  nameWithType: DataRow.ClearErrors()
+  fullName: System.Data.DataRow.ClearErrors()
+  spec.csharp:
+  - uid: System.Data.DataRow.ClearErrors
+    name: ClearErrors
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.clearerrors
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.ClearErrors
+    name: ClearErrors
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.clearerrors
+  - name: (
+  - name: )
+- uid: System.Data.DataRow.GetColumnsInError
+  commentId: M:System.Data.DataRow.GetColumnsInError
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getcolumnsinerror
+  name: GetColumnsInError()
+  nameWithType: DataRow.GetColumnsInError()
+  fullName: System.Data.DataRow.GetColumnsInError()
+  spec.csharp:
+  - uid: System.Data.DataRow.GetColumnsInError
+    name: GetColumnsInError
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getcolumnsinerror
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.GetColumnsInError
+    name: GetColumnsInError
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getcolumnsinerror
+  - name: (
+  - name: )
+- uid: System.Data.DataRow.GetChildRows(System.String)
+  commentId: M:System.Data.DataRow.GetChildRows(System.String)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getchildrows#system-data-datarow-getchildrows(system-string)
+  name: GetChildRows(string)
+  nameWithType: DataRow.GetChildRows(string)
+  fullName: System.Data.DataRow.GetChildRows(string)
+  nameWithType.vb: DataRow.GetChildRows(String)
+  fullName.vb: System.Data.DataRow.GetChildRows(String)
+  name.vb: GetChildRows(String)
+  spec.csharp:
+  - uid: System.Data.DataRow.GetChildRows(System.String)
+    name: GetChildRows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getchildrows#system-data-datarow-getchildrows(system-string)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.GetChildRows(System.String)
+    name: GetChildRows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getchildrows#system-data-datarow-getchildrows(system-string)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Data.DataRow.GetChildRows(System.String,System.Data.DataRowVersion)
+  commentId: M:System.Data.DataRow.GetChildRows(System.String,System.Data.DataRowVersion)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getchildrows#system-data-datarow-getchildrows(system-string-system-data-datarowversion)
+  name: GetChildRows(string, DataRowVersion)
+  nameWithType: DataRow.GetChildRows(string, DataRowVersion)
+  fullName: System.Data.DataRow.GetChildRows(string, System.Data.DataRowVersion)
+  nameWithType.vb: DataRow.GetChildRows(String, DataRowVersion)
+  fullName.vb: System.Data.DataRow.GetChildRows(String, System.Data.DataRowVersion)
+  name.vb: GetChildRows(String, DataRowVersion)
+  spec.csharp:
+  - uid: System.Data.DataRow.GetChildRows(System.String,System.Data.DataRowVersion)
+    name: GetChildRows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getchildrows#system-data-datarow-getchildrows(system-string-system-data-datarowversion)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.GetChildRows(System.String,System.Data.DataRowVersion)
+    name: GetChildRows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getchildrows#system-data-datarow-getchildrows(system-string-system-data-datarowversion)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+- uid: System.Data.DataRow.GetChildRows(System.Data.DataRelation)
+  commentId: M:System.Data.DataRow.GetChildRows(System.Data.DataRelation)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getchildrows#system-data-datarow-getchildrows(system-data-datarelation)
+  name: GetChildRows(DataRelation)
+  nameWithType: DataRow.GetChildRows(DataRelation)
+  fullName: System.Data.DataRow.GetChildRows(System.Data.DataRelation)
+  spec.csharp:
+  - uid: System.Data.DataRow.GetChildRows(System.Data.DataRelation)
+    name: GetChildRows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getchildrows#system-data-datarow-getchildrows(system-data-datarelation)
+  - name: (
+  - uid: System.Data.DataRelation
+    name: DataRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarelation
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.GetChildRows(System.Data.DataRelation)
+    name: GetChildRows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getchildrows#system-data-datarow-getchildrows(system-data-datarelation)
+  - name: (
+  - uid: System.Data.DataRelation
+    name: DataRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarelation
+  - name: )
+- uid: System.Data.DataRow.GetChildRows(System.Data.DataRelation,System.Data.DataRowVersion)
+  commentId: M:System.Data.DataRow.GetChildRows(System.Data.DataRelation,System.Data.DataRowVersion)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getchildrows#system-data-datarow-getchildrows(system-data-datarelation-system-data-datarowversion)
+  name: GetChildRows(DataRelation, DataRowVersion)
+  nameWithType: DataRow.GetChildRows(DataRelation, DataRowVersion)
+  fullName: System.Data.DataRow.GetChildRows(System.Data.DataRelation, System.Data.DataRowVersion)
+  spec.csharp:
+  - uid: System.Data.DataRow.GetChildRows(System.Data.DataRelation,System.Data.DataRowVersion)
+    name: GetChildRows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getchildrows#system-data-datarow-getchildrows(system-data-datarelation-system-data-datarowversion)
+  - name: (
+  - uid: System.Data.DataRelation
+    name: DataRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarelation
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.GetChildRows(System.Data.DataRelation,System.Data.DataRowVersion)
+    name: GetChildRows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getchildrows#system-data-datarow-getchildrows(system-data-datarelation-system-data-datarowversion)
+  - name: (
+  - uid: System.Data.DataRelation
+    name: DataRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarelation
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+- uid: System.Data.DataRow.GetParentRow(System.String)
+  commentId: M:System.Data.DataRow.GetParentRow(System.String)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrow#system-data-datarow-getparentrow(system-string)
+  name: GetParentRow(string)
+  nameWithType: DataRow.GetParentRow(string)
+  fullName: System.Data.DataRow.GetParentRow(string)
+  nameWithType.vb: DataRow.GetParentRow(String)
+  fullName.vb: System.Data.DataRow.GetParentRow(String)
+  name.vb: GetParentRow(String)
+  spec.csharp:
+  - uid: System.Data.DataRow.GetParentRow(System.String)
+    name: GetParentRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrow#system-data-datarow-getparentrow(system-string)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.GetParentRow(System.String)
+    name: GetParentRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrow#system-data-datarow-getparentrow(system-string)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Data.DataRow.GetParentRow(System.String,System.Data.DataRowVersion)
+  commentId: M:System.Data.DataRow.GetParentRow(System.String,System.Data.DataRowVersion)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrow#system-data-datarow-getparentrow(system-string-system-data-datarowversion)
+  name: GetParentRow(string, DataRowVersion)
+  nameWithType: DataRow.GetParentRow(string, DataRowVersion)
+  fullName: System.Data.DataRow.GetParentRow(string, System.Data.DataRowVersion)
+  nameWithType.vb: DataRow.GetParentRow(String, DataRowVersion)
+  fullName.vb: System.Data.DataRow.GetParentRow(String, System.Data.DataRowVersion)
+  name.vb: GetParentRow(String, DataRowVersion)
+  spec.csharp:
+  - uid: System.Data.DataRow.GetParentRow(System.String,System.Data.DataRowVersion)
+    name: GetParentRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrow#system-data-datarow-getparentrow(system-string-system-data-datarowversion)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.GetParentRow(System.String,System.Data.DataRowVersion)
+    name: GetParentRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrow#system-data-datarow-getparentrow(system-string-system-data-datarowversion)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+- uid: System.Data.DataRow.GetParentRow(System.Data.DataRelation)
+  commentId: M:System.Data.DataRow.GetParentRow(System.Data.DataRelation)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrow#system-data-datarow-getparentrow(system-data-datarelation)
+  name: GetParentRow(DataRelation)
+  nameWithType: DataRow.GetParentRow(DataRelation)
+  fullName: System.Data.DataRow.GetParentRow(System.Data.DataRelation)
+  spec.csharp:
+  - uid: System.Data.DataRow.GetParentRow(System.Data.DataRelation)
+    name: GetParentRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrow#system-data-datarow-getparentrow(system-data-datarelation)
+  - name: (
+  - uid: System.Data.DataRelation
+    name: DataRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarelation
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.GetParentRow(System.Data.DataRelation)
+    name: GetParentRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrow#system-data-datarow-getparentrow(system-data-datarelation)
+  - name: (
+  - uid: System.Data.DataRelation
+    name: DataRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarelation
+  - name: )
+- uid: System.Data.DataRow.GetParentRow(System.Data.DataRelation,System.Data.DataRowVersion)
+  commentId: M:System.Data.DataRow.GetParentRow(System.Data.DataRelation,System.Data.DataRowVersion)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrow#system-data-datarow-getparentrow(system-data-datarelation-system-data-datarowversion)
+  name: GetParentRow(DataRelation, DataRowVersion)
+  nameWithType: DataRow.GetParentRow(DataRelation, DataRowVersion)
+  fullName: System.Data.DataRow.GetParentRow(System.Data.DataRelation, System.Data.DataRowVersion)
+  spec.csharp:
+  - uid: System.Data.DataRow.GetParentRow(System.Data.DataRelation,System.Data.DataRowVersion)
+    name: GetParentRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrow#system-data-datarow-getparentrow(system-data-datarelation-system-data-datarowversion)
+  - name: (
+  - uid: System.Data.DataRelation
+    name: DataRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarelation
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.GetParentRow(System.Data.DataRelation,System.Data.DataRowVersion)
+    name: GetParentRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrow#system-data-datarow-getparentrow(system-data-datarelation-system-data-datarowversion)
+  - name: (
+  - uid: System.Data.DataRelation
+    name: DataRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarelation
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+- uid: System.Data.DataRow.GetParentRows(System.String)
+  commentId: M:System.Data.DataRow.GetParentRows(System.String)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrows#system-data-datarow-getparentrows(system-string)
+  name: GetParentRows(string)
+  nameWithType: DataRow.GetParentRows(string)
+  fullName: System.Data.DataRow.GetParentRows(string)
+  nameWithType.vb: DataRow.GetParentRows(String)
+  fullName.vb: System.Data.DataRow.GetParentRows(String)
+  name.vb: GetParentRows(String)
+  spec.csharp:
+  - uid: System.Data.DataRow.GetParentRows(System.String)
+    name: GetParentRows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrows#system-data-datarow-getparentrows(system-string)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.GetParentRows(System.String)
+    name: GetParentRows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrows#system-data-datarow-getparentrows(system-string)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Data.DataRow.GetParentRows(System.String,System.Data.DataRowVersion)
+  commentId: M:System.Data.DataRow.GetParentRows(System.String,System.Data.DataRowVersion)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrows#system-data-datarow-getparentrows(system-string-system-data-datarowversion)
+  name: GetParentRows(string, DataRowVersion)
+  nameWithType: DataRow.GetParentRows(string, DataRowVersion)
+  fullName: System.Data.DataRow.GetParentRows(string, System.Data.DataRowVersion)
+  nameWithType.vb: DataRow.GetParentRows(String, DataRowVersion)
+  fullName.vb: System.Data.DataRow.GetParentRows(String, System.Data.DataRowVersion)
+  name.vb: GetParentRows(String, DataRowVersion)
+  spec.csharp:
+  - uid: System.Data.DataRow.GetParentRows(System.String,System.Data.DataRowVersion)
+    name: GetParentRows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrows#system-data-datarow-getparentrows(system-string-system-data-datarowversion)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.GetParentRows(System.String,System.Data.DataRowVersion)
+    name: GetParentRows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrows#system-data-datarow-getparentrows(system-string-system-data-datarowversion)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+- uid: System.Data.DataRow.GetParentRows(System.Data.DataRelation)
+  commentId: M:System.Data.DataRow.GetParentRows(System.Data.DataRelation)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrows#system-data-datarow-getparentrows(system-data-datarelation)
+  name: GetParentRows(DataRelation)
+  nameWithType: DataRow.GetParentRows(DataRelation)
+  fullName: System.Data.DataRow.GetParentRows(System.Data.DataRelation)
+  spec.csharp:
+  - uid: System.Data.DataRow.GetParentRows(System.Data.DataRelation)
+    name: GetParentRows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrows#system-data-datarow-getparentrows(system-data-datarelation)
+  - name: (
+  - uid: System.Data.DataRelation
+    name: DataRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarelation
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.GetParentRows(System.Data.DataRelation)
+    name: GetParentRows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrows#system-data-datarow-getparentrows(system-data-datarelation)
+  - name: (
+  - uid: System.Data.DataRelation
+    name: DataRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarelation
+  - name: )
+- uid: System.Data.DataRow.GetParentRows(System.Data.DataRelation,System.Data.DataRowVersion)
+  commentId: M:System.Data.DataRow.GetParentRows(System.Data.DataRelation,System.Data.DataRowVersion)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrows#system-data-datarow-getparentrows(system-data-datarelation-system-data-datarowversion)
+  name: GetParentRows(DataRelation, DataRowVersion)
+  nameWithType: DataRow.GetParentRows(DataRelation, DataRowVersion)
+  fullName: System.Data.DataRow.GetParentRows(System.Data.DataRelation, System.Data.DataRowVersion)
+  spec.csharp:
+  - uid: System.Data.DataRow.GetParentRows(System.Data.DataRelation,System.Data.DataRowVersion)
+    name: GetParentRows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrows#system-data-datarow-getparentrows(system-data-datarelation-system-data-datarowversion)
+  - name: (
+  - uid: System.Data.DataRelation
+    name: DataRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarelation
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.GetParentRows(System.Data.DataRelation,System.Data.DataRowVersion)
+    name: GetParentRows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.getparentrows#system-data-datarow-getparentrows(system-data-datarelation-system-data-datarowversion)
+  - name: (
+  - uid: System.Data.DataRelation
+    name: DataRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarelation
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+- uid: System.Data.DataRow.HasVersion(System.Data.DataRowVersion)
+  commentId: M:System.Data.DataRow.HasVersion(System.Data.DataRowVersion)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.hasversion
+  name: HasVersion(DataRowVersion)
+  nameWithType: DataRow.HasVersion(DataRowVersion)
+  fullName: System.Data.DataRow.HasVersion(System.Data.DataRowVersion)
+  spec.csharp:
+  - uid: System.Data.DataRow.HasVersion(System.Data.DataRowVersion)
+    name: HasVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.hasversion
+  - name: (
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.HasVersion(System.Data.DataRowVersion)
+    name: HasVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.hasversion
+  - name: (
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+- uid: System.Data.DataRow.IsNull(System.Int32)
+  commentId: M:System.Data.DataRow.IsNull(System.Int32)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.isnull#system-data-datarow-isnull(system-int32)
+  name: IsNull(int)
+  nameWithType: DataRow.IsNull(int)
+  fullName: System.Data.DataRow.IsNull(int)
+  nameWithType.vb: DataRow.IsNull(Integer)
+  fullName.vb: System.Data.DataRow.IsNull(Integer)
+  name.vb: IsNull(Integer)
+  spec.csharp:
+  - uid: System.Data.DataRow.IsNull(System.Int32)
+    name: IsNull
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.isnull#system-data-datarow-isnull(system-int32)
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.IsNull(System.Int32)
+    name: IsNull
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.isnull#system-data-datarow-isnull(system-int32)
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Data.DataRow.IsNull(System.String)
+  commentId: M:System.Data.DataRow.IsNull(System.String)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.isnull#system-data-datarow-isnull(system-string)
+  name: IsNull(string)
+  nameWithType: DataRow.IsNull(string)
+  fullName: System.Data.DataRow.IsNull(string)
+  nameWithType.vb: DataRow.IsNull(String)
+  fullName.vb: System.Data.DataRow.IsNull(String)
+  name.vb: IsNull(String)
+  spec.csharp:
+  - uid: System.Data.DataRow.IsNull(System.String)
+    name: IsNull
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.isnull#system-data-datarow-isnull(system-string)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.IsNull(System.String)
+    name: IsNull
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.isnull#system-data-datarow-isnull(system-string)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Data.DataRow.IsNull(System.Data.DataColumn)
+  commentId: M:System.Data.DataRow.IsNull(System.Data.DataColumn)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.isnull#system-data-datarow-isnull(system-data-datacolumn)
+  name: IsNull(DataColumn)
+  nameWithType: DataRow.IsNull(DataColumn)
+  fullName: System.Data.DataRow.IsNull(System.Data.DataColumn)
+  spec.csharp:
+  - uid: System.Data.DataRow.IsNull(System.Data.DataColumn)
+    name: IsNull
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.isnull#system-data-datarow-isnull(system-data-datacolumn)
+  - name: (
+  - uid: System.Data.DataColumn
+    name: DataColumn
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datacolumn
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.IsNull(System.Data.DataColumn)
+    name: IsNull
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.isnull#system-data-datarow-isnull(system-data-datacolumn)
+  - name: (
+  - uid: System.Data.DataColumn
+    name: DataColumn
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datacolumn
+  - name: )
+- uid: System.Data.DataRow.IsNull(System.Data.DataColumn,System.Data.DataRowVersion)
+  commentId: M:System.Data.DataRow.IsNull(System.Data.DataColumn,System.Data.DataRowVersion)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.isnull#system-data-datarow-isnull(system-data-datacolumn-system-data-datarowversion)
+  name: IsNull(DataColumn, DataRowVersion)
+  nameWithType: DataRow.IsNull(DataColumn, DataRowVersion)
+  fullName: System.Data.DataRow.IsNull(System.Data.DataColumn, System.Data.DataRowVersion)
+  spec.csharp:
+  - uid: System.Data.DataRow.IsNull(System.Data.DataColumn,System.Data.DataRowVersion)
+    name: IsNull
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.isnull#system-data-datarow-isnull(system-data-datacolumn-system-data-datarowversion)
+  - name: (
+  - uid: System.Data.DataColumn
+    name: DataColumn
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datacolumn
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.IsNull(System.Data.DataColumn,System.Data.DataRowVersion)
+    name: IsNull
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.isnull#system-data-datarow-isnull(system-data-datacolumn-system-data-datarowversion)
+  - name: (
+  - uid: System.Data.DataColumn
+    name: DataColumn
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datacolumn
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+- uid: System.Data.DataRow.RejectChanges
+  commentId: M:System.Data.DataRow.RejectChanges
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.rejectchanges
+  name: RejectChanges()
+  nameWithType: DataRow.RejectChanges()
+  fullName: System.Data.DataRow.RejectChanges()
+  spec.csharp:
+  - uid: System.Data.DataRow.RejectChanges
+    name: RejectChanges
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.rejectchanges
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.RejectChanges
+    name: RejectChanges
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.rejectchanges
+  - name: (
+  - name: )
+- uid: System.Data.DataRow.SetNull(System.Data.DataColumn)
+  commentId: M:System.Data.DataRow.SetNull(System.Data.DataColumn)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setnull
+  name: SetNull(DataColumn)
+  nameWithType: DataRow.SetNull(DataColumn)
+  fullName: System.Data.DataRow.SetNull(System.Data.DataColumn)
+  spec.csharp:
+  - uid: System.Data.DataRow.SetNull(System.Data.DataColumn)
+    name: SetNull
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setnull
+  - name: (
+  - uid: System.Data.DataColumn
+    name: DataColumn
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datacolumn
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.SetNull(System.Data.DataColumn)
+    name: SetNull
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setnull
+  - name: (
+  - uid: System.Data.DataColumn
+    name: DataColumn
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datacolumn
+  - name: )
+- uid: System.Data.DataRow.SetParentRow(System.Data.DataRow)
+  commentId: M:System.Data.DataRow.SetParentRow(System.Data.DataRow)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setparentrow#system-data-datarow-setparentrow(system-data-datarow)
+  name: SetParentRow(DataRow)
+  nameWithType: DataRow.SetParentRow(DataRow)
+  fullName: System.Data.DataRow.SetParentRow(System.Data.DataRow)
+  spec.csharp:
+  - uid: System.Data.DataRow.SetParentRow(System.Data.DataRow)
+    name: SetParentRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setparentrow#system-data-datarow-setparentrow(system-data-datarow)
+  - name: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.SetParentRow(System.Data.DataRow)
+    name: SetParentRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setparentrow#system-data-datarow-setparentrow(system-data-datarow)
+  - name: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow
+  - name: )
+- uid: System.Data.DataRow.SetParentRow(System.Data.DataRow,System.Data.DataRelation)
+  commentId: M:System.Data.DataRow.SetParentRow(System.Data.DataRow,System.Data.DataRelation)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setparentrow#system-data-datarow-setparentrow(system-data-datarow-system-data-datarelation)
+  name: SetParentRow(DataRow, DataRelation)
+  nameWithType: DataRow.SetParentRow(DataRow, DataRelation)
+  fullName: System.Data.DataRow.SetParentRow(System.Data.DataRow, System.Data.DataRelation)
+  spec.csharp:
+  - uid: System.Data.DataRow.SetParentRow(System.Data.DataRow,System.Data.DataRelation)
+    name: SetParentRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setparentrow#system-data-datarow-setparentrow(system-data-datarow-system-data-datarelation)
+  - name: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRelation
+    name: DataRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarelation
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.SetParentRow(System.Data.DataRow,System.Data.DataRelation)
+    name: SetParentRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setparentrow#system-data-datarow-setparentrow(system-data-datarow-system-data-datarelation)
+  - name: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRelation
+    name: DataRelation
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarelation
+  - name: )
+- uid: System.Data.DataRow.SetAdded
+  commentId: M:System.Data.DataRow.SetAdded
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setadded
+  name: SetAdded()
+  nameWithType: DataRow.SetAdded()
+  fullName: System.Data.DataRow.SetAdded()
+  spec.csharp:
+  - uid: System.Data.DataRow.SetAdded
+    name: SetAdded
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setadded
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.SetAdded
+    name: SetAdded
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setadded
+  - name: (
+  - name: )
+- uid: System.Data.DataRow.SetModified
+  commentId: M:System.Data.DataRow.SetModified
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setmodified
+  name: SetModified()
+  nameWithType: DataRow.SetModified()
+  fullName: System.Data.DataRow.SetModified()
+  spec.csharp:
+  - uid: System.Data.DataRow.SetModified
+    name: SetModified
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setmodified
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.DataRow.SetModified
+    name: SetModified
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.setmodified
+  - name: (
+  - name: )
+- uid: System.Data.DataRow.RowError
+  commentId: P:System.Data.DataRow.RowError
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.rowerror
+  name: RowError
+  nameWithType: DataRow.RowError
+  fullName: System.Data.DataRow.RowError
+- uid: System.Data.DataRow.RowState
+  commentId: P:System.Data.DataRow.RowState
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.rowstate
+  name: RowState
+  nameWithType: DataRow.RowState
+  fullName: System.Data.DataRow.RowState
+- uid: System.Data.DataRow.Table
+  commentId: P:System.Data.DataRow.Table
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.table
+  name: Table
+  nameWithType: DataRow.Table
+  fullName: System.Data.DataRow.Table
+- uid: System.Data.DataRow.Item(System.Int32)
+  commentId: P:System.Data.DataRow.Item(System.Int32)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int]
+  nameWithType: DataRow.this[int]
+  fullName: System.Data.DataRow.this[int]
+  nameWithType.vb: DataRow.this[](Integer)
+  fullName.vb: System.Data.DataRow.this[](Integer)
+  name.vb: this[](Integer)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ']'
+  spec.vb:
+  - uid: System.Data.DataRow.Item(System.Int32)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.item
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Data.DataRow.Item(System.String)
+  commentId: P:System.Data.DataRow.Item(System.String)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string]
+  nameWithType: DataRow.this[string]
+  fullName: System.Data.DataRow.this[string]
+  nameWithType.vb: DataRow.this[](String)
+  fullName.vb: System.Data.DataRow.this[](String)
+  name.vb: this[](String)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+  spec.vb:
+  - uid: System.Data.DataRow.Item(System.String)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.item
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Data.DataRow.Item(System.Data.DataColumn)
+  commentId: P:System.Data.DataRow.Item(System.Data.DataColumn)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datacolumn
+  name: this[DataColumn]
+  nameWithType: DataRow.this[DataColumn]
+  fullName: System.Data.DataRow.this[System.Data.DataColumn]
+  nameWithType.vb: DataRow.this[](DataColumn)
+  fullName.vb: System.Data.DataRow.this[](System.Data.DataColumn)
+  name.vb: this[](DataColumn)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Data.DataColumn
+    name: DataColumn
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datacolumn
+  - name: ']'
+  spec.vb:
+  - uid: System.Data.DataRow.Item(System.Data.DataColumn)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.item
+  - name: (
+  - uid: System.Data.DataColumn
+    name: DataColumn
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datacolumn
+  - name: )
+- uid: System.Data.DataRow.Item(System.Int32,System.Data.DataRowVersion)
+  commentId: P:System.Data.DataRow.Item(System.Int32,System.Data.DataRowVersion)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int, DataRowVersion]
+  nameWithType: DataRow.this[int, DataRowVersion]
+  fullName: System.Data.DataRow.this[int, System.Data.DataRowVersion]
+  nameWithType.vb: DataRow.this[](Integer, DataRowVersion)
+  fullName.vb: System.Data.DataRow.this[](Integer, System.Data.DataRowVersion)
+  name.vb: this[](Integer, DataRowVersion)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: ']'
+  spec.vb:
+  - uid: System.Data.DataRow.Item(System.Int32,System.Data.DataRowVersion)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.item
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+- uid: System.Data.DataRow.Item(System.String,System.Data.DataRowVersion)
+  commentId: P:System.Data.DataRow.Item(System.String,System.Data.DataRowVersion)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string, DataRowVersion]
+  nameWithType: DataRow.this[string, DataRowVersion]
+  fullName: System.Data.DataRow.this[string, System.Data.DataRowVersion]
+  nameWithType.vb: DataRow.this[](String, DataRowVersion)
+  fullName.vb: System.Data.DataRow.this[](String, System.Data.DataRowVersion)
+  name.vb: this[](String, DataRowVersion)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: ']'
+  spec.vb:
+  - uid: System.Data.DataRow.Item(System.String,System.Data.DataRowVersion)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.item
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+- uid: System.Data.DataRow.Item(System.Data.DataColumn,System.Data.DataRowVersion)
+  commentId: P:System.Data.DataRow.Item(System.Data.DataColumn,System.Data.DataRowVersion)
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datacolumn
+  name: this[DataColumn, DataRowVersion]
+  nameWithType: DataRow.this[DataColumn, DataRowVersion]
+  fullName: System.Data.DataRow.this[System.Data.DataColumn, System.Data.DataRowVersion]
+  nameWithType.vb: DataRow.this[](DataColumn, DataRowVersion)
+  fullName.vb: System.Data.DataRow.this[](System.Data.DataColumn, System.Data.DataRowVersion)
+  name.vb: this[](DataColumn, DataRowVersion)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Data.DataColumn
+    name: DataColumn
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datacolumn
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: ']'
+  spec.vb:
+  - uid: System.Data.DataRow.Item(System.Data.DataColumn,System.Data.DataRowVersion)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarow.item
+  - name: (
+  - uid: System.Data.DataColumn
+    name: DataColumn
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datacolumn
+  - name: ','
+  - name: " "
+  - uid: System.Data.DataRowVersion
+    name: DataRowVersion
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.datarowversion
+  - name: )
+- uid: System.Data.DataRow.ItemArray
+  commentId: P:System.Data.DataRow.ItemArray
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.itemarray
+  name: ItemArray
+  nameWithType: DataRow.ItemArray
+  fullName: System.Data.DataRow.ItemArray
+- uid: System.Data.DataRow.HasErrors
+  commentId: P:System.Data.DataRow.HasErrors
+  parent: System.Data.DataRow
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.datarow.haserrors
+  name: HasErrors
+  nameWithType: DataRow.HasErrors
+  fullName: System.Data.DataRow.HasErrors
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Data
+  commentId: N:System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Data
+  nameWithType: System.Data
+  fullName: System.Data
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Data
+    name: Data
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Data
+    name: Data
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.NombreActividad*
+  commentId: Overload:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.NombreActividad
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.html#CentroDeportivo_Reports_ReservasPorActividadDataSet_ReservasPorActividadRow_NombreActividad
+  name: NombreActividad
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.NombreActividad
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.NombreActividad
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.FechaReserva*
+  commentId: Overload:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.FechaReserva
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.html#CentroDeportivo_Reports_ReservasPorActividadDataSet_ReservasPorActividadRow_FechaReserva
+  name: FechaReserva
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.FechaReserva
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.FechaReserva
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.NombreSocio*
+  commentId: Overload:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.NombreSocio
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.html#CentroDeportivo_Reports_ReservasPorActividadDataSet_ReservasPorActividadRow_NombreSocio
+  name: NombreSocio
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.NombreSocio
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.NombreSocio
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.AforoMaximo*
+  commentId: Overload:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.AforoMaximo
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.html#CentroDeportivo_Reports_ReservasPorActividadDataSet_ReservasPorActividadRow_AforoMaximo
+  name: AforoMaximo
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.AforoMaximo
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.AforoMaximo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreActividadNull*
+  commentId: Overload:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreActividadNull
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.html#CentroDeportivo_Reports_ReservasPorActividadDataSet_ReservasPorActividadRow_IsNombreActividadNull
+  name: IsNombreActividadNull
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreActividadNull
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreActividadNull
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreActividadNull*
+  commentId: Overload:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreActividadNull
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.html#CentroDeportivo_Reports_ReservasPorActividadDataSet_ReservasPorActividadRow_SetNombreActividadNull
+  name: SetNombreActividadNull
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreActividadNull
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreActividadNull
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsFechaReservaNull*
+  commentId: Overload:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsFechaReservaNull
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.html#CentroDeportivo_Reports_ReservasPorActividadDataSet_ReservasPorActividadRow_IsFechaReservaNull
+  name: IsFechaReservaNull
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.IsFechaReservaNull
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsFechaReservaNull
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetFechaReservaNull*
+  commentId: Overload:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetFechaReservaNull
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.html#CentroDeportivo_Reports_ReservasPorActividadDataSet_ReservasPorActividadRow_SetFechaReservaNull
+  name: SetFechaReservaNull
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.SetFechaReservaNull
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetFechaReservaNull
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreSocioNull*
+  commentId: Overload:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreSocioNull
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.html#CentroDeportivo_Reports_ReservasPorActividadDataSet_ReservasPorActividadRow_IsNombreSocioNull
+  name: IsNombreSocioNull
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreSocioNull
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsNombreSocioNull
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreSocioNull*
+  commentId: Overload:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreSocioNull
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.html#CentroDeportivo_Reports_ReservasPorActividadDataSet_ReservasPorActividadRow_SetNombreSocioNull
+  name: SetNombreSocioNull
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreSocioNull
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetNombreSocioNull
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsAforoMaximoNull*
+  commentId: Overload:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsAforoMaximoNull
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.html#CentroDeportivo_Reports_ReservasPorActividadDataSet_ReservasPorActividadRow_IsAforoMaximoNull
+  name: IsAforoMaximoNull
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.IsAforoMaximoNull
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.IsAforoMaximoNull
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetAforoMaximoNull*
+  commentId: Overload:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetAforoMaximoNull
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.html#CentroDeportivo_Reports_ReservasPorActividadDataSet_ReservasPorActividadRow_SetAforoMaximoNull
+  name: SetAforoMaximoNull
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRow.SetAforoMaximoNull
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRow.SetAforoMaximoNull

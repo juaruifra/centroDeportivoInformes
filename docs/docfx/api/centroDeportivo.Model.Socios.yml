@@ -1,0 +1,676 @@
+### YamlMime:ManagedReference
+items:
+- uid: centroDeportivo.Model.Socios
+  commentId: T:centroDeportivo.Model.Socios
+  id: Socios
+  parent: centroDeportivo.Model
+  children:
+  - centroDeportivo.Model.Socios.#ctor
+  - centroDeportivo.Model.Socios.Activo
+  - centroDeportivo.Model.Socios.Email
+  - centroDeportivo.Model.Socios.Id
+  - centroDeportivo.Model.Socios.Nombre
+  - centroDeportivo.Model.Socios.Reservas
+  langs:
+  - csharp
+  - vb
+  name: Socios
+  nameWithType: Socios
+  fullName: centroDeportivo.Model.Socios
+  type: Class
+  source:
+    remote:
+      path: centroDeportivo.Model/Socios.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Socios
+    path: ../../centroDeportivo.Model/Socios.cs
+    startLine: 14
+  assemblies:
+  - centroDeportivo.Model
+  namespace: centroDeportivo.Model
+  syntax:
+    content: public class Socios
+    content.vb: Public Class Socios
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: centroDeportivo.Model.Socios.#ctor
+  commentId: M:centroDeportivo.Model.Socios.#ctor
+  id: '#ctor'
+  parent: centroDeportivo.Model.Socios
+  langs:
+  - csharp
+  - vb
+  name: Socios()
+  nameWithType: Socios.Socios()
+  fullName: centroDeportivo.Model.Socios.Socios()
+  type: Constructor
+  source:
+    remote:
+      path: centroDeportivo.Model/Socios.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: .ctor
+    path: ../../centroDeportivo.Model/Socios.cs
+    startLine: 16
+  assemblies:
+  - centroDeportivo.Model
+  namespace: centroDeportivo.Model
+  syntax:
+    content: >-
+      [SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+
+      public Socios()
+    content.vb: >-
+      <SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")>
+
+      Public Sub New()
+  overload: centroDeportivo.Model.Socios.#ctor*
+  attributes:
+  - type: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
+    ctor: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Microsoft.Usage
+    - type: System.String
+      value: CA2214:DoNotCallOverridableMethodsInConstructors
+  nameWithType.vb: Socios.New()
+  fullName.vb: centroDeportivo.Model.Socios.New()
+  name.vb: New()
+- uid: centroDeportivo.Model.Socios.Id
+  commentId: P:centroDeportivo.Model.Socios.Id
+  id: Id
+  parent: centroDeportivo.Model.Socios
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Socios.Id
+  fullName: centroDeportivo.Model.Socios.Id
+  type: Property
+  source:
+    remote:
+      path: centroDeportivo.Model/Socios.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Id
+    path: ../../centroDeportivo.Model/Socios.cs
+    startLine: 22
+  assemblies:
+  - centroDeportivo.Model
+  namespace: centroDeportivo.Model
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: centroDeportivo.Model.Socios.Id*
+- uid: centroDeportivo.Model.Socios.Nombre
+  commentId: P:centroDeportivo.Model.Socios.Nombre
+  id: Nombre
+  parent: centroDeportivo.Model.Socios
+  langs:
+  - csharp
+  - vb
+  name: Nombre
+  nameWithType: Socios.Nombre
+  fullName: centroDeportivo.Model.Socios.Nombre
+  type: Property
+  source:
+    remote:
+      path: centroDeportivo.Model/Socios.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Nombre
+    path: ../../centroDeportivo.Model/Socios.cs
+    startLine: 23
+  assemblies:
+  - centroDeportivo.Model
+  namespace: centroDeportivo.Model
+  syntax:
+    content: public string Nombre { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Nombre As String
+  overload: centroDeportivo.Model.Socios.Nombre*
+- uid: centroDeportivo.Model.Socios.Email
+  commentId: P:centroDeportivo.Model.Socios.Email
+  id: Email
+  parent: centroDeportivo.Model.Socios
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: Socios.Email
+  fullName: centroDeportivo.Model.Socios.Email
+  type: Property
+  source:
+    remote:
+      path: centroDeportivo.Model/Socios.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Email
+    path: ../../centroDeportivo.Model/Socios.cs
+    startLine: 24
+  assemblies:
+  - centroDeportivo.Model
+  namespace: centroDeportivo.Model
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: centroDeportivo.Model.Socios.Email*
+- uid: centroDeportivo.Model.Socios.Activo
+  commentId: P:centroDeportivo.Model.Socios.Activo
+  id: Activo
+  parent: centroDeportivo.Model.Socios
+  langs:
+  - csharp
+  - vb
+  name: Activo
+  nameWithType: Socios.Activo
+  fullName: centroDeportivo.Model.Socios.Activo
+  type: Property
+  source:
+    remote:
+      path: centroDeportivo.Model/Socios.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Activo
+    path: ../../centroDeportivo.Model/Socios.cs
+    startLine: 25
+  assemblies:
+  - centroDeportivo.Model
+  namespace: centroDeportivo.Model
+  syntax:
+    content: public bool Activo { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Activo As Boolean
+  overload: centroDeportivo.Model.Socios.Activo*
+- uid: centroDeportivo.Model.Socios.Reservas
+  commentId: P:centroDeportivo.Model.Socios.Reservas
+  id: Reservas
+  parent: centroDeportivo.Model.Socios
+  langs:
+  - csharp
+  - vb
+  name: Reservas
+  nameWithType: Socios.Reservas
+  fullName: centroDeportivo.Model.Socios.Reservas
+  type: Property
+  source:
+    remote:
+      path: centroDeportivo.Model/Socios.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Reservas
+    path: ../../centroDeportivo.Model/Socios.cs
+    startLine: 27
+  assemblies:
+  - centroDeportivo.Model
+  namespace: centroDeportivo.Model
+  syntax:
+    content: >-
+      [SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+
+      public virtual ICollection<Reservas> Reservas { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{centroDeportivo.Model.Reservas}
+    content.vb: >-
+      <SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")>
+
+      Public Overridable Property Reservas As ICollection(Of Reservas)
+  overload: centroDeportivo.Model.Socios.Reservas*
+  attributes:
+  - type: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
+    ctor: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Microsoft.Usage
+    - type: System.String
+      value: CA2227:CollectionPropertiesShouldBeReadOnly
+references:
+- uid: centroDeportivo.Model
+  commentId: N:centroDeportivo.Model
+  href: centroDeportivo.html
+  name: centroDeportivo.Model
+  nameWithType: centroDeportivo.Model
+  fullName: centroDeportivo.Model
+  spec.csharp:
+  - uid: centroDeportivo
+    name: centroDeportivo
+    href: centroDeportivo.html
+  - name: .
+  - uid: centroDeportivo.Model
+    name: Model
+    href: centroDeportivo.Model.html
+  spec.vb:
+  - uid: centroDeportivo
+    name: centroDeportivo
+    href: centroDeportivo.html
+  - name: .
+  - uid: centroDeportivo.Model
+    name: Model
+    href: centroDeportivo.Model.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: centroDeportivo.Model.Socios.#ctor*
+  commentId: Overload:centroDeportivo.Model.Socios.#ctor
+  href: centroDeportivo.Model.Socios.html#centroDeportivo_Model_Socios__ctor
+  name: Socios
+  nameWithType: Socios.Socios
+  fullName: centroDeportivo.Model.Socios.Socios
+  nameWithType.vb: Socios.New
+  fullName.vb: centroDeportivo.Model.Socios.New
+  name.vb: New
+- uid: centroDeportivo.Model.Socios.Id*
+  commentId: Overload:centroDeportivo.Model.Socios.Id
+  href: centroDeportivo.Model.Socios.html#centroDeportivo_Model_Socios_Id
+  name: Id
+  nameWithType: Socios.Id
+  fullName: centroDeportivo.Model.Socios.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: centroDeportivo.Model.Socios.Nombre*
+  commentId: Overload:centroDeportivo.Model.Socios.Nombre
+  href: centroDeportivo.Model.Socios.html#centroDeportivo_Model_Socios_Nombre
+  name: Nombre
+  nameWithType: Socios.Nombre
+  fullName: centroDeportivo.Model.Socios.Nombre
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: centroDeportivo.Model.Socios.Email*
+  commentId: Overload:centroDeportivo.Model.Socios.Email
+  href: centroDeportivo.Model.Socios.html#centroDeportivo_Model_Socios_Email
+  name: Email
+  nameWithType: Socios.Email
+  fullName: centroDeportivo.Model.Socios.Email
+- uid: centroDeportivo.Model.Socios.Activo*
+  commentId: Overload:centroDeportivo.Model.Socios.Activo
+  href: centroDeportivo.Model.Socios.html#centroDeportivo_Model_Socios_Activo
+  name: Activo
+  nameWithType: Socios.Activo
+  fullName: centroDeportivo.Model.Socios.Activo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: centroDeportivo.Model.Socios.Reservas*
+  commentId: Overload:centroDeportivo.Model.Socios.Reservas
+  href: centroDeportivo.Model.Socios.html#centroDeportivo_Model_Socios_Reservas
+  name: Reservas
+  nameWithType: Socios.Reservas
+  fullName: centroDeportivo.Model.Socios.Reservas
+- uid: System.Collections.Generic.ICollection{centroDeportivo.Model.Reservas}
+  commentId: T:System.Collections.Generic.ICollection{centroDeportivo.Model.Reservas}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<Reservas>
+  nameWithType: ICollection<Reservas>
+  fullName: System.Collections.Generic.ICollection<centroDeportivo.Model.Reservas>
+  nameWithType.vb: ICollection(Of Reservas)
+  fullName.vb: System.Collections.Generic.ICollection(Of centroDeportivo.Model.Reservas)
+  name.vb: ICollection(Of Reservas)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: centroDeportivo.Model.Reservas
+    name: Reservas
+    href: centroDeportivo.Model.Reservas.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: centroDeportivo.Model.Reservas
+    name: Reservas
+    href: centroDeportivo.Model.Reservas.html
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

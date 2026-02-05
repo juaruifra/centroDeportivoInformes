@@ -1,0 +1,591 @@
+### YamlMime:ManagedReference
+items:
+- uid: CentroDeportivo.ViewModel.MenuPrincipalViewModel
+  commentId: T:CentroDeportivo.ViewModel.MenuPrincipalViewModel
+  id: MenuPrincipalViewModel
+  parent: CentroDeportivo.ViewModel
+  children:
+  - CentroDeportivo.ViewModel.MenuPrincipalViewModel.#ctor
+  - CentroDeportivo.ViewModel.MenuPrincipalViewModel.ActividadMasReservada
+  - CentroDeportivo.ViewModel.MenuPrincipalViewModel.CargarEstadisticas
+  - CentroDeportivo.ViewModel.MenuPrincipalViewModel.TotalActividades
+  - CentroDeportivo.ViewModel.MenuPrincipalViewModel.TotalSocios
+  langs:
+  - csharp
+  - vb
+  name: MenuPrincipalViewModel
+  nameWithType: MenuPrincipalViewModel
+  fullName: CentroDeportivo.ViewModel.MenuPrincipalViewModel
+  type: Class
+  source:
+    remote:
+      path: CentroDeportivo.ViewModel/MenuPrincipalViewModel.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: MenuPrincipalViewModel
+    path: ../../CentroDeportivo.ViewModel/MenuPrincipalViewModel.cs
+    startLine: 9
+  assemblies:
+  - CentroDeportivo.ViewModel
+  namespace: CentroDeportivo.ViewModel
+  summary: ViewModel del menú principal. Muestra las estadísticas generales del centro deportivo.
+  example: []
+  syntax:
+    content: 'public class MenuPrincipalViewModel : BaseViewModel, INotifyPropertyChanged'
+    content.vb: Public Class MenuPrincipalViewModel Inherits BaseViewModel Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - CentroDeportivo.ViewModel.BaseViewModel
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - CentroDeportivo.ViewModel.BaseViewModel.PropertyChanged
+  - CentroDeportivo.ViewModel.BaseViewModel.OnPropertyChanged(System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: CentroDeportivo.ViewModel.MenuPrincipalViewModel.TotalSocios
+  commentId: P:CentroDeportivo.ViewModel.MenuPrincipalViewModel.TotalSocios
+  id: TotalSocios
+  parent: CentroDeportivo.ViewModel.MenuPrincipalViewModel
+  langs:
+  - csharp
+  - vb
+  name: TotalSocios
+  nameWithType: MenuPrincipalViewModel.TotalSocios
+  fullName: CentroDeportivo.ViewModel.MenuPrincipalViewModel.TotalSocios
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.ViewModel/MenuPrincipalViewModel.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: TotalSocios
+    path: ../../CentroDeportivo.ViewModel/MenuPrincipalViewModel.cs
+    startLine: 18
+  assemblies:
+  - CentroDeportivo.ViewModel
+  namespace: CentroDeportivo.ViewModel
+  syntax:
+    content: public int TotalSocios { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TotalSocios As Integer
+  overload: CentroDeportivo.ViewModel.MenuPrincipalViewModel.TotalSocios*
+- uid: CentroDeportivo.ViewModel.MenuPrincipalViewModel.TotalActividades
+  commentId: P:CentroDeportivo.ViewModel.MenuPrincipalViewModel.TotalActividades
+  id: TotalActividades
+  parent: CentroDeportivo.ViewModel.MenuPrincipalViewModel
+  langs:
+  - csharp
+  - vb
+  name: TotalActividades
+  nameWithType: MenuPrincipalViewModel.TotalActividades
+  fullName: CentroDeportivo.ViewModel.MenuPrincipalViewModel.TotalActividades
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.ViewModel/MenuPrincipalViewModel.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: TotalActividades
+    path: ../../CentroDeportivo.ViewModel/MenuPrincipalViewModel.cs
+    startLine: 30
+  assemblies:
+  - CentroDeportivo.ViewModel
+  namespace: CentroDeportivo.ViewModel
+  syntax:
+    content: public int TotalActividades { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TotalActividades As Integer
+  overload: CentroDeportivo.ViewModel.MenuPrincipalViewModel.TotalActividades*
+- uid: CentroDeportivo.ViewModel.MenuPrincipalViewModel.ActividadMasReservada
+  commentId: P:CentroDeportivo.ViewModel.MenuPrincipalViewModel.ActividadMasReservada
+  id: ActividadMasReservada
+  parent: CentroDeportivo.ViewModel.MenuPrincipalViewModel
+  langs:
+  - csharp
+  - vb
+  name: ActividadMasReservada
+  nameWithType: MenuPrincipalViewModel.ActividadMasReservada
+  fullName: CentroDeportivo.ViewModel.MenuPrincipalViewModel.ActividadMasReservada
+  type: Property
+  source:
+    remote:
+      path: CentroDeportivo.ViewModel/MenuPrincipalViewModel.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: ActividadMasReservada
+    path: ../../CentroDeportivo.ViewModel/MenuPrincipalViewModel.cs
+    startLine: 42
+  assemblies:
+  - CentroDeportivo.ViewModel
+  namespace: CentroDeportivo.ViewModel
+  syntax:
+    content: public string ActividadMasReservada { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ActividadMasReservada As String
+  overload: CentroDeportivo.ViewModel.MenuPrincipalViewModel.ActividadMasReservada*
+- uid: CentroDeportivo.ViewModel.MenuPrincipalViewModel.#ctor
+  commentId: M:CentroDeportivo.ViewModel.MenuPrincipalViewModel.#ctor
+  id: '#ctor'
+  parent: CentroDeportivo.ViewModel.MenuPrincipalViewModel
+  langs:
+  - csharp
+  - vb
+  name: MenuPrincipalViewModel()
+  nameWithType: MenuPrincipalViewModel.MenuPrincipalViewModel()
+  fullName: CentroDeportivo.ViewModel.MenuPrincipalViewModel.MenuPrincipalViewModel()
+  type: Constructor
+  source:
+    remote:
+      path: CentroDeportivo.ViewModel/MenuPrincipalViewModel.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: .ctor
+    path: ../../CentroDeportivo.ViewModel/MenuPrincipalViewModel.cs
+    startLine: 55
+  assemblies:
+  - CentroDeportivo.ViewModel
+  namespace: CentroDeportivo.ViewModel
+  summary: Inicializa los repositorios y carga las estadísticas al arrancar
+  example: []
+  syntax:
+    content: public MenuPrincipalViewModel()
+    content.vb: Public Sub New()
+  overload: CentroDeportivo.ViewModel.MenuPrincipalViewModel.#ctor*
+  nameWithType.vb: MenuPrincipalViewModel.New()
+  fullName.vb: CentroDeportivo.ViewModel.MenuPrincipalViewModel.New()
+  name.vb: New()
+- uid: CentroDeportivo.ViewModel.MenuPrincipalViewModel.CargarEstadisticas
+  commentId: M:CentroDeportivo.ViewModel.MenuPrincipalViewModel.CargarEstadisticas
+  id: CargarEstadisticas
+  parent: CentroDeportivo.ViewModel.MenuPrincipalViewModel
+  langs:
+  - csharp
+  - vb
+  name: CargarEstadisticas()
+  nameWithType: MenuPrincipalViewModel.CargarEstadisticas()
+  fullName: CentroDeportivo.ViewModel.MenuPrincipalViewModel.CargarEstadisticas()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.ViewModel/MenuPrincipalViewModel.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: CargarEstadisticas
+    path: ../../CentroDeportivo.ViewModel/MenuPrincipalViewModel.cs
+    startLine: 67
+  assemblies:
+  - CentroDeportivo.ViewModel
+  namespace: CentroDeportivo.ViewModel
+  summary: Carga o recarga todas las estadísticas
+  example: []
+  syntax:
+    content: public void CargarEstadisticas()
+    content.vb: Public Sub CargarEstadisticas()
+  overload: CentroDeportivo.ViewModel.MenuPrincipalViewModel.CargarEstadisticas*
+references:
+- uid: CentroDeportivo.ViewModel
+  commentId: N:CentroDeportivo.ViewModel
+  href: CentroDeportivo.html
+  name: CentroDeportivo.ViewModel
+  nameWithType: CentroDeportivo.ViewModel
+  fullName: CentroDeportivo.ViewModel
+  spec.csharp:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.ViewModel
+    name: ViewModel
+    href: CentroDeportivo.ViewModel.html
+  spec.vb:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.ViewModel
+    name: ViewModel
+    href: CentroDeportivo.ViewModel.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: CentroDeportivo.ViewModel.BaseViewModel
+  commentId: T:CentroDeportivo.ViewModel.BaseViewModel
+  parent: CentroDeportivo.ViewModel
+  href: CentroDeportivo.ViewModel.BaseViewModel.html
+  name: BaseViewModel
+  nameWithType: BaseViewModel
+  fullName: CentroDeportivo.ViewModel.BaseViewModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: CentroDeportivo.ViewModel.BaseViewModel.PropertyChanged
+  commentId: E:CentroDeportivo.ViewModel.BaseViewModel.PropertyChanged
+  parent: CentroDeportivo.ViewModel.BaseViewModel
+  href: CentroDeportivo.ViewModel.BaseViewModel.html#CentroDeportivo_ViewModel_BaseViewModel_PropertyChanged
+  name: PropertyChanged
+  nameWithType: BaseViewModel.PropertyChanged
+  fullName: CentroDeportivo.ViewModel.BaseViewModel.PropertyChanged
+- uid: CentroDeportivo.ViewModel.BaseViewModel.OnPropertyChanged(System.String)
+  commentId: M:CentroDeportivo.ViewModel.BaseViewModel.OnPropertyChanged(System.String)
+  parent: CentroDeportivo.ViewModel.BaseViewModel
+  isExternal: true
+  href: CentroDeportivo.ViewModel.BaseViewModel.html#CentroDeportivo_ViewModel_BaseViewModel_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: BaseViewModel.OnPropertyChanged(string)
+  fullName: CentroDeportivo.ViewModel.BaseViewModel.OnPropertyChanged(string)
+  nameWithType.vb: BaseViewModel.OnPropertyChanged(String)
+  fullName.vb: CentroDeportivo.ViewModel.BaseViewModel.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: CentroDeportivo.ViewModel.BaseViewModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: CentroDeportivo.ViewModel.BaseViewModel.html#CentroDeportivo_ViewModel_BaseViewModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: CentroDeportivo.ViewModel.BaseViewModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: CentroDeportivo.ViewModel.BaseViewModel.html#CentroDeportivo_ViewModel_BaseViewModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: CentroDeportivo.ViewModel.MenuPrincipalViewModel.TotalSocios*
+  commentId: Overload:CentroDeportivo.ViewModel.MenuPrincipalViewModel.TotalSocios
+  href: CentroDeportivo.ViewModel.MenuPrincipalViewModel.html#CentroDeportivo_ViewModel_MenuPrincipalViewModel_TotalSocios
+  name: TotalSocios
+  nameWithType: MenuPrincipalViewModel.TotalSocios
+  fullName: CentroDeportivo.ViewModel.MenuPrincipalViewModel.TotalSocios
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: CentroDeportivo.ViewModel.MenuPrincipalViewModel.TotalActividades*
+  commentId: Overload:CentroDeportivo.ViewModel.MenuPrincipalViewModel.TotalActividades
+  href: CentroDeportivo.ViewModel.MenuPrincipalViewModel.html#CentroDeportivo_ViewModel_MenuPrincipalViewModel_TotalActividades
+  name: TotalActividades
+  nameWithType: MenuPrincipalViewModel.TotalActividades
+  fullName: CentroDeportivo.ViewModel.MenuPrincipalViewModel.TotalActividades
+- uid: CentroDeportivo.ViewModel.MenuPrincipalViewModel.ActividadMasReservada*
+  commentId: Overload:CentroDeportivo.ViewModel.MenuPrincipalViewModel.ActividadMasReservada
+  href: CentroDeportivo.ViewModel.MenuPrincipalViewModel.html#CentroDeportivo_ViewModel_MenuPrincipalViewModel_ActividadMasReservada
+  name: ActividadMasReservada
+  nameWithType: MenuPrincipalViewModel.ActividadMasReservada
+  fullName: CentroDeportivo.ViewModel.MenuPrincipalViewModel.ActividadMasReservada
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CentroDeportivo.ViewModel.MenuPrincipalViewModel.#ctor*
+  commentId: Overload:CentroDeportivo.ViewModel.MenuPrincipalViewModel.#ctor
+  href: CentroDeportivo.ViewModel.MenuPrincipalViewModel.html#CentroDeportivo_ViewModel_MenuPrincipalViewModel__ctor
+  name: MenuPrincipalViewModel
+  nameWithType: MenuPrincipalViewModel.MenuPrincipalViewModel
+  fullName: CentroDeportivo.ViewModel.MenuPrincipalViewModel.MenuPrincipalViewModel
+  nameWithType.vb: MenuPrincipalViewModel.New
+  fullName.vb: CentroDeportivo.ViewModel.MenuPrincipalViewModel.New
+  name.vb: New
+- uid: CentroDeportivo.ViewModel.MenuPrincipalViewModel.CargarEstadisticas*
+  commentId: Overload:CentroDeportivo.ViewModel.MenuPrincipalViewModel.CargarEstadisticas
+  href: CentroDeportivo.ViewModel.MenuPrincipalViewModel.html#CentroDeportivo_ViewModel_MenuPrincipalViewModel_CargarEstadisticas
+  name: CargarEstadisticas
+  nameWithType: MenuPrincipalViewModel.CargarEstadisticas
+  fullName: CentroDeportivo.ViewModel.MenuPrincipalViewModel.CargarEstadisticas

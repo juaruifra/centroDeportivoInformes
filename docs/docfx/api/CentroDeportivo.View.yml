@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: CentroDeportivo.View
+  commentId: N:CentroDeportivo.View
+  id: CentroDeportivo.View
+  children:
+  - CentroDeportivo.View.ActividadesWindow
+  - CentroDeportivo.View.App
+  - CentroDeportivo.View.MenuWindow
+  - CentroDeportivo.View.ReservasWindow
+  - CentroDeportivo.View.SociosWindow
+  langs:
+  - csharp
+  - vb
+  name: CentroDeportivo.View
+  nameWithType: CentroDeportivo.View
+  fullName: CentroDeportivo.View
+  type: Namespace
+  assemblies:
+  - CentroDeportivo.View
+references:
+- uid: CentroDeportivo.View.ActividadesWindow
+  commentId: T:CentroDeportivo.View.ActividadesWindow
+  href: CentroDeportivo.View.ActividadesWindow.html
+  name: ActividadesWindow
+  nameWithType: ActividadesWindow
+  fullName: CentroDeportivo.View.ActividadesWindow
+- uid: CentroDeportivo.View.MenuWindow
+  commentId: T:CentroDeportivo.View.MenuWindow
+  href: CentroDeportivo.View.MenuWindow.html
+  name: MenuWindow
+  nameWithType: MenuWindow
+  fullName: CentroDeportivo.View.MenuWindow
+- uid: CentroDeportivo.View.ReservasWindow
+  commentId: T:CentroDeportivo.View.ReservasWindow
+  href: CentroDeportivo.View.ReservasWindow.html
+  name: ReservasWindow
+  nameWithType: ReservasWindow
+  fullName: CentroDeportivo.View.ReservasWindow
+- uid: CentroDeportivo.View.SociosWindow
+  commentId: T:CentroDeportivo.View.SociosWindow
+  href: CentroDeportivo.View.SociosWindow.html
+  name: SociosWindow
+  nameWithType: SociosWindow
+  fullName: CentroDeportivo.View.SociosWindow
+- uid: CentroDeportivo.View.App
+  commentId: T:CentroDeportivo.View.App
+  href: CentroDeportivo.View.App.html
+  name: App
+  nameWithType: App
+  fullName: CentroDeportivo.View.App

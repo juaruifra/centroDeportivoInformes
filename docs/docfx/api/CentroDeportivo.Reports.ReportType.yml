@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: CentroDeportivo.Reports.ReportType
+  commentId: T:CentroDeportivo.Reports.ReportType
+  id: ReportType
+  parent: CentroDeportivo.Reports
+  children:
+  - CentroDeportivo.Reports.ReportType.HistorialReservas
+  - CentroDeportivo.Reports.ReportType.ReservasPorActividad
+  - CentroDeportivo.Reports.ReportType.Socios
+  langs:
+  - csharp
+  - vb
+  name: ReportType
+  nameWithType: ReportType
+  fullName: CentroDeportivo.Reports.ReportType
+  type: Enum
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReportType.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: ReportType
+    path: ../../CentroDeportivo.Reports/ReportType.cs
+    startLine: 6
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  summary: >-
+    Enumeración con los tipos de informes disponibles
+
+    en el sistema.
+  example: []
+  syntax:
+    content: public enum ReportType
+    content.vb: Public Enum ReportType
+- uid: CentroDeportivo.Reports.ReportType.Socios
+  commentId: F:CentroDeportivo.Reports.ReportType.Socios
+  id: Socios
+  parent: CentroDeportivo.Reports.ReportType
+  langs:
+  - csharp
+  - vb
+  name: Socios
+  nameWithType: ReportType.Socios
+  fullName: CentroDeportivo.Reports.ReportType.Socios
+  type: Field
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReportType.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Socios
+    path: ../../CentroDeportivo.Reports/ReportType.cs
+    startLine: 9
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: Socios = 0
+    return:
+      type: CentroDeportivo.Reports.ReportType
+- uid: CentroDeportivo.Reports.ReportType.ReservasPorActividad
+  commentId: F:CentroDeportivo.Reports.ReportType.ReservasPorActividad
+  id: ReservasPorActividad
+  parent: CentroDeportivo.Reports.ReportType
+  langs:
+  - csharp
+  - vb
+  name: ReservasPorActividad
+  nameWithType: ReportType.ReservasPorActividad
+  fullName: CentroDeportivo.Reports.ReportType.ReservasPorActividad
+  type: Field
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReportType.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: ReservasPorActividad
+    path: ../../CentroDeportivo.Reports/ReportType.cs
+    startLine: 12
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: ReservasPorActividad = 1
+    return:
+      type: CentroDeportivo.Reports.ReportType
+- uid: CentroDeportivo.Reports.ReportType.HistorialReservas
+  commentId: F:CentroDeportivo.Reports.ReportType.HistorialReservas
+  id: HistorialReservas
+  parent: CentroDeportivo.Reports.ReportType
+  langs:
+  - csharp
+  - vb
+  name: HistorialReservas
+  nameWithType: ReportType.HistorialReservas
+  fullName: CentroDeportivo.Reports.ReportType.HistorialReservas
+  type: Field
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReportType.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: HistorialReservas
+    path: ../../CentroDeportivo.Reports/ReportType.cs
+    startLine: 15
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: HistorialReservas = 2
+    return:
+      type: CentroDeportivo.Reports.ReportType
+references:
+- uid: CentroDeportivo.Reports
+  commentId: N:CentroDeportivo.Reports
+  href: CentroDeportivo.html
+  name: CentroDeportivo.Reports
+  nameWithType: CentroDeportivo.Reports
+  fullName: CentroDeportivo.Reports
+  spec.csharp:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.Reports
+    name: Reports
+    href: CentroDeportivo.Reports.html
+  spec.vb:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.Reports
+    name: Reports
+    href: CentroDeportivo.Reports.html
+- uid: CentroDeportivo.Reports.ReportType
+  commentId: T:CentroDeportivo.Reports.ReportType
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.ReportType.html
+  name: ReportType
+  nameWithType: ReportType
+  fullName: CentroDeportivo.Reports.ReportType

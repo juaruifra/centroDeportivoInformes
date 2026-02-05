@@ -1,0 +1,669 @@
+### YamlMime:ManagedReference
+items:
+- uid: centroDeportivo.Model.Repositories.ActividadesRepository
+  commentId: T:centroDeportivo.Model.Repositories.ActividadesRepository
+  id: ActividadesRepository
+  parent: centroDeportivo.Model.Repositories
+  children:
+  - centroDeportivo.Model.Repositories.ActividadesRepository.Delete(centroDeportivo.Model.Actividades)
+  - centroDeportivo.Model.Repositories.ActividadesRepository.GetAll
+  - centroDeportivo.Model.Repositories.ActividadesRepository.GetById(System.Int32)
+  - centroDeportivo.Model.Repositories.ActividadesRepository.Save(centroDeportivo.Model.Actividades)
+  langs:
+  - csharp
+  - vb
+  name: ActividadesRepository
+  nameWithType: ActividadesRepository
+  fullName: centroDeportivo.Model.Repositories.ActividadesRepository
+  type: Class
+  source:
+    remote:
+      path: centroDeportivo.Model/ActividadesRepository.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: ActividadesRepository
+    path: ../../centroDeportivo.Model/ActividadesRepository.cs
+    startLine: 8
+  assemblies:
+  - centroDeportivo.Model
+  namespace: centroDeportivo.Model.Repositories
+  syntax:
+    content: 'public class ActividadesRepository : RepositoryBase, IDisposable'
+    content.vb: Public Class ActividadesRepository Inherits RepositoryBase Implements IDisposable
+  inheritance:
+  - System.Object
+  - RepositoryBase
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - RepositoryBase.Context
+  - RepositoryBase.Dispose
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: centroDeportivo.Model.Repositories.ActividadesRepository.GetAll
+  commentId: M:centroDeportivo.Model.Repositories.ActividadesRepository.GetAll
+  id: GetAll
+  parent: centroDeportivo.Model.Repositories.ActividadesRepository
+  langs:
+  - csharp
+  - vb
+  name: GetAll()
+  nameWithType: ActividadesRepository.GetAll()
+  fullName: centroDeportivo.Model.Repositories.ActividadesRepository.GetAll()
+  type: Method
+  source:
+    remote:
+      path: centroDeportivo.Model/ActividadesRepository.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: GetAll
+    path: ../../centroDeportivo.Model/ActividadesRepository.cs
+    startLine: 14
+  assemblies:
+  - centroDeportivo.Model
+  namespace: centroDeportivo.Model.Repositories
+  summary: Obtener todas las actividades
+  example: []
+  syntax:
+    content: public List<Actividades> GetAll()
+    return:
+      type: System.Collections.Generic.List{centroDeportivo.Model.Actividades}
+      description: ''
+    content.vb: Public Function GetAll() As List(Of Actividades)
+  overload: centroDeportivo.Model.Repositories.ActividadesRepository.GetAll*
+- uid: centroDeportivo.Model.Repositories.ActividadesRepository.GetById(System.Int32)
+  commentId: M:centroDeportivo.Model.Repositories.ActividadesRepository.GetById(System.Int32)
+  id: GetById(System.Int32)
+  parent: centroDeportivo.Model.Repositories.ActividadesRepository
+  langs:
+  - csharp
+  - vb
+  name: GetById(int)
+  nameWithType: ActividadesRepository.GetById(int)
+  fullName: centroDeportivo.Model.Repositories.ActividadesRepository.GetById(int)
+  type: Method
+  source:
+    remote:
+      path: centroDeportivo.Model/ActividadesRepository.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: GetById
+    path: ../../centroDeportivo.Model/ActividadesRepository.cs
+    startLine: 25
+  assemblies:
+  - centroDeportivo.Model
+  namespace: centroDeportivo.Model.Repositories
+  summary: Obtener una actividad por su identificador
+  example: []
+  syntax:
+    content: public Actividades GetById(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Id de la actividad
+    return:
+      type: centroDeportivo.Model.Actividades
+      description: Actividad encontrada o null si no existe
+    content.vb: Public Function GetById(id As Integer) As Actividades
+  overload: centroDeportivo.Model.Repositories.ActividadesRepository.GetById*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: ''
+  nameWithType.vb: ActividadesRepository.GetById(Integer)
+  fullName.vb: centroDeportivo.Model.Repositories.ActividadesRepository.GetById(Integer)
+  name.vb: GetById(Integer)
+- uid: centroDeportivo.Model.Repositories.ActividadesRepository.Save(centroDeportivo.Model.Actividades)
+  commentId: M:centroDeportivo.Model.Repositories.ActividadesRepository.Save(centroDeportivo.Model.Actividades)
+  id: Save(centroDeportivo.Model.Actividades)
+  parent: centroDeportivo.Model.Repositories.ActividadesRepository
+  langs:
+  - csharp
+  - vb
+  name: Save(Actividades)
+  nameWithType: ActividadesRepository.Save(Actividades)
+  fullName: centroDeportivo.Model.Repositories.ActividadesRepository.Save(centroDeportivo.Model.Actividades)
+  type: Method
+  source:
+    remote:
+      path: centroDeportivo.Model/ActividadesRepository.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Save
+    path: ../../centroDeportivo.Model/ActividadesRepository.cs
+    startLine: 45
+  assemblies:
+  - centroDeportivo.Model
+  namespace: centroDeportivo.Model.Repositories
+  summary: Crear o editar actividad
+  example: []
+  syntax:
+    content: public void Save(Actividades ac)
+    parameters:
+    - id: ac
+      type: centroDeportivo.Model.Actividades
+      description: Objeto actividad a guardar
+    content.vb: Public Sub Save(ac As Actividades)
+  overload: centroDeportivo.Model.Repositories.ActividadesRepository.Save*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: ''
+- uid: centroDeportivo.Model.Repositories.ActividadesRepository.Delete(centroDeportivo.Model.Actividades)
+  commentId: M:centroDeportivo.Model.Repositories.ActividadesRepository.Delete(centroDeportivo.Model.Actividades)
+  id: Delete(centroDeportivo.Model.Actividades)
+  parent: centroDeportivo.Model.Repositories.ActividadesRepository
+  langs:
+  - csharp
+  - vb
+  name: Delete(Actividades)
+  nameWithType: ActividadesRepository.Delete(Actividades)
+  fullName: centroDeportivo.Model.Repositories.ActividadesRepository.Delete(centroDeportivo.Model.Actividades)
+  type: Method
+  source:
+    remote:
+      path: centroDeportivo.Model/ActividadesRepository.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Delete
+    path: ../../centroDeportivo.Model/ActividadesRepository.cs
+    startLine: 76
+  assemblies:
+  - centroDeportivo.Model
+  namespace: centroDeportivo.Model.Repositories
+  summary: Borrar actividad
+  example: []
+  syntax:
+    content: public void Delete(Actividades ac)
+    parameters:
+    - id: ac
+      type: centroDeportivo.Model.Actividades
+      description: Objeto actividad a borrar
+    content.vb: Public Sub Delete(ac As Actividades)
+  overload: centroDeportivo.Model.Repositories.ActividadesRepository.Delete*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: ''
+references:
+- uid: centroDeportivo.Model.Repositories
+  commentId: N:centroDeportivo.Model.Repositories
+  href: centroDeportivo.html
+  name: centroDeportivo.Model.Repositories
+  nameWithType: centroDeportivo.Model.Repositories
+  fullName: centroDeportivo.Model.Repositories
+  spec.csharp:
+  - uid: centroDeportivo
+    name: centroDeportivo
+    href: centroDeportivo.html
+  - name: .
+  - uid: centroDeportivo.Model
+    name: Model
+    href: centroDeportivo.Model.html
+  - name: .
+  - uid: centroDeportivo.Model.Repositories
+    name: Repositories
+    href: centroDeportivo.Model.Repositories.html
+  spec.vb:
+  - uid: centroDeportivo
+    name: centroDeportivo
+    href: centroDeportivo.html
+  - name: .
+  - uid: centroDeportivo.Model
+    name: Model
+    href: centroDeportivo.Model.html
+  - name: .
+  - uid: centroDeportivo.Model.Repositories
+    name: Repositories
+    href: centroDeportivo.Model.Repositories.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: RepositoryBase
+  commentId: T:RepositoryBase
+  href: RepositoryBase.html
+  name: RepositoryBase
+  nameWithType: RepositoryBase
+  fullName: RepositoryBase
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: RepositoryBase.Context
+  commentId: F:RepositoryBase.Context
+  parent: RepositoryBase
+  href: RepositoryBase.html#RepositoryBase_Context
+  name: Context
+  nameWithType: RepositoryBase.Context
+  fullName: RepositoryBase.Context
+- uid: RepositoryBase.Dispose
+  commentId: M:RepositoryBase.Dispose
+  parent: RepositoryBase
+  href: RepositoryBase.html#RepositoryBase_Dispose
+  name: Dispose()
+  nameWithType: RepositoryBase.Dispose()
+  fullName: RepositoryBase.Dispose()
+  spec.csharp:
+  - uid: RepositoryBase.Dispose
+    name: Dispose
+    href: RepositoryBase.html#RepositoryBase_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: RepositoryBase.Dispose
+    name: Dispose
+    href: RepositoryBase.html#RepositoryBase_Dispose
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: centroDeportivo.Model.Repositories.ActividadesRepository.GetAll*
+  commentId: Overload:centroDeportivo.Model.Repositories.ActividadesRepository.GetAll
+  href: centroDeportivo.Model.Repositories.ActividadesRepository.html#centroDeportivo_Model_Repositories_ActividadesRepository_GetAll
+  name: GetAll
+  nameWithType: ActividadesRepository.GetAll
+  fullName: centroDeportivo.Model.Repositories.ActividadesRepository.GetAll
+- uid: System.Collections.Generic.List{centroDeportivo.Model.Actividades}
+  commentId: T:System.Collections.Generic.List{centroDeportivo.Model.Actividades}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Actividades>
+  nameWithType: List<Actividades>
+  fullName: System.Collections.Generic.List<centroDeportivo.Model.Actividades>
+  nameWithType.vb: List(Of Actividades)
+  fullName.vb: System.Collections.Generic.List(Of centroDeportivo.Model.Actividades)
+  name.vb: List(Of Actividades)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: centroDeportivo.Model.Actividades
+    name: Actividades
+    href: centroDeportivo.Model.Actividades.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: centroDeportivo.Model.Actividades
+    name: Actividades
+    href: centroDeportivo.Model.Actividades.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Exception
+  commentId: T:System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: centroDeportivo.Model.Repositories.ActividadesRepository.GetById*
+  commentId: Overload:centroDeportivo.Model.Repositories.ActividadesRepository.GetById
+  href: centroDeportivo.Model.Repositories.ActividadesRepository.html#centroDeportivo_Model_Repositories_ActividadesRepository_GetById_System_Int32_
+  name: GetById
+  nameWithType: ActividadesRepository.GetById
+  fullName: centroDeportivo.Model.Repositories.ActividadesRepository.GetById
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: centroDeportivo.Model.Actividades
+  commentId: T:centroDeportivo.Model.Actividades
+  parent: centroDeportivo.Model
+  href: centroDeportivo.Model.Actividades.html
+  name: Actividades
+  nameWithType: Actividades
+  fullName: centroDeportivo.Model.Actividades
+- uid: centroDeportivo.Model
+  commentId: N:centroDeportivo.Model
+  href: centroDeportivo.html
+  name: centroDeportivo.Model
+  nameWithType: centroDeportivo.Model
+  fullName: centroDeportivo.Model
+  spec.csharp:
+  - uid: centroDeportivo
+    name: centroDeportivo
+    href: centroDeportivo.html
+  - name: .
+  - uid: centroDeportivo.Model
+    name: Model
+    href: centroDeportivo.Model.html
+  spec.vb:
+  - uid: centroDeportivo
+    name: centroDeportivo
+    href: centroDeportivo.html
+  - name: .
+  - uid: centroDeportivo.Model
+    name: Model
+    href: centroDeportivo.Model.html
+- uid: centroDeportivo.Model.Repositories.ActividadesRepository.Save*
+  commentId: Overload:centroDeportivo.Model.Repositories.ActividadesRepository.Save
+  href: centroDeportivo.Model.Repositories.ActividadesRepository.html#centroDeportivo_Model_Repositories_ActividadesRepository_Save_centroDeportivo_Model_Actividades_
+  name: Save
+  nameWithType: ActividadesRepository.Save
+  fullName: centroDeportivo.Model.Repositories.ActividadesRepository.Save
+- uid: centroDeportivo.Model.Repositories.ActividadesRepository.Delete*
+  commentId: Overload:centroDeportivo.Model.Repositories.ActividadesRepository.Delete
+  href: centroDeportivo.Model.Repositories.ActividadesRepository.html#centroDeportivo_Model_Repositories_ActividadesRepository_Delete_centroDeportivo_Model_Actividades_
+  name: Delete
+  nameWithType: ActividadesRepository.Delete
+  fullName: centroDeportivo.Model.Repositories.ActividadesRepository.Delete

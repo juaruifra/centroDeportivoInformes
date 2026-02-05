@@ -1,0 +1,455 @@
+### YamlMime:ManagedReference
+items:
+- uid: CentroDeportivo.test.Test1
+  commentId: T:CentroDeportivo.test.Test1
+  id: Test1
+  parent: CentroDeportivo.test
+  children:
+  - CentroDeportivo.test.Test1.TestReservaExcedeAforoActividad
+  - CentroDeportivo.test.Test1.TestReservaNoPermiteFechaAnterior
+  - CentroDeportivo.test.Test1.TestSociosMailInvalido
+  - CentroDeportivo.test.Test1.TestSociosMailValido
+  langs:
+  - csharp
+  - vb
+  name: Test1
+  nameWithType: Test1
+  fullName: CentroDeportivo.test.Test1
+  type: Class
+  source:
+    remote:
+      path: CentroDeportivo.test/Test1.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: Test1
+    path: ../../CentroDeportivo.test/Test1.cs
+    startLine: 8
+  assemblies:
+  - CentroDeportivo.test
+  namespace: CentroDeportivo.test
+  syntax:
+    content: >-
+      [TestClass]
+
+      public sealed class Test1
+    content.vb: >-
+      <TestClass>
+
+      Public NotInheritable Class Test1
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: CentroDeportivo.test.Test1.TestSociosMailValido
+  commentId: M:CentroDeportivo.test.Test1.TestSociosMailValido
+  id: TestSociosMailValido
+  parent: CentroDeportivo.test.Test1
+  langs:
+  - csharp
+  - vb
+  name: TestSociosMailValido()
+  nameWithType: Test1.TestSociosMailValido()
+  fullName: CentroDeportivo.test.Test1.TestSociosMailValido()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.test/Test1.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: TestSociosMailValido
+    path: ../../CentroDeportivo.test/Test1.cs
+    startLine: 13
+  assemblies:
+  - CentroDeportivo.test
+  namespace: CentroDeportivo.test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestSociosMailValido()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestSociosMailValido()
+  overload: CentroDeportivo.test.Test1.TestSociosMailValido*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: CentroDeportivo.test.Test1.TestSociosMailInvalido
+  commentId: M:CentroDeportivo.test.Test1.TestSociosMailInvalido
+  id: TestSociosMailInvalido
+  parent: CentroDeportivo.test.Test1
+  langs:
+  - csharp
+  - vb
+  name: TestSociosMailInvalido()
+  nameWithType: Test1.TestSociosMailInvalido()
+  fullName: CentroDeportivo.test.Test1.TestSociosMailInvalido()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.test/Test1.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: TestSociosMailInvalido
+    path: ../../CentroDeportivo.test/Test1.cs
+    startLine: 34
+  assemblies:
+  - CentroDeportivo.test
+  namespace: CentroDeportivo.test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestSociosMailInvalido()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestSociosMailInvalido()
+  overload: CentroDeportivo.test.Test1.TestSociosMailInvalido*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: CentroDeportivo.test.Test1.TestReservaNoPermiteFechaAnterior
+  commentId: M:CentroDeportivo.test.Test1.TestReservaNoPermiteFechaAnterior
+  id: TestReservaNoPermiteFechaAnterior
+  parent: CentroDeportivo.test.Test1
+  langs:
+  - csharp
+  - vb
+  name: TestReservaNoPermiteFechaAnterior()
+  nameWithType: Test1.TestReservaNoPermiteFechaAnterior()
+  fullName: CentroDeportivo.test.Test1.TestReservaNoPermiteFechaAnterior()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.test/Test1.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: TestReservaNoPermiteFechaAnterior
+    path: ../../CentroDeportivo.test/Test1.cs
+    startLine: 57
+  assemblies:
+  - CentroDeportivo.test
+  namespace: CentroDeportivo.test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestReservaNoPermiteFechaAnterior()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestReservaNoPermiteFechaAnterior()
+  overload: CentroDeportivo.test.Test1.TestReservaNoPermiteFechaAnterior*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: CentroDeportivo.test.Test1.TestReservaExcedeAforoActividad
+  commentId: M:CentroDeportivo.test.Test1.TestReservaExcedeAforoActividad
+  id: TestReservaExcedeAforoActividad
+  parent: CentroDeportivo.test.Test1
+  langs:
+  - csharp
+  - vb
+  name: TestReservaExcedeAforoActividad()
+  nameWithType: Test1.TestReservaExcedeAforoActividad()
+  fullName: CentroDeportivo.test.Test1.TestReservaExcedeAforoActividad()
+  type: Method
+  source:
+    remote:
+      path: CentroDeportivo.test/Test1.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: TestReservaExcedeAforoActividad
+    path: ../../CentroDeportivo.test/Test1.cs
+    startLine: 130
+  assemblies:
+  - CentroDeportivo.test
+  namespace: CentroDeportivo.test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestReservaExcedeAforoActividad()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestReservaExcedeAforoActividad()
+  overload: CentroDeportivo.test.Test1.TestReservaExcedeAforoActividad*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: CentroDeportivo.test
+  commentId: N:CentroDeportivo.test
+  href: CentroDeportivo.html
+  name: CentroDeportivo.test
+  nameWithType: CentroDeportivo.test
+  fullName: CentroDeportivo.test
+  spec.csharp:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.test
+    name: test
+    href: CentroDeportivo.test.html
+  spec.vb:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.test
+    name: test
+    href: CentroDeportivo.test.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CentroDeportivo.test.Test1.TestSociosMailValido*
+  commentId: Overload:CentroDeportivo.test.Test1.TestSociosMailValido
+  href: CentroDeportivo.test.Test1.html#CentroDeportivo_test_Test1_TestSociosMailValido
+  name: TestSociosMailValido
+  nameWithType: Test1.TestSociosMailValido
+  fullName: CentroDeportivo.test.Test1.TestSociosMailValido
+- uid: CentroDeportivo.test.Test1.TestSociosMailInvalido*
+  commentId: Overload:CentroDeportivo.test.Test1.TestSociosMailInvalido
+  href: CentroDeportivo.test.Test1.html#CentroDeportivo_test_Test1_TestSociosMailInvalido
+  name: TestSociosMailInvalido
+  nameWithType: Test1.TestSociosMailInvalido
+  fullName: CentroDeportivo.test.Test1.TestSociosMailInvalido
+- uid: CentroDeportivo.test.Test1.TestReservaNoPermiteFechaAnterior*
+  commentId: Overload:CentroDeportivo.test.Test1.TestReservaNoPermiteFechaAnterior
+  href: CentroDeportivo.test.Test1.html#CentroDeportivo_test_Test1_TestReservaNoPermiteFechaAnterior
+  name: TestReservaNoPermiteFechaAnterior
+  nameWithType: Test1.TestReservaNoPermiteFechaAnterior
+  fullName: CentroDeportivo.test.Test1.TestReservaNoPermiteFechaAnterior
+- uid: CentroDeportivo.test.Test1.TestReservaExcedeAforoActividad*
+  commentId: Overload:CentroDeportivo.test.Test1.TestReservaExcedeAforoActividad
+  href: CentroDeportivo.test.Test1.html#CentroDeportivo_test_Test1_TestReservaExcedeAforoActividad
+  name: TestReservaExcedeAforoActividad
+  nameWithType: Test1.TestReservaExcedeAforoActividad
+  fullName: CentroDeportivo.test.Test1.TestReservaExcedeAforoActividad

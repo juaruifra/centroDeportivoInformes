@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler
+  commentId: T:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler
+  id: ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler
+  parent: CentroDeportivo.Reports
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+      branch: master
+      repo: https://github.com/juaruifra/centroDeportivoInformes.git
+    id: ReservasPorActividadRowChangeEventHandler
+    path: ../../CentroDeportivo.Reports/ReservasPorActividadDataSet.Designer.cs
+    startLine: 271
+  assemblies:
+  - CentroDeportivo.Reports
+  namespace: CentroDeportivo.Reports
+  syntax:
+    content: public delegate void ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler(object sender, ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+    content.vb: Public Delegate Sub ReservasPorActividadDataSet.ReservasPorActividadRowChangeEventHandler(sender As Object, e As ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent)
+references:
+- uid: CentroDeportivo.Reports
+  commentId: N:CentroDeportivo.Reports
+  href: CentroDeportivo.html
+  name: CentroDeportivo.Reports
+  nameWithType: CentroDeportivo.Reports
+  fullName: CentroDeportivo.Reports
+  spec.csharp:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.Reports
+    name: Reports
+    href: CentroDeportivo.Reports.html
+  spec.vb:
+  - uid: CentroDeportivo
+    name: CentroDeportivo
+    href: CentroDeportivo.html
+  - name: .
+  - uid: CentroDeportivo.Reports
+    name: Reports
+    href: CentroDeportivo.Reports.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+  commentId: T:CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+  parent: CentroDeportivo.Reports
+  href: CentroDeportivo.Reports.ReservasPorActividadDataSet.html
+  name: ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+  nameWithType: ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+  fullName: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+  spec.csharp:
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet
+    name: ReservasPorActividadDataSet
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+    name: ReservasPorActividadRowChangeEvent
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent.html
+  spec.vb:
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet
+    name: ReservasPorActividadDataSet
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.html
+  - name: .
+  - uid: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent
+    name: ReservasPorActividadRowChangeEvent
+    href: CentroDeportivo.Reports.ReservasPorActividadDataSet.ReservasPorActividadRowChangeEvent.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

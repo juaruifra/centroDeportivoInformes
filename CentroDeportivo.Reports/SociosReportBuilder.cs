@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using centroDeportivo.Model;
+using centroDeportivo.Model.Repositories;
 using CrystalDecisions.CrystalReports.Engine;
 
 namespace CentroDeportivo.Reports

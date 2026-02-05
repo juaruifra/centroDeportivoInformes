@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SociosReportDataSet.SociosDataTable | CentroDeportivo.Documentacion </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SociosReportDataSet.SociosDataTable | CentroDeportivo.Documentacion ">
+      
+      <meta name="description" content="Represents the strongly named DataTable class.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/juaruifra/centroDeportivoInformes/new/master/apiSpec/new?filename=CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable.md&amp;value=---%0Auid%3A%20CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="CentroDeportivo.Documentacion">
+            CentroDeportivo.Documentacion
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable">
+
+
+
+  <h1 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable" class="text-break">
+Class SociosReportDataSet.SociosDataTable  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CentroDeportivo.html">CentroDeportivo</a>.<a class="xref" href="CentroDeportivo.Reports.html">Reports</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CentroDeportivo.Reports.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents the strongly named DataTable class.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class SociosReportDataSet.SociosDataTable : TypedTableBase&lt;SociosReportDataSet.SociosRow&gt;, IComponent, IDisposable, IServiceProvider, IListSource, ISupportInitializeNotification, ISupportInitialize, ISerializable, IXmlSerializable, IEnumerable&lt;SociosReportDataSet.SociosRow&gt;, IEnumerable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent">MarshalByValueComponent</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable">DataTable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.typedtablebase-1">TypedTableBase</a>&lt;<a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.html">SociosReportDataSet</a>.<a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.SociosRow.html">SociosRow</a>&gt;</div>
+      <div><span class="xref">SociosReportDataSet.SociosDataTable</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.icomponent">IComponent</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.ilistsource">IListSource</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.isupportinitializenotification">ISupportInitializeNotification</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.isupportinitialize">ISupportInitialize</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable">ISerializable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.serialization.ixmlserializable">IXmlSerializable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.html">SociosReportDataSet</a>.<a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.SociosRow.html">SociosRow</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.typedtablebase-1.getenumerator">TypedTableBase&lt;SociosReportDataSet.SociosRow&gt;.GetEnumerator()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.typedtablebase-1.cast">TypedTableBase&lt;SociosReportDataSet.SociosRow&gt;.Cast&lt;TResult&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.finitinprogress">DataTable.fInitInProgress</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.getobjectdata">DataTable.GetObjectData(SerializationInfo, StreamingContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.begininit">DataTable.BeginInit()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.endinit">DataTable.EndInit()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.acceptchanges">DataTable.AcceptChanges()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.copy">DataTable.Copy()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.clear">DataTable.Clear()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.compute">DataTable.Compute(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.getchanges#system-data-datatable-getchanges">DataTable.GetChanges()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.getchanges#system-data-datatable-getchanges(system-data-datarowstate)">DataTable.GetChanges(DataRowState)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.geterrors">DataTable.GetErrors()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.importrow">DataTable.ImportRow(DataRow)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.newrow">DataTable.NewRow()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.newrowarray">DataTable.NewRowArray(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.oncolumnchanging">DataTable.OnColumnChanging(DataColumnChangeEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.oncolumnchanged">DataTable.OnColumnChanged(DataColumnChangeEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.onpropertychanging">DataTable.OnPropertyChanging(PropertyChangedEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.onremovecolumn">DataTable.OnRemoveColumn(DataColumn)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.ontablecleared">DataTable.OnTableCleared(DataTableClearEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.ontableclearing">DataTable.OnTableClearing(DataTableClearEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.ontablenewrow">DataTable.OnTableNewRow(DataTableNewRowEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.rejectchanges">DataTable.RejectChanges()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.reset">DataTable.Reset()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.select#system-data-datatable-select">DataTable.Select()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.select#system-data-datatable-select(system-string)">DataTable.Select(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.select#system-data-datatable-select(system-string-system-string)">DataTable.Select(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.select#system-data-datatable-select(system-string-system-string-system-data-dataviewrowstate)">DataTable.Select(string, string, DataViewRowState)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.tostring">DataTable.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.beginloaddata">DataTable.BeginLoadData()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.endloaddata">DataTable.EndLoadData()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.loaddatarow#system-data-datatable-loaddatarow(system-object()-system-boolean)">DataTable.LoadDataRow(object[], bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.loaddatarow#system-data-datatable-loaddatarow(system-object()-system-data-loadoption)">DataTable.LoadDataRow(object[], LoadOption)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.merge#system-data-datatable-merge(system-data-datatable)">DataTable.Merge(DataTable)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.merge#system-data-datatable-merge(system-data-datatable-system-boolean)">DataTable.Merge(DataTable, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.merge#system-data-datatable-merge(system-data-datatable-system-boolean-system-data-missingschemaaction)">DataTable.Merge(DataTable, bool, MissingSchemaAction)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.load#system-data-datatable-load(system-data-idatareader)">DataTable.Load(IDataReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.load#system-data-datatable-load(system-data-idatareader-system-data-loadoption)">DataTable.Load(IDataReader, LoadOption)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.load#system-data-datatable-load(system-data-idatareader-system-data-loadoption-system-data-fillerroreventhandler)">DataTable.Load(IDataReader, LoadOption, FillErrorEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.createdatareader">DataTable.CreateDataReader()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-io-stream)">DataTable.WriteXml(Stream)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-io-stream-system-boolean)">DataTable.WriteXml(Stream, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-io-textwriter)">DataTable.WriteXml(TextWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-io-textwriter-system-boolean)">DataTable.WriteXml(TextWriter, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-xml-xmlwriter)">DataTable.WriteXml(XmlWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-xml-xmlwriter-system-boolean)">DataTable.WriteXml(XmlWriter, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-string)">DataTable.WriteXml(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-string-system-boolean)">DataTable.WriteXml(string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-io-stream-system-data-xmlwritemode)">DataTable.WriteXml(Stream, XmlWriteMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-io-stream-system-data-xmlwritemode-system-boolean)">DataTable.WriteXml(Stream, XmlWriteMode, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-io-textwriter-system-data-xmlwritemode)">DataTable.WriteXml(TextWriter, XmlWriteMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-io-textwriter-system-data-xmlwritemode-system-boolean)">DataTable.WriteXml(TextWriter, XmlWriteMode, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-xml-xmlwriter-system-data-xmlwritemode)">DataTable.WriteXml(XmlWriter, XmlWriteMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-xml-xmlwriter-system-data-xmlwritemode-system-boolean)">DataTable.WriteXml(XmlWriter, XmlWriteMode, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-string-system-data-xmlwritemode)">DataTable.WriteXml(string, XmlWriteMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-string-system-data-xmlwritemode-system-boolean)">DataTable.WriteXml(string, XmlWriteMode, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexmlschema#system-data-datatable-writexmlschema(system-io-stream)">DataTable.WriteXmlSchema(Stream)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexmlschema#system-data-datatable-writexmlschema(system-io-stream-system-boolean)">DataTable.WriteXmlSchema(Stream, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexmlschema#system-data-datatable-writexmlschema(system-io-textwriter)">DataTable.WriteXmlSchema(TextWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexmlschema#system-data-datatable-writexmlschema(system-io-textwriter-system-boolean)">DataTable.WriteXmlSchema(TextWriter, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexmlschema#system-data-datatable-writexmlschema(system-xml-xmlwriter)">DataTable.WriteXmlSchema(XmlWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexmlschema#system-data-datatable-writexmlschema(system-xml-xmlwriter-system-boolean)">DataTable.WriteXmlSchema(XmlWriter, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexmlschema#system-data-datatable-writexmlschema(system-string)">DataTable.WriteXmlSchema(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexmlschema#system-data-datatable-writexmlschema(system-string-system-boolean)">DataTable.WriteXmlSchema(string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxml#system-data-datatable-readxml(system-io-stream)">DataTable.ReadXml(Stream)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxml#system-data-datatable-readxml(system-io-textreader)">DataTable.ReadXml(TextReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxml#system-data-datatable-readxml(system-string)">DataTable.ReadXml(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxml#system-data-datatable-readxml(system-xml-xmlreader)">DataTable.ReadXml(XmlReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxmlschema#system-data-datatable-readxmlschema(system-io-stream)">DataTable.ReadXmlSchema(Stream)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxmlschema#system-data-datatable-readxmlschema(system-io-textreader)">DataTable.ReadXmlSchema(TextReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxmlschema#system-data-datatable-readxmlschema(system-string)">DataTable.ReadXmlSchema(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxmlschema#system-data-datatable-readxmlschema(system-xml-xmlreader)">DataTable.ReadXmlSchema(XmlReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.getdatatableschema">DataTable.GetDataTableSchema(XmlSchemaSet)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.getschema">DataTable.GetSchema()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxmlserializable">DataTable.ReadXmlSerializable(XmlReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.casesensitive">DataTable.CaseSensitive</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.isinitialized">DataTable.IsInitialized</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.remotingformat">DataTable.RemotingFormat</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.childrelations">DataTable.ChildRelations</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.columns">DataTable.Columns</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.constraints">DataTable.Constraints</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.dataset">DataTable.DataSet</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.defaultview">DataTable.DefaultView</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.displayexpression">DataTable.DisplayExpression</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.extendedproperties">DataTable.ExtendedProperties</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.haserrors">DataTable.HasErrors</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.locale">DataTable.Locale</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.minimumcapacity">DataTable.MinimumCapacity</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.parentrelations">DataTable.ParentRelations</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.primarykey">DataTable.PrimaryKey</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.rows">DataTable.Rows</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.tablename">DataTable.TableName</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.namespace">DataTable.Namespace</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.prefix">DataTable.Prefix</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.site">DataTable.Site</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.columnchanging">DataTable.ColumnChanging</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.columnchanged">DataTable.ColumnChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.initialized">DataTable.Initialized</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.rowchanged">DataTable.RowChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.rowchanging">DataTable.RowChanging</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.rowdeleting">DataTable.RowDeleting</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.rowdeleted">DataTable.RowDeleted</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.tableclearing">DataTable.TableClearing</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.tablecleared">DataTable.TableCleared</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable.tablenewrow">DataTable.TableNewRow</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.dispose#system-componentmodel-marshalbyvaluecomponent-dispose">MarshalByValueComponent.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.dispose#system-componentmodel-marshalbyvaluecomponent-dispose(system-boolean)">MarshalByValueComponent.Dispose(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.getservice">MarshalByValueComponent.GetService(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.events">MarshalByValueComponent.Events</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.container">MarshalByValueComponent.Container</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.designmode">MarshalByValueComponent.DesignMode</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.disposed">MarshalByValueComponent.Disposed</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable__ctor_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.#ctor*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable__ctor" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.#ctor">
+  SociosDataTable()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SociosDataTable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable__ctor_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.#ctor*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+  SociosDataTable(SerializationInfo, StreamingContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L316"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SociosDataTable(SerializationInfo info, StreamingContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>info</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo">SerializationInfo</a></dt>
+    <dd></dd>
+    <dt><code>context</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext">StreamingContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_ActivoColumn_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.ActivoColumn*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_ActivoColumn" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.ActivoColumn">
+  ActivoColumn
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L347"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataColumn ActivoColumn { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datacolumn">DataColumn</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_Count_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.Count*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_Count" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.Count">
+  Count
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L355"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public int Count { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_EmailColumn_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.EmailColumn*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_EmailColumn" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.EmailColumn">
+  EmailColumn
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L339"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataColumn EmailColumn { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datacolumn">DataColumn</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_IdColumn_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.IdColumn*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_IdColumn" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.IdColumn">
+  IdColumn
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L323"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataColumn IdColumn { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datacolumn">DataColumn</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_Item_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.Item*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_Item_System_Int32_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.Item(System.Int32)">
+  this[int]
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L364"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SociosReportDataSet.SociosRow this[int index] { get; }</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.html">SociosReportDataSet</a>.<a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.SociosRow.html">SociosRow</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_NombreColumn_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.NombreColumn*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_NombreColumn" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.NombreColumn">
+  NombreColumn
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataColumn NombreColumn { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datacolumn">DataColumn</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_AddSociosRow_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.AddSociosRow*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_AddSociosRow_CentroDeportivo_Reports_SociosReportDataSet_SociosRow_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.AddSociosRow(CentroDeportivo.Reports.SociosReportDataSet.SociosRow)">
+  AddSociosRow(SociosRow)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L384"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddSociosRow(SociosReportDataSet.SociosRow row)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>row</code> <a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.html">SociosReportDataSet</a>.<a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.SociosRow.html">SociosRow</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_AddSociosRow_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.AddSociosRow*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_AddSociosRow_System_Int32_System_String_System_String_System_Boolean_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.AddSociosRow(System.Int32,System.String,System.String,System.Boolean)">
+  AddSociosRow(int, string, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L390"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SociosReportDataSet.SociosRow AddSociosRow(int Id, string Nombre, string Email, bool Activo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>Id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>Nombre</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>Email</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>Activo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.html">SociosReportDataSet</a>.<a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.SociosRow.html">SociosRow</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_Clone_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.Clone*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_Clone" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.Clone">
+  Clone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L404"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override DataTable Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable">DataTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_CreateInstance_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.CreateInstance*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_CreateInstance" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.CreateInstance">
+  CreateInstance()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L412"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override DataTable CreateInstance()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable">DataTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_GetRowType_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.GetRowType*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_GetRowType" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.GetRowType">
+  GetRowType()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L452"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Type GetRowType()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_GetTypedTableSchema_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.GetTypedTableSchema*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_GetTypedTableSchema_System_Xml_Schema_XmlSchemaSet_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.GetTypedTableSchema(System.Xml.Schema.XmlSchemaSet)">
+  GetTypedTableSchema(XmlSchemaSet)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L500"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static XmlSchemaComplexType GetTypedTableSchema(XmlSchemaSet xs)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>xs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschemaset">XmlSchemaSet</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschemacomplextype">XmlSchemaComplexType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_NewRowFromBuilder_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.NewRowFromBuilder*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_NewRowFromBuilder_System_Data_DataRowBuilder_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.NewRowFromBuilder(System.Data.DataRowBuilder)">
+  NewRowFromBuilder(DataRowBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L446"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override DataRow NewRowFromBuilder(DataRowBuilder builder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datarowbuilder">DataRowBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datarow">DataRow</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_NewSociosRow_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.NewSociosRow*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_NewSociosRow" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.NewSociosRow">
+  NewSociosRow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L440"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SociosReportDataSet.SociosRow NewSociosRow()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.html">SociosReportDataSet</a>.<a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.SociosRow.html">SociosRow</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_OnRowChanged_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.OnRowChanged*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_OnRowChanged_System_Data_DataRowChangeEventArgs_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)">
+  OnRowChanged(DataRowChangeEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L458"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnRowChanged(DataRowChangeEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datarowchangeeventargs">DataRowChangeEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_OnRowChanging_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.OnRowChanging*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_OnRowChanging_System_Data_DataRowChangeEventArgs_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)">
+  OnRowChanging(DataRowChangeEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L467"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnRowChanging(DataRowChangeEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datarowchangeeventargs">DataRowChangeEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_OnRowDeleted_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.OnRowDeleted*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_OnRowDeleted_System_Data_DataRowChangeEventArgs_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)">
+  OnRowDeleted(DataRowChangeEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L476"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnRowDeleted(DataRowChangeEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datarowchangeeventargs">DataRowChangeEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_OnRowDeleting_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.OnRowDeleting*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_OnRowDeleting_System_Data_DataRowChangeEventArgs_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)">
+  OnRowDeleting(DataRowChangeEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L485"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnRowDeleting(DataRowChangeEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datarowchangeeventargs">DataRowChangeEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_RemoveSociosRow_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.RemoveSociosRow*"></a>
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_RemoveSociosRow_CentroDeportivo_Reports_SociosReportDataSet_SociosRow_" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.RemoveSociosRow(CentroDeportivo.Reports.SociosReportDataSet.SociosRow)">
+  RemoveSociosRow(SociosRow)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L494"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveSociosRow(SociosReportDataSet.SociosRow row)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>row</code> <a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.html">SociosReportDataSet</a>.<a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.SociosRow.html">SociosRow</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_SociosRowChanged" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.SociosRowChanged">
+  SociosRowChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L376"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event SociosReportDataSet.SociosRowChangeEventHandler SociosRowChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.html">SociosReportDataSet</a>.<a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler.html">SociosRowChangeEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_SociosRowChanging" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.SociosRowChanging">
+  SociosRowChanging
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L373"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event SociosReportDataSet.SociosRowChangeEventHandler SociosRowChanging</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.html">SociosReportDataSet</a>.<a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler.html">SociosRowChangeEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_SociosRowDeleted" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.SociosRowDeleted">
+  SociosRowDeleted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L382"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event SociosReportDataSet.SociosRowChangeEventHandler SociosRowDeleted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.html">SociosReportDataSet</a>.<a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler.html">SociosRowChangeEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="CentroDeportivo_Reports_SociosReportDataSet_SociosDataTable_SociosRowDeleting" data-uid="CentroDeportivo.Reports.SociosReportDataSet.SociosDataTable.SociosRowDeleting">
+  SociosRowDeleting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L379"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event SociosReportDataSet.SociosRowChangeEventHandler SociosRowDeleting</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.html">SociosReportDataSet</a>.<a class="xref" href="CentroDeportivo.Reports.SociosReportDataSet.SociosRowChangeEventHandler.html">SociosRowChangeEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/SociosReportDataSet.Designer.cs/#L278" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

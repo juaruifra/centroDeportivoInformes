@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: CentroDeportivo.ReportsView
+  commentId: N:CentroDeportivo.ReportsView
+  id: CentroDeportivo.ReportsView
+  children:
+  - CentroDeportivo.ReportsView.App
+  - CentroDeportivo.ReportsView.Window1
+  langs:
+  - csharp
+  - vb
+  name: CentroDeportivo.ReportsView
+  nameWithType: CentroDeportivo.ReportsView
+  fullName: CentroDeportivo.ReportsView
+  type: Namespace
+  assemblies:
+  - CentroDeportivo.ReportsView
+references:
+- uid: CentroDeportivo.ReportsView.App
+  commentId: T:CentroDeportivo.ReportsView.App
+  href: CentroDeportivo.ReportsView.App.html
+  name: App
+  nameWithType: App
+  fullName: CentroDeportivo.ReportsView.App
+- uid: CentroDeportivo.ReportsView.Window1
+  commentId: T:CentroDeportivo.ReportsView.Window1
+  href: CentroDeportivo.ReportsView.Window1.html
+  name: Window1
+  nameWithType: Window1
+  fullName: CentroDeportivo.ReportsView.Window1

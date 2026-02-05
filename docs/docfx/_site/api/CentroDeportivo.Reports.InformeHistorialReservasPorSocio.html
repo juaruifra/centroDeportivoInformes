@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class InformeHistorialReservasPorSocio | CentroDeportivo.Documentacion </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class InformeHistorialReservasPorSocio | CentroDeportivo.Documentacion ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/juaruifra/centroDeportivoInformes/new/master/apiSpec/new?filename=CentroDeportivo_Reports_InformeHistorialReservasPorSocio.md&amp;value=---%0Auid%3A%20CentroDeportivo.Reports.InformeHistorialReservasPorSocio%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="CentroDeportivo.Documentacion">
+            CentroDeportivo.Documentacion
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio">
+
+
+
+  <h1 id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio" class="text-break">
+Class InformeHistorialReservasPorSocio  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/InformeHistorialReservasPorSocio.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CentroDeportivo.html">CentroDeportivo</a>.<a class="xref" href="CentroDeportivo.Reports.html">Reports</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CentroDeportivo.Reports.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class InformeHistorialReservasPorSocio : ReportClass, IComponent, IDisposable, ICustomTypeDescriptor, IReportID, ISerializable, ICloneable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject">MarshalByRefObject</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component">Component</a></div>
+      <div><span class="xref">ReportDocument</span></div>
+      <div><span class="xref">ReportClass</span></div>
+      <div><span class="xref">InformeHistorialReservasPorSocio</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.icomponent">IComponent</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.icustomtypedescriptor">ICustomTypeDescriptor</a></div>
+      <div><span class="xref">IReportID</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable">ISerializable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <span class="xref">ReportClass.m_sTempFilename</span>
+    </div>
+    <div>
+      <span class="xref">ReportClass.Load()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ReportClass.Load(string, OpenReportMethod, short)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">ReportClass.Dispose(bool)</a>
+    </div>
+    <div>
+      <span class="xref">ReportClass.TempFilename</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.m_entRptDoc</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.m_formatEngine</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.m_iUseCount</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.m_eventLogLevel</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.Clone()</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.EnableEvent(EventEnabledArgs)</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.CheckLicenseStatus()</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.Close()</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.EnableEventLog(EventLogLevel)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">ReportDocument.ExportToHttpResponse(ExportOptions, HttpResponse, bool, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">ReportDocument.ExportToHttpResponse(ExportFormatType, HttpResponse, bool, string)</a>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.Export(ExportOptions)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ReportDocument.ExportToDisk(ExportFormatType, string)</a>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.ExportToStream(ExportFormatType)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ReportDocument.Load(string, OpenReportMethod)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ReportDocument.Load(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ReportDocument.Load(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ReportDocument.OpenSubreport(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">ReportDocument.PrintToPrinter(int, bool, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.printing.printersettings">ReportDocument.PrintToPrinter(PrinterSettings, PageSettings, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.printing.printersettings">ReportDocument.PrintToPrinter(PrinterSettings, PageSettings, bool, PrintLayoutSettings)</a>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.Refresh()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ReportDocument.SaveAs(string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ReportDocument.SaveAs(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ReportDocument.SetCssClass(ObjectScope, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ReportDocument.SetDatabaseLogon(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ReportDocument.SetDatabaseLogon(string, string, string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ReportDocument.SetDatabaseLogon(string, string, string, string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">ReportDocument.SetDataSource(IEnumerable)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatareader">ReportDocument.SetDataSource(IDataReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.datatable">ReportDocument.SetDataSource(DataTable)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.dataset">ReportDocument.SetDataSource(DataSet)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">ReportDocument.SetParameterValue(int, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ReportDocument.SetParameterValue(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ReportDocument.SetParameterValue(string, object, string)</a>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.VerifyDatabase()</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.GetAttributes()</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.GetClassName()</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.GetComponentName()</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.GetConverter()</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.GetDefaultEvent()</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.GetDefaultProperty()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">ReportDocument.GetEditor(Type)</a>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.GetEvents()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">ReportDocument.GetEvents(Attribute[])</a>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.GetProperties()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">ReportDocument.GetProperties(Attribute[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor">ReportDocument.GetPropertyOwner(PropertyDescriptor)</a>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.ReadRecords()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ReportDocument.SetSQLCommandTable(ConnectionInfo, string, string)</a>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.ReportMapping</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.Subreports</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.Database</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.DataDefinition</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.HasSavedData</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.IsLoaded</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.IsSubreport</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.HasRecords</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.Name</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.PrintOptions</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.RecordSelectionFormula</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.ReportDefinition</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.ReportOptions</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.SummaryInfo</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.HistoryInfos</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.SavedXmlExportFormats</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.DefaultXmlExportSelection</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.DataSourceConnections</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.ParameterFields</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.ReportClientDocument</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.FileName</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.IsRPTR</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.ReportAppServer</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.Rows</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.ReportRequestStatus</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.InitReport</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.RefreshReport</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.BeforeFormatPage</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.AfterFormatPage</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.NoData</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.FieldMapping</span>
+    </div>
+    <div>
+      <span class="xref">ReportDocument.FormatSection</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component.dispose#system-componentmodel-component-dispose">Component.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component.getservice">Component.GetService(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component.tostring">Component.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component.canraiseevents">Component.CanRaiseEvents</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component.events">Component.Events</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component.site">Component.Site</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component.container">Component.Container</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component.designmode">Component.DesignMode</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.component.disposed">Component.Disposed</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone">MarshalByRefObject.MemberwiseClone(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice">MarshalByRefObject.GetLifetimeService()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice">MarshalByRefObject.InitializeLifetimeService()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.createobjref">MarshalByRefObject.CreateObjRef(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio__ctor_" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.#ctor*"></a>
+
+  <h3 id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio__ctor" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.#ctor">
+  InformeHistorialReservasPorSocio()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/InformeHistorialReservasPorSocio.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InformeHistorialReservasPorSocio()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_FullResourceName_" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.FullResourceName*"></a>
+
+  <h3 id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_FullResourceName" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.FullResourceName">
+  FullResourceName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/InformeHistorialReservasPorSocio.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string FullResourceName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_GroupFooterSection1_" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.GroupFooterSection1*"></a>
+
+  <h3 id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_GroupFooterSection1" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.GroupFooterSection1">
+  GroupFooterSection1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/InformeHistorialReservasPorSocio.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public Section GroupFooterSection1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Section</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_GroupHeaderSection1_" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.GroupHeaderSection1*"></a>
+
+  <h3 id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_GroupHeaderSection1" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.GroupHeaderSection1">
+  GroupHeaderSection1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/InformeHistorialReservasPorSocio.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public Section GroupHeaderSection1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Section</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_NewGenerator_" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.NewGenerator*"></a>
+
+  <h3 id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_NewGenerator" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.NewGenerator">
+  NewGenerator
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/InformeHistorialReservasPorSocio.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool NewGenerator { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_ResourceName_" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.ResourceName*"></a>
+
+  <h3 id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_ResourceName" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.ResourceName">
+  ResourceName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/InformeHistorialReservasPorSocio.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ResourceName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_Section1_" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.Section1*"></a>
+
+  <h3 id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_Section1" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.Section1">
+  Section1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/InformeHistorialReservasPorSocio.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public Section Section1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Section</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_Section2_" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.Section2*"></a>
+
+  <h3 id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_Section2" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.Section2">
+  Section2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/InformeHistorialReservasPorSocio.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public Section Section2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Section</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_Section3_" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.Section3*"></a>
+
+  <h3 id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_Section3" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.Section3">
+  Section3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/InformeHistorialReservasPorSocio.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public Section Section3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Section</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_Section4_" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.Section4*"></a>
+
+  <h3 id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_Section4" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.Section4">
+  Section4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/InformeHistorialReservasPorSocio.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public Section Section4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Section</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_Section5_" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.Section5*"></a>
+
+  <h3 id="CentroDeportivo_Reports_InformeHistorialReservasPorSocio_Section5" data-uid="CentroDeportivo.Reports.InformeHistorialReservasPorSocio.Section5">
+  Section5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/InformeHistorialReservasPorSocio.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public Section Section5 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Section</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/juaruifra/centroDeportivoInformes/blob/master/CentroDeportivo.Reports/InformeHistorialReservasPorSocio.cs/#L19" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
